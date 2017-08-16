@@ -1,20 +1,20 @@
 
-<div class="header-top-bar-container clearfix align-center">
-				<div class="header-top-bar">
-					<ul class="contact-details clearfix">
-						<li class="template-phone">
-+149 75 23 222 35
-</li>
-						<li class="template-mail">
-renovate@mail.com
-</li>
-<li class="template-clock">
-    Mon - Fri: 08.00 - 17.00
-</li>
-</ul>
-</div>
-<a href="#" class="header-toggle template-arrow-up"></a>
-</div>
+{{--<div class="header-top-bar-container clearfix align-center">--}}
+				{{--<div class="header-top-bar">--}}
+					{{--<ul class="contact-details clearfix">--}}
+						{{--<li class="template-phone">--}}
+{{--+149 75 23 222 35--}}
+{{--</li>--}}
+						{{--<li class="template-mail">--}}
+{{--renovate@mail.com--}}
+{{--</li>--}}
+{{--<li class="template-clock">--}}
+    {{--Mon - Fri: 08.00 - 17.00--}}
+{{--</li>--}}
+{{--</ul>--}}
+{{--</div>--}}
+{{--<a href="#" class="header-toggle template-arrow-up"></a>--}}
+{{--</div>--}}
 <div class="header-container">
     <!--<div class="header-container sticky">-->
     <div class="vertical-align-table column-1-1">

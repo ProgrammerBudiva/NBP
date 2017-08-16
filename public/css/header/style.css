@@ -335,7 +335,7 @@ h2.box-header.align-left
 {
 	display: block;
 	content: "";
-	background: #F4BC16;
+	background: #009ee3;
 	width: 40px;
 	height: 2px;
 	margin-top: 13px;
@@ -766,7 +766,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .row.yellow
 {
-	background: #F4BC16;
+	background: #009ee3;
 }
 .row:after
 {
@@ -1170,7 +1170,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	width: 48px;
 	height: 48px;
 	font-size: 48px;
-	color: #F4BC16;
+	color: #009ee3;
 	background: #FFF;
 	border: 1px solid #FFF;
 	padding: 19px;
@@ -1440,8 +1440,8 @@ span.odometer.number:after
 .taxonomies a:hover
 {
 	color: #FFF;
-	background: #F4BC16;
-	border-color: #F4BC16;
+	background: #009ee3;
+	border-color: #009ee3;
 }
 .taxonomies.full-width li
 {

@@ -27,8 +27,8 @@
     </div>
 </div>
 <div class="row gray full-width page-padding-top padding-bottom-50">
-    <div class="row row-4-4">
-        <div class="column column-1-4">
+    <div class="row row-2-2">
+        <div class="column column-1-2">
             <h6 class="box-header">About Us</h6>
             <p class="description t1">Founded by Kevin Smith back in 2000. Renovate has estabilished itself as one of the greatest and prestigious providers of construction focused interior renovation services and building.</p>
             {{--<ul class="social-icons yellow margin-top-26">--}}
@@ -57,7 +57,7 @@
                 {{--<li class="template-bullet">Solar Systems</li>--}}
             {{--</ul>--}}
         {{--</div>--}}
-        <div class="column column-1-4">
+        <div class="column column-1-2">
             <h6 class="box-header">Categories</h6>
             <ul class="taxonomies margin-top-30">
                 <li><a href="category.html" title="BUILD">BUILD</a></li>
