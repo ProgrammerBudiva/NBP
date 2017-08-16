@@ -32,6 +32,8 @@
 
     @include('header')
 
+    @yield('slider')
+
     <div id="content">
         @yield('content')
     </div>

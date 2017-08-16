@@ -104,3 +104,28 @@
 <div class="row align-center padding-top-bottom-30">
     <span class="copyright">© Copyright 2015 <a href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="Renovate Template" target="_blank">Renovate Template</a> by <a href="http://quanticalabs.com" title="QuanticaLabs" target="_blank">QuanticaLabs</a></span>
 </div>
+<a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
+
+<!--js-->
+<script type="text/javascript" src="js/slider/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery-migrate-1.2.1.min.js"></script>
+<!--slider revolution-->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="js/slider/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.transit.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.hint.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.costCalculator.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.parallax.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/slider/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="js/slider/jquery.blockUI.min.js"></script>
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/slider/main.js"></script>
+<script type="text/javascript" src="js/slider/odometer.min.js"></script>
