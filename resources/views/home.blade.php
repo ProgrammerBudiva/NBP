@@ -192,24 +192,21 @@
                         <a href="service_interior_renovation.html" title="Interior Renovation">
                             <img src="images/samples/390x260/image_01.jpg" alt="">
                         </a>
-                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">INTERIOR
-                                RENOVATION</a></h4>
-                        <p>We can help you bring new life to existing rooms and develop unused spaces.</p>
+                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">MANOIR</a></h4>
+                        <p>Вершина эволюции битумной кровли</p>
                     </li>
                     <li class="page-margin-right">
                         <a href="service_design_build.html" title="Design and Build">
                             <img src="images/samples/390x260/image_02.jpg" alt="">
                         </a>
-                        <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">DESIGN AND
-                                BUILD</a></h4>
-                        <p>From initial design and project specification to archieving a high end finish.</p>
+                        <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">EVEREST 42</a></h4>
+                        {{--<p>From initial design and project specification to archieving a high end finish.</p>--}}
                     </li>
                     <li>
                         <a href="service_tiling_painting.html" title="Tiling and Painting">
                             <img src="images/samples/390x260/image_03.jpg" alt="">
                         </a>
-                        <h4 class="box-header"><a href="service_tiling_painting.html" title="Tiling and Painting">TILING
-                                AND PAINTING</a></h4>
+                        <h4 class="box-header"><a href="service_tiling_painting.html" title="Tiling and Painting">MYSTIQUE 42</a></h4>
                         <p>We offer quality tiling and painting solutions for interior and exterior.</p>
                     </li>
                 </ul>
@@ -220,16 +217,14 @@
                         <a href="service_interior_renovation.html" title="Interior Renovation">
                             <img src="images/samples/390x260/image_01.jpg" alt="">
                         </a>
-                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">INTERIOR
-                                RENOVATION</a></h4>
+                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">YUKON SB</a></h4>
                         <p>We can help you bring new life to existing rooms and develop unused spaces.</p>
                     </li>
                     <li>
                         <a href="service_design_build.html" title="Design and Build">
                             <img src="images/samples/390x260/image_02.jpg" alt="">
                         </a>
-                        <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">DESIGN AND
-                                BUILD</a></h4>
+                        <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">DAKOTA</a></h4>
                         <p>From initial design and project specification to archieving a high end finish.</p>
                     </li>
                 </ul>
