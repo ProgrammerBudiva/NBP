@@ -13,7 +13,7 @@ body
 	background: #FFF;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Arial';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #444;
 }
@@ -46,22 +46,22 @@ p
 }
 p.description
 {
-	font-family: 'Raleway';
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	line-height: 26px;
 	padding: 0;
-	margin-top: 34px;
+	margin-top: 20px;
 }
 p.description.t1
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	margin-top: 24px;
 }
 p a
 {
-	color: #F4BC16;
+	color: #009ee3;
 	font-weight: 600;
 }
 strong
@@ -71,7 +71,7 @@ strong
 blockquote
 {
 	text-align: center;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #444;
 	line-height: 26px;
@@ -80,13 +80,13 @@ blockquote:before
 {
 	display: block;
 	font-size: 48px;
-	color: #F4BC16;
+	color: #009ee3;
 	text-align: left;
 	margin-bottom: 10px;
 }
 pre
 {
-	font-family: 'Courier new';
+	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 170%;
 	background: url('../images/code_background.png') repeat;
@@ -100,7 +100,7 @@ pre
 label
 {
 	color: #25282A;
-	font-family: 'Roboto';
+	font-family: 'Open Sans', sans-serif;
 }
 .relative
 {
@@ -114,7 +114,7 @@ label
 }
 input, textarea
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	border: 1px solid #E2E6E7;
 	font-size: 14px;
 	line-height: 24px;
@@ -141,7 +141,7 @@ table
 table td, table th
 {
 	padding: 18px 30px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -336,13 +336,13 @@ h2.box-header.align-left
 	display: block;
 	content: "";
 	background: #009ee3;
-	width: 40px;
+	width: 80px;
 	height: 2px;
 	margin-top: 13px;
 }
 h2.box-header:after
 {
-	width: 80px;
+	width: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
@@ -416,7 +416,7 @@ h6.box-header:after
 {
 	font-size: 37px;
 	font-weight: 900;
-	color: #F4BC16;
+	color: #009ee3;
 	line-height: 1;
 }
 .header h1 a
@@ -468,7 +468,7 @@ h6.box-header:after
 .bread-crumb li,
 .bread-crumb li a
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999;
@@ -631,7 +631,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	color: #25282A;
 	background: #F0F0F0;
 	font-size: 14px;
-	font-family: "Raleway";
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	padding: 12px 20px;
 	margin-bottom: 1px;
@@ -673,7 +673,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .mobile-menu-switch:hover .line
 {
-	background: #F4BC16;
+	background: #009ee3;
 }
 /* --- vertical menu --- */
 .vertical-menu li
@@ -689,7 +689,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	color: #444;
 }
@@ -748,7 +748,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 /* --- page layout --- */
 .row
 {
-	width: 1170px;
+	width: 1230px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -857,7 +857,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .services-list li  p
 {
 	text-align: center;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0 25px;
@@ -948,8 +948,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	float: left;
 	font-size: 48px;
 	margin-right: 30px;
-	color: #F4BC16;
-	border: 1px solid #E2E6E7;
+	color: #009ee3;
+	border: 1px solid #009ee3;
 	padding: 19px;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -972,7 +972,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .features-list li p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0;
@@ -1079,7 +1079,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .testimonials-list p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 21px;
 	color: #FFFFFF;
@@ -1090,8 +1090,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 {
 	display: block;
 	content: "";
-	background: #F4BC16;
-	width: 40px;
+	background: #009ee3;
+	width: 150px;
 	height: 2px;
 	margin-top: 30px;
 	margin-bottom: 34px;
@@ -1100,7 +1100,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .testimonials-list  .author
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #FFF;
@@ -1109,7 +1109,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .testimonials-list  .author-details
 {
 	margin-top: 7px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 11px; 
 	color: #FFF;
@@ -1155,8 +1155,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .our-clients-pagination a.selected,
 .our-clients-pagination a:hover
 {
-	border-color: #F4BC16;
-	background: #F4BC16;
+	border-color: #009ee3;
+	background: #009ee3;
 }
 .our-clients-pagination span
 {
@@ -1181,7 +1181,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .contact-details-list li p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	color: #FFF;
@@ -1221,8 +1221,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .slider-control:hover
 {
-	background: #F4BC16;
-	border-color: #F4BC16;
+	background: #009ee3;
+	border-color: #009ee3;
 }
 /* --- parallax --- */
 .parallax-1
@@ -1250,7 +1250,7 @@ span.number,
 span.odometer.number
 {
 	margin-top: 10px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 80px;
 	color: #FFF;
@@ -1261,7 +1261,7 @@ span.odometer.number:after
 {
 	display: block;
 	content: "";
-	background: #F4BC16;
+	background: #009ee3;
 	width: 40px;
 	height: 2px;
 	margin: 20px auto 0;
@@ -1289,7 +1289,7 @@ span.odometer.number:after
 {
 	width: 90px;
 	margin-right: 30px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999;
@@ -1329,7 +1329,7 @@ span.odometer.number:after
 .blog .post-details .date h2,
 .blog .post-details li:before
 {
-	color: #F4BC16;
+	color: #009ee3;
 }
 .blog .post-details li.date:before
 {
@@ -1408,8 +1408,8 @@ span.odometer.number:after
 }
 /* --- single post --- */
 .post.single p
-{	
-	font-family: "Raleway";
+{
+	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -1431,7 +1431,7 @@ span.odometer.number:after
 	color: #999;
 	line-height: 16px;
 	letter-spacing: 1px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 	font-weight: 500;
 	padding: 10px 12px;
@@ -1466,13 +1466,13 @@ span.odometer.number:after
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	color: #444;
 }
 .buttons li:before
 {
-	color: #F4BC16;
+	color: #009ee3;
     float: left;
     font-size: 24px;
     margin-right: 19px;
@@ -1482,7 +1482,7 @@ span.odometer.number:after
 .buttons li.selected a,
 .buttons li:hover a
 {
-	background: #F4BC16;
+	background: #009ee3;
 	color: #FFF;
 }
 .buttons li.selected:before,
@@ -1503,7 +1503,7 @@ span.odometer.number:after
 	float: left;
 	font-size: 48px;
 	margin-right: 30px;
-	color: #F4BC16;
+	color: #009ee3;
 	border: 1px solid #E2E6E7;
 	padding: 19px;
 	border-radius: 50%;
@@ -1538,7 +1538,7 @@ span.odometer.number:after
 	height: 48px;
 	font-size: 48px;
 	margin-right: 30px;
-	color: #F4BC16;
+	color: #009ee3;
 	border: 1px solid #E2E6E7;
 	padding: 19px;
 	margin-left: auto;
@@ -1601,7 +1601,7 @@ span.odometer.number:after
 	display: none;
 	font-size: 12px;
 	margin-right: 20px;
-	color: #F4BC16;
+	color: #009ee3;
 }
 .comment-form p.description.t1,
 .contact-form p.description.t1
@@ -1636,7 +1636,7 @@ span.odometer.number:after
 .ui-tooltip-success .ui-tooltip-content
 {
 	font-size: 13px;
-	font-family: arial;
+	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 }
 .ui-tooltip-error .ui-tooltip-content,
@@ -1705,7 +1705,7 @@ span.odometer.number:after
 }
 .posted-by abbr
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	color: #999;
 	font-size: 13px;
 	margin-top: 7px;
@@ -1725,7 +1725,7 @@ span.odometer.number:after
 }
 #comments-list .comment-details p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	border-bottom: 1px solid #E2E6E7;
@@ -1766,7 +1766,7 @@ span.odometer.number:after
 }
 .pagination li
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	float: left;
 	margin-left: 7px;
 }
@@ -1812,27 +1812,27 @@ span.odometer.number:after
 .pagination li.selected a
 {
 	color: #FFF;
-	background-color: #F4BC16;
-	border-color: #F4BC16;
+	background-color: #009ee3;
+	border-color: #009ee3;
 }
 /* --- list bullet --- */
 .list li
 {
 	padding-top: 3px;
 	padding-bottom: 3px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding-left: 30px;
 }
 .list li a
 {
-	color: #F4BC16;
+	color: #009ee3;
 	font-weight: 600;
 }
 li.template-bullet:before
 {
-	color: #F4BC16;
+	color: #009ee3;
 	padding-right: 15px;
 	margin-left: -30px;
 	vertical-align: text-top;
@@ -1907,7 +1907,7 @@ li.template-bullet:before
 	background: #FFF;
 	padding: 10px 0 23px;
 	border: none;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	outline: none;
 	text-decoration: none;
@@ -1953,7 +1953,7 @@ li.template-bullet:before
 }
 .tabs .ui-tabs-panel p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 34px 0 0;
@@ -1977,7 +1977,7 @@ li.template-bullet:before
 	padding: 16px 15px;
 	cursor: pointer;
 	border-bottom: 1px solid #E2E6E7;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	transition: padding-left 300ms, padding-right 300ms;
 	-webkit-transition: padding-left 300ms, padding-right 300ms;
@@ -1996,8 +1996,8 @@ li.template-bullet:before
 }
 .accordion .ui-accordion-header.ui-state-active
 {
-	background-color: #F4BC16;
-	border-bottom-color: #F4BC16;
+	background-color: #009ee3;
+	border-bottom-color: #009ee3;
 }
 .accordion .ui-accordion-header.ui-state-active h5
 {
@@ -2012,7 +2012,7 @@ li.template-bullet:before
 	float: left;
 	margin-right: 15px;
 	font-size: 24px;
-	color: #F4BC16;
+	color: #009ee3;
 }
 .accordion  .ui-accordion-header:hover
 {
@@ -2064,7 +2064,7 @@ li.template-bullet:before
 {
 	float: left;
 	border-right: 1px solid #E2E6E7;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999999;
@@ -2113,8 +2113,8 @@ li.template-bullet:before
 }
 .social-icons.yellow li
 {
-	background: #F4BC16;
-	border: 2px solid #F4BC16;
+	background: #009ee3;
+	border: 2px solid #009ee3;
 	margin-left: 1px;	
 }
 .social-icons.yellow li:hover
@@ -2339,7 +2339,7 @@ li.template-bullet:before
 	float: left;
 	font-size: 48px;
 	margin-right: 30px;
-	color: #F4BC16;
+	color: #009ee3;
 	border: 1px solid #E2E6E7;
 	padding: 19px;
 	border-radius: 50%;
@@ -2353,10 +2353,10 @@ li.template-bullet:before
 .cost-calculator-box label
 {
 	float: left;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
-	border-left: 4px solid #F4BC16;
+	border-left: 4px solid #009ee3;
 	padding: 14px 0 12px 15px;
 }
 .cost-calculator-box .cost-slider-container
@@ -2407,10 +2407,10 @@ li.template-bullet:before
 }
 .cost-calculator-price
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 40px;
-	color: #F4BC16;
+	color: #009ee3;
 }
 .ui-slider
 {
@@ -2444,7 +2444,7 @@ li.template-bullet:before
 	height: 10px;
 	margin-left: 9px;
 	margin-top: 9px;
-	background: #F4BC16;
+	background: #009ee3;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -2459,9 +2459,9 @@ li.template-bullet:before
 .ui-slider-handle .cost-slider-tooltip .value
 {
 	width: 100%;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
-	background: #F4BC16;
+	background: #009ee3;
 	padding: 12px 0;
 	text-align: center;
 }
@@ -2483,13 +2483,13 @@ li.template-bullet:before
 }
 .ui-slider-range-min
 {
-	background: #F4BC16;
+	background: #009ee3;
 	border-radius: 5px;
 }
 .ui-selectmenu-button
 {
 	float: right;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	border: 1px solid #E2E6E7;
 	margin: 0;
 	background: #FFF;
@@ -2510,7 +2510,7 @@ li.template-bullet:before
 .ui-selectmenu-button.ui-corner-top .ui-icon,
 .ui-selectmenu-button:hover .ui-icon
 {
-	color: #F4BC16;
+	color: #009ee3;
 }
 .ui-selectmenu-menu
 {
@@ -2524,7 +2524,7 @@ li.template-bullet:before
 }
 .ui-selectmenu-menu .ui-menu li
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	cursor: pointer;
 	background: #FFF;
 	color: #444;
@@ -2537,17 +2537,17 @@ li.template-bullet:before
 }
 .ui-selectmenu-menu .ui-menu li.ui-state-focus
 {
-	color: #F4BC16;
+	color: #009ee3;
 }
 /* --- buttons --- */
 .more,
 .more[type="submit"]
 {	
-	color: #FFF; 
-	font-family: 'Raleway';
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
-	background: #F4BC16;
+	background: #009ee3;
 	padding: 16px 23px 15px;
 	text-align: center;
 	cursor: pointer;
@@ -2559,7 +2559,7 @@ li.template-bullet:before
 	transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
-	border: 2px solid #F4BC16;
+	border: 2px solid #009ee3;
 }
 .more:hover
 {
@@ -2579,8 +2579,8 @@ li.template-bullet:before
 }
 .more.simple:hover
 {
-	border-color: #F4BC16;
-	background: #F4BC16;
+	border-color: #009ee3;
+	background: #009ee3;
 }
 .more.small
 {
@@ -2590,7 +2590,7 @@ li.template-bullet:before
 .copyright
 {	
 	color: #999;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 }
 .copyright a
@@ -2669,7 +2669,7 @@ div.pp_default .pp_close:hover
 .slider-content-box h2
 {
 	color: #FFF;
-	border-bottom: 1px solid #F4BC16;
+	border-bottom: 1px solid #009ee3;
 	padding: 21px 30px 20px;
 	background: rgba(38, 38, 40, 0.68);
 }
@@ -2684,7 +2684,7 @@ div.pp_default .pp_close:hover
 }
 .slider-content-box p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #FFF;
 	line-height: 26px;
@@ -2839,4 +2839,93 @@ body.lock-position
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+}
+
+
+
+.page-margin-right{
+	margin-right: 30px;
+}
+
+
+/* --- timeline --- */
+
+.timeline-item .timeline-left
+{
+	width: 100px;
+	min-width: 100px;
+}
+.timeline-item .label-container
+{
+	position: relative;
+}
+.timeline-item .label-container .timeline-circle
+{
+	position: absolute;
+	display: block;
+	width: 19px;
+	height: 19px;
+	top: 4px;
+	right: -11px;
+	border: 1px solid #E2E6E7;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background: #FFF;
+}
+.timeline-item .label-container .timeline-circle::after
+{
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	margin-left: 6px;
+	margin-top: 6px;
+	background: #009ee3;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.timeline-item label
+{
+	float: right;
+	max-width: 100px;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 20px;
+	background: #009ee3;
+	padding: 4px 15px 6px 20px;
+	white-space: nowrap;
+}
+.timeline-item .label-triangle
+{
+	float: right;
+	width: 0;
+	height: 0;
+	margin-right: 40px;
+	border-style: solid;
+	border-width: 15px 0 15px 15px;
+	border-color: transparent transparent transparent #009ee3;
+}
+.timeline-content
+{
+	padding: 22px 0 26px 40px;
+	border-left: 1px solid #E2E6E7;
+}
+.timeline-content span.timeline-title
+{
+	margin-right: 10px;
+}
+.timeline-content span.timeline-subtitle
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 11px;
+	color: #999;
+	line-height: 16px;
+	letter-spacing: 1px;
+	margin-top: 9px;
 }
