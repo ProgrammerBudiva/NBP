@@ -12,12 +12,14 @@
             <!--slider revolution-->
         <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
         <!--style-->
-        <link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" href="/css/header/reset.css" />
+        {{--<link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>--}}
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="/css/header/reset.css" />
         <link rel="stylesheet" href="/css/header/superfish.css" />
         <link rel="stylesheet" href="/css/header/prettyPhoto.css" />
         <link rel="stylesheet" href="/css/header/jquery.qtip.css" />
-            <link rel="stylesheet" href="/css/header/style.css" />
+        <link rel="stylesheet" href="/css/header/style.css" />
         <link rel="stylesheet" href="/css/header/animations.css" />
         <link rel="stylesheet" href="/css/header/responsive.css" />
         <link rel="stylesheet" href="/css/header/odometer-theme-default.css" />

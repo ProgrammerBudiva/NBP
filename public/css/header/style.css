@@ -272,7 +272,7 @@ img.radius
 /* --- headers --- */
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway';
+	/*font-family: 'Raleway';*/
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -527,7 +527,7 @@ h6.box-header:after
 }
 .sf-menu li a, .sf-menu li a:visited
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
@@ -2630,7 +2630,7 @@ div.pp_default .pp_description
 div.pp_default .pp_close
 {
 	margin-top: 8px;
-	background: url("../images/close.png") 0 0 no-repeat;
+	background: url("/public/storage/close.png") 0 0 no-repeat;
 }
 div.pp_default .pp_close:hover
 {

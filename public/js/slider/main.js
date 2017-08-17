@@ -685,7 +685,9 @@ jQuery(document).ready(function($){
 		show_title: false,
 		slideshow: 3000,
 		overlay_gallery: true,
-		social_tools: ''
+		social_tools: '',
+        default_width: 500,
+        default_height: 344,
 	});
 	
 	//contact form
