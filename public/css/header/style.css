@@ -13,7 +13,7 @@ body
 	background: #FFF;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Arial';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #444;
 }
@@ -46,15 +46,15 @@ p
 }
 p.description
 {
-	font-family: 'Raleway';
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	line-height: 26px;
 	padding: 0;
-	margin-top: 34px;
+	margin-top: 20px;
 }
 p.description.t1
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	margin-top: 24px;
@@ -71,7 +71,7 @@ strong
 blockquote
 {
 	text-align: center;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #444;
 	line-height: 26px;
@@ -86,7 +86,7 @@ blockquote:before
 }
 pre
 {
-	font-family: 'Courier new';
+	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 170%;
 	background: url('../images/code_background.png') repeat;
@@ -100,7 +100,7 @@ pre
 label
 {
 	color: #25282A;
-	font-family: 'Roboto';
+	font-family: 'Open Sans', sans-serif;
 }
 .relative
 {
@@ -114,7 +114,7 @@ label
 }
 input, textarea
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	border: 1px solid #E2E6E7;
 	font-size: 14px;
 	line-height: 24px;
@@ -141,7 +141,7 @@ table
 table td, table th
 {
 	padding: 18px 30px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -468,7 +468,7 @@ h6.box-header:after
 .bread-crumb li,
 .bread-crumb li a
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999;
@@ -631,7 +631,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	color: #25282A;
 	background: #F0F0F0;
 	font-size: 14px;
-	font-family: "Raleway";
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	padding: 12px 20px;
 	margin-bottom: 1px;
@@ -689,7 +689,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	color: #444;
 }
@@ -748,7 +748,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 /* --- page layout --- */
 .row
 {
-	width: 1170px;
+	width: 1230px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -857,7 +857,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .services-list li  p
 {
 	text-align: center;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0 25px;
@@ -972,7 +972,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .features-list li p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0;
@@ -1079,7 +1079,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .testimonials-list p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 21px;
 	color: #FFFFFF;
@@ -1100,7 +1100,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .testimonials-list  .author
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #FFF;
@@ -1109,7 +1109,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .testimonials-list  .author-details
 {
 	margin-top: 7px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 11px; 
 	color: #FFF;
@@ -1181,7 +1181,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .contact-details-list li p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	color: #FFF;
@@ -1250,7 +1250,7 @@ span.number,
 span.odometer.number
 {
 	margin-top: 10px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 80px;
 	color: #FFF;
@@ -1289,7 +1289,7 @@ span.odometer.number:after
 {
 	width: 90px;
 	margin-right: 30px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999;
@@ -1408,8 +1408,8 @@ span.odometer.number:after
 }
 /* --- single post --- */
 .post.single p
-{	
-	font-family: "Raleway";
+{
+	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -1431,7 +1431,7 @@ span.odometer.number:after
 	color: #999;
 	line-height: 16px;
 	letter-spacing: 1px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 	font-weight: 500;
 	padding: 10px 12px;
@@ -1466,7 +1466,7 @@ span.odometer.number:after
 	display: block;
 	background: #F5F5F5;
 	padding: 18px 18px 18px 19px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	color: #444;
 }
@@ -1636,7 +1636,7 @@ span.odometer.number:after
 .ui-tooltip-success .ui-tooltip-content
 {
 	font-size: 13px;
-	font-family: arial;
+	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 }
 .ui-tooltip-error .ui-tooltip-content,
@@ -1705,7 +1705,7 @@ span.odometer.number:after
 }
 .posted-by abbr
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	color: #999;
 	font-size: 13px;
 	margin-top: 7px;
@@ -1725,7 +1725,7 @@ span.odometer.number:after
 }
 #comments-list .comment-details p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	border-bottom: 1px solid #E2E6E7;
@@ -1766,7 +1766,7 @@ span.odometer.number:after
 }
 .pagination li
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	float: left;
 	margin-left: 7px;
 }
@@ -1820,7 +1820,7 @@ span.odometer.number:after
 {
 	padding-top: 3px;
 	padding-bottom: 3px;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding-left: 30px;
@@ -1907,7 +1907,7 @@ li.template-bullet:before
 	background: #FFF;
 	padding: 10px 0 23px;
 	border: none;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	outline: none;
 	text-decoration: none;
@@ -1953,7 +1953,7 @@ li.template-bullet:before
 }
 .tabs .ui-tabs-panel p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 34px 0 0;
@@ -1977,7 +1977,7 @@ li.template-bullet:before
 	padding: 16px 15px;
 	cursor: pointer;
 	border-bottom: 1px solid #E2E6E7;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 	transition: padding-left 300ms, padding-right 300ms;
 	-webkit-transition: padding-left 300ms, padding-right 300ms;
@@ -2064,7 +2064,7 @@ li.template-bullet:before
 {
 	float: left;
 	border-right: 1px solid #E2E6E7;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	color: #999999;
@@ -2353,7 +2353,7 @@ li.template-bullet:before
 .cost-calculator-box label
 {
 	float: left;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	border-left: 4px solid #F4BC16;
@@ -2407,7 +2407,7 @@ li.template-bullet:before
 }
 .cost-calculator-price
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 40px;
 	color: #F4BC16;
@@ -2459,7 +2459,7 @@ li.template-bullet:before
 .ui-slider-handle .cost-slider-tooltip .value
 {
 	width: 100%;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 	background: #F4BC16;
 	padding: 12px 0;
@@ -2489,7 +2489,7 @@ li.template-bullet:before
 .ui-selectmenu-button
 {
 	float: right;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	border: 1px solid #E2E6E7;
 	margin: 0;
 	background: #FFF;
@@ -2524,7 +2524,7 @@ li.template-bullet:before
 }
 .ui-selectmenu-menu .ui-menu li
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	cursor: pointer;
 	background: #FFF;
 	color: #444;
@@ -2543,8 +2543,8 @@ li.template-bullet:before
 .more,
 .more[type="submit"]
 {	
-	color: #FFF; 
-	font-family: 'Raleway';
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	background: #F4BC16;
@@ -2590,7 +2590,7 @@ li.template-bullet:before
 .copyright
 {	
 	color: #999;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 24px;
 }
 .copyright a
@@ -2684,7 +2684,7 @@ div.pp_default .pp_close:hover
 }
 .slider-content-box p
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #FFF;
 	line-height: 26px;
@@ -2844,11 +2844,7 @@ body.lock-position
 
 
 .page-margin-right{
-	margin-right: 2%;
-}
-
-.row-max-width{
-	width: 1230px;
+	margin-right: 30px;
 }
 
 
@@ -2856,8 +2852,8 @@ body.lock-position
 
 .timeline-item .timeline-left
 {
-	width: 190px;
-	min-width: 190px;
+	width: 100px;
+	min-width: 100px;
 }
 .timeline-item .label-container
 {
@@ -2885,7 +2881,7 @@ body.lock-position
 	height: 7px;
 	margin-left: 6px;
 	margin-top: 6px;
-	background: #F4BC16;
+	background: #009ee3;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -2895,12 +2891,12 @@ body.lock-position
 	float: right;
 	max-width: 100px;
 	overflow: hidden;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #FFF;
 	font-size: 13px;
 	line-height: 20px;
-	background: #F4BC16;
+	background: #009ee3;
 	padding: 4px 15px 6px 20px;
 	white-space: nowrap;
 }
@@ -2912,7 +2908,7 @@ body.lock-position
 	margin-right: 40px;
 	border-style: solid;
 	border-width: 15px 0 15px 15px;
-	border-color: transparent transparent transparent #F4BC16;
+	border-color: transparent transparent transparent #009ee3;
 }
 .timeline-content
 {
@@ -2925,7 +2921,7 @@ body.lock-position
 }
 .timeline-content span.timeline-subtitle
 {
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 11px;
 	color: #999;
@@ -2933,554 +2929,3 @@ body.lock-position
 	letter-spacing: 1px;
 	margin-top: 9px;
 }
-
-/*animation*/
-.animated-element
-{
-	visibility: hidden;
-	position: relative;
-}
-.fadeIn, .fadeOut, .scale, .slideRight, .slideRightBack, .slideRight25, .slideRight200, .slideLeft, .slideLeftBack, .slideLeft50, .slideDown, .slideDownBack, .slideDown200, .slideUp, .slideUpBack, .width, .height
-{
-	animation-timing-function: cubic-bezier(.75, 0, .25, 1);
-	-webkit-animation-timing-function: cubic-bezier(.75, 0, .25, 1);
-	visibility: visible !important;
-}
-.slideRightBack, .slideLeftBack, .slideDownBack, .slideUpBack, .fadeOut
-{
-	opacity: 0;
-}
-/* --- fadeIn --- */
-.fadeIn
-{
-	animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;
-}
-@keyframes fadeIn
-{
-	0%
-	{
-		opacity: 0;
-	}
-	100%
-	{
-		opacity: 1;
-	}
-}
-@-webkit-keyframes fadeIn
-{
-	0%
-	{
-		opacity: 0;
-	}
-	100%
-	{
-		opacity: 1;
-	}
-}
-/* --- fadeOut --- */
-.fadeOut
-{
-	animation-name: fadeOut;
-	-webkit-animation-name: fadeOut;
-}
-@keyframes fadeOut
-{
-	0%
-	{
-		opacity: 1;
-	}
-	100%
-	{
-		opacity: 0;
-	}
-}
-@-webkit-keyframes fadeOut
-{
-	0%
-	{
-		opacity: 1;
-	}
-	100%
-	{
-		opacity: 0;
-	}
-}
-/* --- scale --- */
-.scale
-{
-	animation-name: scale;
-	-webkit-animation-name: scale;
-}
-@keyframes scale
-{
-	0%
-	{
-		transform: scale(0.2);
-	}
-	100%
-	{
-		transform: scale(1);
-	}
-}
-@-webkit-keyframes scale
-{
-	0%
-	{
-		-webkit-transform: scale(0.2);
-	}
-	100%
-	{
-		-webkit-transform: scale(1);
-	}
-}
-/* --- slideRight --- */
-.slideRight
-{
-	animation-name: slideRight;
-	-webkit-animation-name: slideRight;
-}
-@keyframes slideRight
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-}
-@-webkit-keyframes slideRight
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-}
-/* --- slideRightBack --- */
-.slideRightBack
-{
-	animation-name: slideRightBack;
-	-webkit-animation-name: slideRightBack;
-}
-@keyframes slideRightBack
-{
-	0%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		transform: translateX(-100%);
-	}
-}
-@-webkit-keyframes slideRightBack
-{
-	0%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(-100%);
-	}
-}
-/* --- slideRight25 --- */
-.slideRight25
-{
-	animation-name: slideRight25;
-	-webkit-animation-name: slideRight25;
-}
-@keyframes slideRight25
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(-25%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-}
-@-webkit-keyframes slideRight25
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(-25%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-}
-/* --- slideRight200 --- */
-.slideRight200
-{
-	animation-name: slideRight200;
-	-webkit-animation-name: slideRight200;
-}
-@keyframes slideRight200
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(-200%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-}
-@-webkit-keyframes slideRight200
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(-200%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-}
-/* --- slideLeft --- */
-.slideLeft
-{
-	animation-name: slideLeft;
-	-webkit-animation-name: slideLeft;
-}
-@keyframes slideLeft
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(100%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-}
-@-webkit-keyframes slideLeft
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(100%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-}
-/* --- slideLeftBack --- */
-.slideLeftBack
-{
-	animation-name: slideLeftBack;
-	-webkit-animation-name: slideLeftBack;
-}
-@keyframes slideLeftBack
-{
-	0%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		transform: translateX(100%);
-	}
-}
-@-webkit-keyframes slideLeftBack
-{
-	0%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(100%);
-	}
-}
-/* --- slideLeft50 --- */
-.slideLeft50
-{
-	animation-name: slideLeft50;
-	-webkit-animation-name: slideLeft50;
-}
-@keyframes slideLeft50
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateX(50%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateX(0%);
-	}
-}
-@-webkit-keyframes slideLeft50
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateX(50%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-	}
-}
-/* --- slideDown --- */
-.slideDown
-{
-	animation-name: slideDown;
-	-webkit-animation-name: slideDown;
-}
-@keyframes slideDown
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateY(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateY(0%);
-	}
-}
-@-webkit-keyframes slideDown
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateY(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateY(0%);
-	}
-}
-/* --- slideDownBack --- */
-.slideDownBack
-{
-	animation-name: slideDownBack;
-	-webkit-animation-name: slideDownBack;
-}
-@keyframes slideDownBack
-{
-	0%
-	{
-		opacity: 1;
-		transform: translateY(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		transform: translateY(-100%);
-	}
-}
-@-webkit-keyframes slideDownBack
-{
-	0%
-	{
-		opacity: 1;
-		-webkit-transform: translateY(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		-webkit-transform: translateY(-100%);
-	}
-}
-/* --- slideDown --- */
-.slideDown200
-{
-	animation-name: slideDown200;
-	-webkit-animation-name: slideDown200;
-}
-@keyframes slideDown200
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateY(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateY(0%);
-	}
-}
-@-webkit-keyframes slideDown200
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateY(-100%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateY(0%);
-	}
-}
-/* --- slideUp --- */
-.slideUp
-{
-	animation-name: slideUp;
-	-webkit-animation-name: slideUp;
-}
-
-@keyframes slideUp
-{
-	0%
-	{
-		opacity: 0;
-		transform: translateY(100%);
-	}
-	100%
-	{
-		opacity: 1;
-		transform: translateY(0%);
-	}
-}
-
-@-webkit-keyframes slideUp
-{
-	0%
-	{
-		opacity: 0;
-		-webkit-transform: translateY(100%);
-	}
-	100%
-	{
-		opacity: 1;
-		-webkit-transform: translateY(0%);
-	}
-}
-/* --- slideUpBack --- */
-.slideUpBack
-{
-	animation-name: slideUpBack;
-	-webkit-animation-name: slideUpBack;
-}
-
-@keyframes slideUpBack
-{
-	0%
-	{
-		opacity: 1;
-		transform: translateY(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		transform: translateY(100%);
-	}
-}
-
-@-webkit-keyframes slideUpBack
-{
-	0%
-	{
-		opacity: 1;
-		-webkit-transform: translateY(0%);
-	}
-	100%
-	{
-		opacity: 0;
-		-webkit-transform: translateY(100%);
-	}
-}
-/* --- width --- */
-.width
-{
-	animation-name: width;
-	-webkit-animation-name: width;
-}
-
-@keyframes width
-{
-	0%
-	{
-		width: 0%;
-	}
-	100%
-	{
-		width: 100%;
-	}
-}
-
-@-webkit-keyframes width
-{
-	0%
-	{
-		width: 0%;
-	}
-	100%
-	{
-		width: 100%;
-	}
-}
-/* --- height --- */
-.height
-{
-	animation-name: height;
-	-webkit-animation-name: height;
-}
-
-@keyframes height
-{
-	0%
-	{
-		height: 0%;
-	}
-	100%
-	{
-		height: 100%;
-	}
-}
-
-@-webkit-keyframes height
-{
-	0%
-	{
-		height: 0%;
-	}
-	100%
-	{
-		height: 100%;
-	}
-}
-
-

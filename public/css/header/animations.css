@@ -3,7 +3,7 @@
 	visibility: hidden;
 	position: relative;
 }
-.fadeIn, .fadeOut, .scale, .slideRight, .slideRightBack, .slideRight200, .slideLeft, .slideLeftBack, .slideLeft50, .slideDown, .slideDownBack, .slideDown200, .slideUp, .slideUpBack, .width, .height
+.fadeIn, .fadeOut, .scale, .slideRight, .slideRightBack, .slideRight200, .slideRight25, .slideLeft, .slideLeftBack, .slideLeft50, .slideDown, .slideDownBack, .slideDown200, .slideUp, .slideUpBack, .width, .height
 {
 	animation-timing-function: cubic-bezier(.75, 0, .25, 1);	
 	-webkit-animation-timing-function: cubic-bezier(.75, 0, .25, 1);		
@@ -512,4 +512,37 @@
 	{
 		height: 100%;
 	}	
+}
+
+/* --- slideRight25 --- */
+.slideRight25
+{
+	animation-name: slideRight25;
+	-webkit-animation-name: slideRight25;
+}
+@keyframes slideRight25
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateX(-25%);
+	}
+	100%
+	{
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+@-webkit-keyframes slideRight25
+{
+	0%
+	{
+		opacity: 0;
+		-webkit-transform: translateX(-25%);
+	}
+	100%
+	{
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+	}
 }

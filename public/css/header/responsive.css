@@ -367,6 +367,9 @@
 	{
 		width: 160px;
 	}
+	.page-margin-right{
+		margin-right: 0;
+	}
 }
 @media screen and (max-width:767px)
 {
@@ -731,6 +734,9 @@
 		right: 10px;
 		bottom: 10px;
 	}
+	.page-margin-right{
+		margin-right: 0;
+	}
 }
 @media screen and (max-width:479px)
 {	
@@ -1079,6 +1085,9 @@
 	{
 		display: none;
 	}
+	.page-margin-right{
+		margin-right: 0;
+	}
 }
 @media screen and (max-device-width: 480px)
 {
@@ -1089,5 +1098,8 @@
 	.timeline-item .timeline-left
 	{
 		display: none;
+	}
+	.page-margin-right{
+		margin-right: 0;
 	}
 }
