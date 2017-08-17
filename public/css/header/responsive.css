@@ -1075,11 +1075,19 @@
 	{
 		display: none;
 	}
+	.timeline-item .timeline-left
+	{
+		display: none;
+	}
 }
 @media screen and (max-device-width: 480px)
 {
 	body
 	{
 		-webkit-text-size-adjust: none;
+	}
+	.timeline-item .timeline-left
+	{
+		display: none;
 	}
 }
