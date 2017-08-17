@@ -22,8 +22,8 @@ class Collection extends Migration
             $table->string('quantity_of_sheets');
             $table->string('quantity_of_boxes');
             $table->string('protrusion');
-            $table->string('wind-min');
-            $table->string('wind-max');
+            $table->string('wind_min');
+            $table->string('wind_max');
             $table->string('angle');
             $table->timestamps();
         });

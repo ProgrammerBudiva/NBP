@@ -36,7 +36,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?=URL::route('manoir');?>" title="MANOIR">
+                            <a href="{{URL('/collection/manoir')}}" title="MANOIR">
                                 MANOIR
                             </a>
                         </li>
