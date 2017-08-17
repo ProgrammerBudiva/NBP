@@ -119,7 +119,7 @@ jQuery(document).ready(function($){
 		dottedOverlay:"none",
 		delay:10000,
 		startwidth:1170,
-		startheight:600,
+		startheight:300,
 		hideThumbs:100,
 
 		hideTimerBar:"on",
