@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/manoir', function(){
-    return view('collections.manoir');
-})->name('manoir');
+//Route::get('/manoir', function(){
+//    return view('collections.manoir');
+//})->name('manoir');
+
+Route::get('/collection/{keyword}', 'CollectionController@index');

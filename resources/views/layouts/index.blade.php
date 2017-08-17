@@ -10,7 +10,7 @@
         <meta name="keywords" content="Construction, Renovation" />
         <meta name="description" content="Responsive Construction Renovation Template" />
             <!--slider revolution-->
-        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('/rs-plugin/css/settings.css')}}" media="screen" />
         <!--style-->
         {{--<link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>--}}
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
