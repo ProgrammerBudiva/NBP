@@ -52,24 +52,34 @@
                     <table class="margin-top-40">
                         <tbody>
                         <tr>
-                            <td>Prepare Home Remodeling Ideas</td>
-                            <td>$600 - $1150</td>
+                            <td>Гарантия</td>
+                            <td><?=$charcs->warranty?></td>
                         </tr>
                         <tr>
-                            <td>Specify Materials</td>
-                            <td>$250 - $350</td>
+                            <td>Вес</td>
+                            <td><?=$charcs->weight?></td>
                         </tr>
                         <tr>
-                            <td>Paint Rooms</td>
-                            <td>$2.50 - $3.50 Per Square Feet</td>
+                            <td>Размер листа</td>
+                            <td><?=$charcs->size?></td>
                         </tr>
                         <tr>
-                            <td>Install Interior Door</td>
-                            <td>$150 - $350 Per Door</td>
+                            <td>Метров в упаковке</td>
+                            <td><?=$charcs->length_of_sheets?></td>
                         </tr>
                         <tr>
-                            <td>Install Light Switch</td>
-                            <td>$100</td>
+                            <td>Листов в пачке</td>
+                            <td><?=$charcs->quantity_of_sheets?></td>
+                        </tr>
+                        <tr>
+                            <td>Упаковок на палете</td>
+                            <td><?=$charcs->quantity_of_boxes?></td>
+                        </tr>                        <tr>
+                            <td>Видимая часть (выступ)</td>
+                            <td><?=$charcs->protrusion?></td>
+                        </tr>                        <tr>
+                            <td>Устойчивость к ветру</td>
+                            <td><?=$charcs->wind_min?></td>
                         </tr>
                         </tbody>
                     </table>
