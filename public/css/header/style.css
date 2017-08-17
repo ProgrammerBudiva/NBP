@@ -1894,7 +1894,7 @@ li.template-bullet:before
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 48px;
-	color: #F4BC16;
+	color: #009ee3;
 	padding: 20px 20px 12px;
 }
 .tabs-navigation li a
@@ -1923,7 +1923,7 @@ li.template-bullet:before
 .tabs-navigation.small.gray li a.selected,
 .tabs-navigation.small.gray li.ui-tabs-active a
 {
-	background: #F4BC16;
+	background: #009ee3;
 	color: #FFF;
 }
 .tabs-navigation li a:hover:before,
@@ -1938,7 +1938,7 @@ li.template-bullet:before
 	position: absolute;
 	border-style: solid;
 	border-width: 9px 9px 0;
-	border-color: #F4BC16 transparent;
+	border-color: #009ee3 transparent;
 	bottom: -9px;
 	margin-left: -9px;
 }
@@ -2790,7 +2790,7 @@ div.pp_default .pp_close:hover
 }
 .scroll-top:hover
 {
-	background: #F4BC16;
+	background: #009ee3;
 }
 .header h1 a,
 .sf-menu a:hover,
