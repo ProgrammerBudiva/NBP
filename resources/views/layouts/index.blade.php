@@ -9,7 +9,8 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="keywords" content="Construction, Renovation" />
         <meta name="description" content="Responsive Construction Renovation Template" />
-
+            <!--slider revolution-->
+        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
         <!--style-->
         <link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="/css/header/reset.css" />
@@ -29,7 +30,7 @@
         <link rel="shortcut icon" href="/icons/favicon.ico">
     </head>
     <body>
-
+    <div class="site-container">
     @include('header')
 
     @yield('slider')
@@ -39,5 +40,6 @@
     </div>
 
     @include('footer')
+    </div>
     </body>
 </html>
