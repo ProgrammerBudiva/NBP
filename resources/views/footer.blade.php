@@ -65,11 +65,6 @@
                 <li><a href="category.html" title="FLOORING">FLOORING</a></li>
                 <li><a href="category.html" title="PAINTING">PAINTING</a></li>
                 <li><a href="category.html" title="PAVERS">PAVERS</a></li>
-                <li><a href="category.html" title="PLUMBING">PLUMBING</a></li>
-                <li><a href="category.html" title="RENOVATION">RENOVATION</a></li>
-                <li><a href="category.html" title="REPAIRS">REPAIRS</a></li>
-                <li><a href="category.html" title="SOLAR SYSTEMS">SOLAR SYSTEMS</a></li>
-                <li><a href="category.html" title="TILING">TILING</a></li>
             </ul>
         </div>
         {{--<div class="column column-1-4">--}}
