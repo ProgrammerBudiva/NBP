@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::get('/manoir', function(){
     return view('collections.manoir');
-});
+})->name('manoir');

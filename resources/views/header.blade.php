@@ -31,12 +31,12 @@
                 <nav>
                     <ul class="sf-menu">
                         <li class="selected">
-                            <a href="#" title="ГЛАВНАЯ">
+                            <a href="/" title="ГЛАВНАЯ">
                                 ГЛАВНАЯ
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="MANOIR">
+                            <a href="<?=URL::route('manoir');?>" title="MANOIR">
                                 MANOIR
                             </a>
                         </li>
