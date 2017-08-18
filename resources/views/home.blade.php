@@ -187,7 +187,8 @@
                     <h2 class="box-header">КОЛЛЕКЦИИ</h2>
                     <p class="description ">Ассортимент мягкой черепицы BP настолько богат, что поможет
                         удовлетворить требования любого заказчика: практичного, изысканного и экономичного.</p>
-                    <p class="description align-justify"> Ламинированная кровля превосходит по прочности обычную битумную
+                    <p class="description align-justify"> Ламинированная кровля превосходит по прочности обычную
+                        битумную
                         черепицу, поскольку имеет в своей основе не один, а два несвязанных друг с другом слоя
                         армированного стекловолокна. Черепица этих коллекций производят эффект объема и пространственной
                         завершенности. </p>
@@ -300,34 +301,37 @@
 
             <div class="row page-margin-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header">ПОЧЕМУ СОТРУДНИЧЕСТВО С НАМИ БУДЕТ ВЫГОДНО ДЛЯ ВАС</h2>
-                    <p class="description align-center">We provide a professional renovation and installation services
-                        with a real focus on customer satisfaction.<br>Our installations are carried out by fully
-                        trained staff to the highest professional standards.</p>
+                    <h2 class="box-header">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
                 </div>
                 <div class="row page-margin-top">
-                    <div class="column column-1-2 align-center re-preload">
+                    <div class="column column-1-3 align-center re-preload">
                         <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
+                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
+
                     </div>
-                    <div class="column column-1-2">
+                    <div class="column column-2-3">
                         <ul class="features-list">
                             <li class="sl-small-helmet margin-top-40">
-                                <h4>OVER 15 YEARS EXPERIENCE</h4>
-                                <p>We combine quality workmanship, superior knowledge and low prices to provide you with
-                                    service unmatched by our competitors.
-                                </p>
+                                <h4>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</h4>
+                                <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
+                                    вопрос не останется без ответа!</p>
                             </li>
                             <li class="sl-small-roller">
-                                <h4>BEST MATERIALS</h4>
-                                <p>We have the experience, personel and resources to make the project run smoothly. We
-                                    can ensure a job is done on time.
-                                </p>
+                                <h4>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</h4>
+                                <p>Сотрудничаем со всеми формами собственности.</p>
                             </li>
                             <li class="sl-small-driller">
-                                <h4>PROFESSIONAL STANDARDS</h4>
-                                <p>Work with us involve a carefully planned series of steps, centered around a schedule
-                                    we stick to and daily communication.
-                                </p>
+                                <h4>УДОБНАЯ ОПЛАТА</h4>
+                                <p>Банковской картой или безнальным платежом.</p>
+                            </li>
+                            <li class="sl-small-roller">
+                                <h4>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</h4>
+                                <p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>
+                            </li>
+                            <li class="sl-small-driller">
+                                <h4>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</h4>
+                                <p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене -
+                                    получайте удовольствие от такого сервиса.</p>
                             </li>
                         </ul>
                     </div>
