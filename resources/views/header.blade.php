@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="EVEREST 42">
+                            <a href="{{URL('/collection/everest')}}" title="EVEREST 42">
                                 EVEREST 42
                             </a>
                         </li>

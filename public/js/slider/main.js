@@ -12,10 +12,10 @@ window.odometerOptions = {
 $(function() {
     // this will get the full URL at the address bar
     var url = window.location.href;
-	console.log(url);
+
     // passes on every "a" tag
     $(".sf-menu a").each(function() {
-    	console.log(this.href);
+
         // checks if its the same on the address bar
         if (url == (this.href)) {
             $(this).closest("li").addClass("selected");
