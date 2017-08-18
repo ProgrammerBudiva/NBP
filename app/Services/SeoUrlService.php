@@ -6,7 +6,7 @@ use App\Models\SeoUrl;
 
 class SeoUrlService
 {
-    public $categoryService;
+    public $seoUrlService;
 
     public function getCollectionId($keyword){
 //        dd($keyword);

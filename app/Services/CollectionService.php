@@ -6,7 +6,7 @@ use App\Models\collection;
 
 class CollectionService
 {
-    public $categoryService;
+    public $collectionService;
 
     public function getCollection($id){
         return collection::find($id);
