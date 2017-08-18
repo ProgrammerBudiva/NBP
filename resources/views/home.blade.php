@@ -224,17 +224,44 @@
                     </ul>
                     <h4 class="box-header margin-top-40">ОДНОСЛОЙНАЯ</h4>
 
-                <ul class="services-list clearfix page-margin-top">
-                    <li class="page-margin-right">
-                        <a href="service_interior_renovation.html" title="Interior Renovation">
-                            <img src="/images/samples/390x260/image_01.jpg" alt="">
-                        </a>
-                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">MANOIR</a></h4>
-                        <p>Вершина эволюции битумной кровли</p>
-                    </li>
-                    <li class="page-margin-right">
-                        <a href="service_design_build.html" title="Design and Build">
-                            <img src="/images/samples/390x260/image_02.jpg" alt="">
+                    <ul class="services-list clearfix page-margin-top">
+                        <li class="page-margin-right">
+                            <a href="service_interior_renovation.html" title="Interior Renovation">
+                                <img src="images/samples/gallery/yukon-sb_weathered-rock_ew.jpg" alt="">
+                            </a>
+                            <h4 class="box-header"><a href="service_interior_renovation.html"
+                                                      title="Interior Renovation">YUKON SB</a></h4>
+                            <p>Серия однослойной черепицы с гарантией 30 лет. Гонты в форме прямоугольников. 12
+                                цветов</p>
+                        </li>
+                        <li>
+                            <a href="service_design_build.html" title="Design and Build">
+                                <img src="images/samples/gallery/dakota-redwood-su0261.png" alt="">
+                            </a>
+                            <h4 class="box-header"><a href="service_design_build.html"
+                                                      title="Design and Build">DAKOTA</a></h4>
+                            <p>Однослойная черепица выполнена в форме прямоугольников. Гарантия 25 лет. 15 цветов</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
+                <div class="row">
+                    <h2 class="box-header">ГАЛЕРЕЯ ОБЪЕКТОВ</h2>
+                    <p class="description align-center">We provide a professional renovation and installation services
+                        with a real focus on customer satisfaction.<br>Our installations are carried out by fully
+                        trained staff to the highest professional standards.</p>
+                </div>
+                <ul class="projects-list clearfix page-margin-top">
+                    <li>
+                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
+                           class="prettyPhoto re-preload" rel="prettyPhoto[myGallery]" title="Painting">
+                            <img width="480" height="320"
+                                 src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
+                                 title=""
+                                 srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07.jpg 750w"
+                                 sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
                         </a>
                     </li>
                     <li>
@@ -273,43 +300,38 @@
             </div>
 
             <div class="row page-margin-top-section padding-bottom-66">
-                <div class="row">
-                    <h2 class="box-header">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
-                </div>
                 <div class="row page-margin-top">
-                    <div class="column column-1-3 align-center re-preload">
-                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
-                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
-
+                    <div class="column column-1-2 align-center re-preload">
+                        <img src="images/samples/home/image-105.jpg" alt="" class="radius">
                     </div>
-                    <div class="column column-2-3">
-                        <ul class="features-list">
-                            <li class="sl-small-helmet margin-top-40">
-                                <h4>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</h4>
+                    <div class="column column-1-2">
+                        <h2 class="box-header align-left">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
+                        <ul class="list margin-top-20">
+                            <li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>
                                 <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
                                     вопрос не останется без ответа!</p>
                             </li>
-                            <li class="sl-small-roller">
-                                <h4>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</h4>
+                            <li class="template-bullet"><b>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</b>
                                 <p>Сотрудничаем со всеми формами собственности.</p>
                             </li>
-                            <li class="sl-small-driller">
-                                <h4>УДОБНАЯ ОПЛАТА</h4>
+                            <li class="template-bullet"><b>УДОБНАЯ ОПЛАТА</b>
                                 <p>Банковской картой или безнальным платежом.</p>
                             </li>
-                            <li class="sl-small-roller">
-                                <h4>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</h4>
+                            <li class="template-bullet"><b>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</b>
                                 <p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>
                             </li>
-                            <li class="sl-small-driller">
-                                <h4>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</h4>
+                            <li class="template-bullet"><b>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</b>
                                 <p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене -
                                     получайте удовольствие от такого сервиса.</p>
                             </li>
                         </ul>
+                        <div class="page-margin-top">
+                            <a class="more" href="services.html" title="OUR SERVICES">СОТРУДНИЧЕСТВО</a>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="row full-width padding-top-70 padding-bottom-66 parallax parallax-1">
                 <div class="row testimonials-container">
                     <a href="#" class="slider-control left template-arrow-left-1"></a>
