@@ -300,54 +300,12 @@
             </div>
 
             <div class="row page-margin-top-section padding-bottom-66">
-                <div class="row">
-                    <h2 class="box-header">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
-                </div>
-                <div class="row page-margin-top">
-                    <div class="column column-1-3 align-center re-preload">
-                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
-                    </div>
-                    <div class="column column-2-3">
-                        <ul class="features-list">
-                            <li class="sl-small-helmet margin-top-40">
-                                <h4>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</h4>
-                                <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
-                                    вопрос не останется без ответа!</p>
-                            </li>
-                            <li class="sl-small-roller">
-                                <h4>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</h4>
-                                <p>Сотрудничаем со всеми формами собственности.</p>
-                            </li>
-                            <li class="sl-small-driller">
-                                <h4>УДОБНАЯ ОПЛАТА</h4>
-                                <p>Банковской картой или безнальным платежом.</p>
-                            </li>
-                            <li class="sl-small-roller">
-                                <h4>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</h4>
-                                <p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>
-                            </li>
-                            <li class="sl-small-driller">
-                                <h4>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</h4>
-                                <p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене -
-                                    получайте удовольствие от такого сервиса.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row page-margin-top-section padding-bottom-66">
                 <div class="row page-margin-top">
                     <div class="column column-1-2 align-center re-preload">
-                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
+                        <img src="images/samples/home/image-105.jpg" alt="" class="radius">
                     </div>
                     <div class="column column-1-2">
                         <h2 class="box-header align-left">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
-                        {{--<p class="description t1">Founded by Kevin Smith back in 2000, Renovate has established itself--}}
-                            {{--as one of the greatest and prestigious providers of construction focused interior renovation--}}
-                            {{--services and building. We provide a professional renovation and installation services with a--}}
-                            {{--real focus on customer satisfaction. Our construction Services is a multi-task company--}}
-                            {{--specializing in the following core areas:</p>--}}
                         <ul class="list margin-top-20">
                             <li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>
                                 <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
