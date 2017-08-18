@@ -306,8 +306,6 @@
                 <div class="row page-margin-top">
                     <div class="column column-1-3 align-center re-preload">
                         <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
-                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
-
                     </div>
                     <div class="column column-2-3">
                         <ul class="features-list">
@@ -337,6 +335,45 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row page-margin-top-section padding-bottom-66">
+                <div class="row page-margin-top">
+                    <div class="column column-1-2 align-center re-preload">
+                        <img src="images/samples/480x480/image_10.jpg" alt="" class="radius">
+                    </div>
+                    <div class="column column-1-2">
+                        <h2 class="box-header align-left">ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
+                        {{--<p class="description t1">Founded by Kevin Smith back in 2000, Renovate has established itself--}}
+                            {{--as one of the greatest and prestigious providers of construction focused interior renovation--}}
+                            {{--services and building. We provide a professional renovation and installation services with a--}}
+                            {{--real focus on customer satisfaction. Our construction Services is a multi-task company--}}
+                            {{--specializing in the following core areas:</p>--}}
+                        <ul class="list margin-top-20">
+                            <li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>
+                                <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
+                                    вопрос не останется без ответа!</p>
+                            </li>
+                            <li class="template-bullet"><b>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</b>
+                                <p>Сотрудничаем со всеми формами собственности.</p>
+                            </li>
+                            <li class="template-bullet"><b>УДОБНАЯ ОПЛАТА</b>
+                                <p>Банковской картой или безнальным платежом.</p>
+                            </li>
+                            <li class="template-bullet"><b>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</b>
+                                <p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>
+                            </li>
+                            <li class="template-bullet"><b>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</b>
+                                <p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене -
+                                    получайте удовольствие от такого сервиса.</p>
+                            </li>
+                        </ul>
+                        <div class="page-margin-top">
+                            <a class="more" href="services.html" title="OUR SERVICES">СОТРУДНИЧЕСТВО</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row full-width padding-top-70 padding-bottom-66 parallax parallax-1">
                 <div class="row testimonials-container">
                     <a href="#" class="slider-control left template-arrow-left-1"></a>
