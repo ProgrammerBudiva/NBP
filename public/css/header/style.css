@@ -1227,11 +1227,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 /* --- parallax --- */
 .parallax-1
 {
-	background-image: url('../images/samples/1920x1200/image_01.jpg');
+	background-image: url('../images/samples/home/image-102.jpg');
 }
 .parallax-2
 {
-	background-image: url('../images/samples/1920x1200/image_02.jpg');
+	background-image: url('../images/samples/home/image-103.jpg');
 }
 .parallax,
 .parallax h2,
