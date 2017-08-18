@@ -1227,7 +1227,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 /* --- parallax --- */
 .parallax-1
 {
-	background-image: url('../images/samples/home/image-102.jpg');
+	background-image: url('../images/samples/home/image-102-1.jpg');
 }
 .parallax-2
 {
@@ -2660,7 +2660,7 @@ div.pp_default .pp_close:hover
 /* --- slider revolution label --- */
 .slider-content-box
 {
-	width: 460px;
+	width: 600px;
 	max-height: auto;
 	white-space: normal;
 	background: rgba(38, 38, 40, 0.7);
@@ -2685,10 +2685,10 @@ div.pp_default .pp_close:hover
 .slider-content-box p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFF;
 	line-height: 26px;
-	padding: 23px 30px 40px;
+	padding: 32px 30px 10px;
 }
 .slider-content-box .more
 {
