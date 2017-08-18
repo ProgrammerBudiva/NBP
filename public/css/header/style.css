@@ -2929,3 +2929,21 @@ body.lock-position
 	letter-spacing: 1px;
 	margin-top: 9px;
 }
+
+@media (min-width: 1025px) {
+	.logo_mob {
+		display: none;
+	}
+	.logo {
+		display: table-cell;
+	}
+}
+
+@media (max-width: 1024px) {
+	.logo_mob {
+		display: block;
+	}
+	.logo {
+		display: none;
+	}
+}

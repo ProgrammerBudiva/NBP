@@ -30,7 +30,7 @@
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/template/styles.css">
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/social/styles.css">
         <link rel="stylesheet" type="text/css" href="/plugins/lightbox/css/lightbox.css">
-        <link rel="shortcut icon" href="/icons/favicon.ico">
+        <link rel="shortcut icon" href="/icons/favicon.png">
 
         <link href="{{asset('/plugins/jquery.bxslider/jquery.bxslider.css')}}" rel="stylesheet" />
     </head>

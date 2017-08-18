@@ -20,7 +20,7 @@
     <div class="vertical-align-table column-1-1">
         <div class="header clearfix">
             <div class="logo vertical-align-cell">
-                <h1><a href="index.html" title="Renovate">RENOVATE</a></h1>
+                <h1><a href="/" title=""><img src="{{ asset('/icons/logo.png')}}" width="160px" alt=""></a></h1>
             </div>
             <a href="#" class="mobile-menu-switch vertical-align-cell">
                 <span class="line"></span>
@@ -30,7 +30,10 @@
             <div class="menu-container clearfix vertical-align-cell">
                 <nav>
                     <ul class="sf-menu">
-                        <li class="selected">
+                        <li class="logo_mob"><a href="/" title="">
+                            <img src="{{ asset('/icons/logo.png')}}" width="60px" alt=""></a>
+                        </li>
+                        <li>
                             <a href="/" title="ГЛАВНАЯ">
                                 ГЛАВНАЯ
                             </a>
