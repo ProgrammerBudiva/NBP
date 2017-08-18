@@ -10,7 +10,7 @@ class SeoUrlService
 
     public function getCollectionId($keyword){
 //        dd($keyword);
-        $id =  SeoUrl::where('keyword', 'manoir')->first();
+        $id =  SeoUrl::where('keyword', $keyword)->first();
         return $id->collection_id;
     }
 }
