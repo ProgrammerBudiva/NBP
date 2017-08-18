@@ -10,7 +10,7 @@
         <meta name="keywords" content="Construction, Renovation" />
         <meta name="description" content="Responsive Construction Renovation Template" />
             <!--slider revolution-->
-        <link rel="stylesheet" type="text/css" href="{{ asset('/rs-plugin/css/settings.css')}}" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('plugins/rs-plugin/css/settings.css')}}" media="screen" />
         <!--style-->
         {{--<link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>--}}
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -29,7 +29,10 @@
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/streamline-large/styles.css">
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/template/styles.css">
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/social/styles.css">
+        <link rel="stylesheet" type="text/css" href="/plugins/lightbox/css/lightbox.css">
         <link rel="shortcut icon" href="/icons/favicon.ico">
+
+        <link href="{{asset('/plugins/jquery.bxslider/jquery.bxslider.css')}}" rel="stylesheet" />
     </head>
     <body>
     <div class="site-container">

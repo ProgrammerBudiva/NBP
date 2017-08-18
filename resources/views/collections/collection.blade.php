@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('slider')
-    @include('slider')
+    @include('slider-collection')
 @endsection
 @section('content')
     <div class="row row-4-4">
@@ -21,29 +21,29 @@
             </div>
         </div>
     </div>
-    <div class="vc_row wpb_row vc_row-fluid full-width"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="wpb_wrapper">
-                <ul class="projects-list clearfix page-margin-top">
-                    <li>
-                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" class="prettyPhoto re-preload" rel="prettyPhoto[myGallery]" title="Painting">
-                            <img width="480" height="320" src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"  title="" srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07.jpg 750w" sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg" rel="prettyPhoto[myGallery]" class="prettyPhoto re-preload" title="Garden Renovation">
-                            <img width="480" height="320" src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg" class="attachment-big-thumb size-big-thumb wp-post-image" alt="Garden Renovation" title="" srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04.jpg 750w" sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg" rel="prettyPhoto[myGallery]" class="prettyPhoto re-preload" title="Interior Renovation">
-                            <img width="480" height="320" src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg" class="attachment-big-thumb size-big-thumb wp-post-image" alt="Interior Renovation" title="" srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05.jpg 750w" sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06.jpg" rel="prettyPhoto[myGallery]" class="prettyPhoto re-preload" title="Solar Systems">
-                            <img width="480" height="320" src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg" class="attachment-big-thumb size-big-thumb wp-post-image" alt="Solar Systems" title="" srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06.jpg 750w" sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
-                        </a>
-                    </li>
-                </ul></div></div></div>
+    {{--<div class="vc_row wpb_row vc_row-fluid  full-width">--}}
+        {{--<div class="wpb_column vc_column_container vc_col-sm-12">--}}
+            <div class="wpb_wrapper">
+                <ul class=" test-slider">
+                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
+                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"  title="cfbcfbfcb">
+                    </a></li>
+                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg" >
+                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg"  title="cfbcfbfcb">
+                        </a></li>
+                    <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"  href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
+                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg"  title="fbfcbcbcb">
+                        </a></li>
+                    <li><a rel="gallery" data-lightbox="roadtrip" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
+                        <img class="test_gallery" data-lightbox="roadtrip"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg" title="cghbcfgc">
+                        </a></li>
+                    <li><a rel="gallery" data-lightbox="roadtrip" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
+                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"  title="cfbcfbfcb">
+                        </a></li>
+                </ul>
+            </div>
+        {{--</div>--}}
+    {{--</div>--}}
     <div class="row row-4-4">
         <div class="wpb_wrapper column colunm-1-4">
             <h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>

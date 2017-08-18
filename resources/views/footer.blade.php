@@ -109,8 +109,8 @@
 <script type="text/javascript" src="{{ asset('js/slider/jquery-1.11.3.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/jquery-migrate-1.2.1.min.js')}}"></script>
 <!--slider revolution-->
-<script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('/plugins/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/jquery.ba-bbq.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/jquery-ui-1.11.4.custom.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/jquery.ui.touch-punch.min.js')}}"></script>
@@ -128,3 +128,32 @@
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="{{ asset('js/slider/main.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/odometer.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('plugins/lightbox/js/lightbox.js')}}"></script>
+<script src="{{asset('/plugins/jquery.bxslider/jquery.bxslider.min.js')}}"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+    var slider = $('.test-slider').bxSlider({
+        slideWidth: 1000,
+        minSlides: 4,
+        maxSlides: 4,
+        slideMargin: 10,
+        captions: true,
+        auto: true,
+//        moveSlides: 2
+        infiniteLoop: false
+
+    });
+
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true
+    });
+
+//    $('a .gallery').lightBox();
+//    $('a[rel=gallery]').attr('data-lightbox', 'roadtrip');
+//    $('.gallery').colorbox({scalePhotos: true, maxWidth: '95%',maxHeight: '95%', rel: 'gal'});
+//    $('[data-fancybox]').fancybox();
+});
+</script>

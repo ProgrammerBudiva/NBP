@@ -190,7 +190,7 @@
                 <ul class="services-list clearfix page-margin-top">
                     <li class="page-margin-right">
                         <a href="service_interior_renovation.html" title="Interior Renovation">
-                            <img src="images/samples/390x260/image_01.jpg" alt="">
+                            <img src="/images/samples/390x260/image_01.jpg" alt="">
                         </a>
                         <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">INTERIOR
                                 RENOVATION</a></h4>
@@ -198,7 +198,7 @@
                     </li>
                     <li class="page-margin-right">
                         <a href="service_design_build.html" title="Design and Build">
-                            <img src="images/samples/390x260/image_02.jpg" alt="">
+                            <img src="/images/samples/390x260/image_02.jpg" alt="">
                         </a>
                         <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">DESIGN AND
                                 BUILD</a></h4>
