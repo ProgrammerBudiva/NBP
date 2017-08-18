@@ -59,4 +59,48 @@
             @endforeach
         </div>
     </div>
+    <div class="row row-4-4">
+        <div class="wpb_wrapper column colunm-1-4">
+            <h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>
+            <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                <div class="wpb_wrapper">
+                    <table class="margin-top-40">
+                        <tbody>
+                        <tr>
+                            <td>Гарантия</td>
+                            <td><?=$charcs->warranty?></td>
+                        </tr>
+                        <tr>
+                            <td>Вес</td>
+                            <td><?=$charcs->weight?></td>
+                        </tr>
+                        <tr>
+                            <td>Размер листа</td>
+                            <td><?=$charcs->size?></td>
+                        </tr>
+                        <tr>
+                            <td>Метров в упаковке</td>
+                            <td><?=$charcs->length_of_sheets?></td>
+                        </tr>
+                        <tr>
+                            <td>Листов в пачке</td>
+                            <td><?=$charcs->quantity_of_sheets?></td>
+                        </tr>
+                        <tr>
+                            <td>Упаковок на палете</td>
+                            <td><?=$charcs->quantity_of_boxes?></td>
+                        </tr>                        <tr>
+                            <td>Видимая часть (выступ)</td>
+                            <td><?=$charcs->protrusion?></td>
+                        </tr>                        <tr>
+                            <td>Устойчивость к ветру</td>
+                            <td><?=$charcs->wind_min?></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
