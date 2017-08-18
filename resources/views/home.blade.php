@@ -224,44 +224,17 @@
                     </ul>
                     <h4 class="box-header margin-top-40">ОДНОСЛОЙНАЯ</h4>
 
-                    <ul class="services-list clearfix page-margin-top">
-                        <li class="page-margin-right">
-                            <a href="service_interior_renovation.html" title="Interior Renovation">
-                                <img src="images/samples/gallery/yukon-sb_weathered-rock_ew.jpg" alt="">
-                            </a>
-                            <h4 class="box-header"><a href="service_interior_renovation.html"
-                                                      title="Interior Renovation">YUKON SB</a></h4>
-                            <p>Серия однослойной черепицы с гарантией 30 лет. Гонты в форме прямоугольников. 12
-                                цветов</p>
-                        </li>
-                        <li>
-                            <a href="service_design_build.html" title="Design and Build">
-                                <img src="images/samples/gallery/dakota-redwood-su0261.png" alt="">
-                            </a>
-                            <h4 class="box-header"><a href="service_design_build.html"
-                                                      title="Design and Build">DAKOTA</a></h4>
-                            <p>Однослойная черепица выполнена в форме прямоугольников. Гарантия 25 лет. 15 цветов</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
-                <div class="row">
-                    <h2 class="box-header">ГАЛЕРЕЯ ОБЪЕКТОВ</h2>
-                    <p class="description align-center">We provide a professional renovation and installation services
-                        with a real focus on customer satisfaction.<br>Our installations are carried out by fully
-                        trained staff to the highest professional standards.</p>
-                </div>
-                <ul class="projects-list clearfix page-margin-top">
-                    <li>
-                        <a href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                           class="prettyPhoto re-preload" rel="prettyPhoto[myGallery]" title="Painting">
-                            <img width="480" height="320"
-                                 src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                                 title=""
-                                 srcset="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg 480w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-300x200.jpg 300w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-570x380.jpg 570w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-390x260.jpg 390w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-270x180.jpg 270w, http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07.jpg 750w"
-                                 sizes="(max-width: 480px) 100vw, 480px" style="display: block;">
+                <ul class="services-list clearfix page-margin-top">
+                    <li class="page-margin-right">
+                        <a href="service_interior_renovation.html" title="Interior Renovation">
+                            <img src="/images/samples/390x260/image_01.jpg" alt="">
+                        </a>
+                        <h4 class="box-header"><a href="service_interior_renovation.html" title="Interior Renovation">MANOIR</a></h4>
+                        <p>Вершина эволюции битумной кровли</p>
+                    </li>
+                    <li class="page-margin-right">
+                        <a href="service_design_build.html" title="Design and Build">
+                            <img src="/images/samples/390x260/image_02.jpg" alt="">
                         </a>
                     </li>
                     <li>
