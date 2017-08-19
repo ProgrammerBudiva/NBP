@@ -33,7 +33,7 @@
             <!-- SLIDE 2 -->
             <li data-transition="fade" data-masterspeed="500" data-slotamount="1" data-delay="6000">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('images/slider/image_02.jpg')}}" alt="slidebg2" data-bgfit="cover">
+                <img src="{{ asset('images/slider/BP-slide-02.jpg')}}" alt="slidebg2" data-bgfit="cover">
                 <!-- LAYERS -->
                 <!-- LAYER 01 -->
                 <div class="tp-caption customin customout"
@@ -60,7 +60,7 @@
             <!-- SLIDE 3 -->
             <li data-transition="fade" data-masterspeed="500" data-slotamount="1" data-delay="6000">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('images/slider/image_03.jpg')}}" alt="slidebg3" data-bgfit="cover">
+                <img src="{{ asset('images/slider/BP-slide-03.jpg')}}" alt="slidebg3" data-bgfit="cover">
                 <!-- LAYERS -->
                 <!-- LAYER 01 -->
                 <div class="tp-caption customin customout"

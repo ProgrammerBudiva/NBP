@@ -3,28 +3,10 @@
     @include('slider-collection')
 @endsection
 @section('content')
-    <div class="row row-4-4">
-        <div class="wpb_wrapper column colunm-1-4">
-            <h3 class="box-header">ТЕКСТ</h3>
-            <div class="wpb_text_column wpb_content_element ">
-                <div class="wpb_wrapper">
-                    <p>When it comes to choosing a renovator to transfor the interior of your home, quality and trust
-                        should never be compromised. Working with a professional is an absolute must. With over 15 years
-                        experience and a real focus on customer satisfaction, you can rely on us for your next
-                        renovation, driveway sett on home repair. Our installations are carried out by fully trained
-                        staff to the highest professional standards. Always on time and on budget.</p>
-
-                </div>
-            </div>
-
-            <div class="wpb_text_column wpb_content_element ">
-                <div class="wpb_wrapper">
-                    <p>Renovate has proven results for setting exceptional standards in cost control, planning,
-                        scheduling and project safety. We have experience that gives us a competitive advantage over
-                        others in our field.</p>
-
-                </div>
-            </div>
+    <div class="row full-width page-margin-top-section">
+        <div class="row">
+            <h2 class="box-header"><?=$charcs->description_title ?></h2>
+            <?=$charcs->description ?>
         </div>
     </div>
     {{--<div class="vc_row wpb_row vc_row-fluid  full-width">--}}
@@ -65,6 +47,33 @@
     </div>
     {{--</div>--}}
     {{--</div>--}}
+    <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
+        <div class="row">
+            <h2 class="box-header">ПРЕИМУЩЕСТВА</h2>
+
+            @foreach($advantages as $advantage)
+
+            <div class="timeline-item vertical-align-table margin-top-40">
+                <div class="timeline-left vertical-align-cell">
+                    <div class="label-container">
+                        <div class="animated-element animation-slideRight25">
+                            <span class="label-triangle"></span>
+                            <label>{{$loop->index+1}}</label>
+                        </div>
+                        <span class="timeline-circle animated-element animation-scale"></span>
+                    </div>
+                </div>
+                <div class="timeline-content vertical-align-cell">
+                    <h4 class="clearfix">
+                        <span class="timeline-title">{{$advantage->advantage_title}}</span>
+                    </h4>
+                    <p class="description t1">{{$advantage->advantage}}</p>
+                </div>
+            </div>
+
+            @endforeach
+        </div>
+    </div>
     <div class="row row-4-4">
         <div class="wpb_wrapper column colunm-1-4">
             <h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>
@@ -106,54 +115,6 @@
                         </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row gray full-width page-margin-top-section page-padding-top-section padding-bottom-66">
-        <div class="row">
-            <div class="tabs no-scroll clearfix">
-                <ul class="tabs-navigation clearfix">
-                    <li>
-                        <a href="#we-offer" title="We Offer" class="sl-small-bubble-check">
-                            We Offer
-                        </a>
-                        <span></span>
-                    </li>
-                    <li>
-                        <a href="#we-guarantee" title="We Guarantee" class="sl-small-shield">
-                            We Guarantee
-                        </a>
-                        <span></span>
-                    </li>
-                    <li>
-                        <a href="#we-provide" title="We Provide" class="sl-small-truck">
-                            We Provide
-                        </a>
-                        <span></span>
-                    </li>
-                </ul>
-                <div id="we-offer">
-                    <h4 class="box-header">OUR OFFER</h4>
-                    <p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos
-                        ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse
-                        gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque
-                        uter justo magna gravida.</p>
-                </div>
-                <div id="we-guarantee">
-                    <h4 class="box-header">OUR WARRANTY COVERS</h4>
-                    <p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos
-                        ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse
-                        gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque
-                        uter justo magna gravida.</p>
-
-                </div>
-                <div id="we-provide">
-                    <h4 class="box-header">OUR SERVICES</h4>
-                    <p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos
-                        ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse
-                        gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque
-                        uter justo magna gravida.</p>
                 </div>
             </div>
         </div>
