@@ -29,7 +29,7 @@
 <div class="row gray full-width page-padding-top padding-bottom-50">
     <div class="row row-2-2">
         <div class="column column-1-2">
-            <h6 class="box-header">О нас</h6>
+            <h6 class="box-header">О НАС</h6>
             <p class="description t1">Мы – единственные официальные представители международной компании Building Products of Canada Corporation в Украине.</p>
             {{--<ul class="social-icons yellow margin-top-26">--}}
             {{--<li>--}}
@@ -58,7 +58,7 @@
         {{--</ul>--}}
         {{--</div>--}}
         <div class="column column-1-2">
-            <h6 class="box-header">Categories</h6>
+            <h6 class="box-header">КОЛЛЕКЦИИ</h6>
             <ul class="taxonomies margin-top-30">
                 <li><a href="category.html" title="BUILD">BUILD</a></li>
                 <li><a href="category.html" title="DESIGN">DESIGN</a></li>

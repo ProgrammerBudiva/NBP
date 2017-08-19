@@ -10,27 +10,42 @@
         </div>
     </div>
     {{--<div class="vc_row wpb_row vc_row-fluid  full-width">--}}
-        {{--<div class="wpb_column vc_column_container vc_col-sm-12">--}}
-            <div class="wpb_wrapper">
-                <ul class=" test-slider">
-                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
-                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"  title="cfbcfbfcb">
-                    </a></li>
-                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg" >
-                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg"  title="cfbcfbfcb">
-                        </a></li>
-                    <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"  href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
-                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg"  title="fbfcbcbcb">
-                        </a></li>
-                    <li><a rel="gallery" data-lightbox="roadtrip" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
-                        <img class="test_gallery" data-lightbox="roadtrip"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg" title="cghbcfgc">
-                        </a></li>
-                    <li><a rel="gallery" data-lightbox="roadtrip" href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg" >
-                        <img class="test_gallery"  src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"  title="cfbcfbfcb">
-                        </a></li>
-                </ul>
-            </div>
-        {{--</div>--}}
+    {{--<div class="wpb_column vc_column_container vc_col-sm-12">--}}
+    <div class="wpb_wrapper">
+        <ul class=" test-slider">
+            <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
+                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                    <img class="test_gallery"
+                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
+                         title="cfbcfbfcb">
+                </a></li>
+            <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
+                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg">
+                    <img class="test_gallery"
+                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg"
+                         title="cfbcfbfcb">
+                </a></li>
+            <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"
+                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                    <img class="test_gallery"
+                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg"
+                         title="fbfcbcbcb">
+                </a></li>
+            <li><a rel="gallery" data-lightbox="roadtrip"
+                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                    <img class="test_gallery" data-lightbox="roadtrip"
+                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg"
+                         title="cghbcfgc">
+                </a></li>
+            <li><a rel="gallery" data-lightbox="roadtrip"
+                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                    <img class="test_gallery"
+                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
+                         title="cfbcfbfcb">
+                </a></li>
+        </ul>
+    </div>
+    {{--</div>--}}
     {{--</div>--}}
     <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
         <div class="row">
@@ -89,10 +104,12 @@
                         <tr>
                             <td>Упаковок на палете</td>
                             <td><?=$charcs->quantity_of_boxes?></td>
-                        </tr>                        <tr>
+                        </tr>
+                        <tr>
                             <td>Видимая часть (выступ)</td>
                             <td><?=$charcs->protrusion?></td>
-                        </tr>                        <tr>
+                        </tr>
+                        <tr>
                             <td>Устойчивость к ветру</td>
                             <td><?=$charcs->wind_min?></td>
                         </tr>
