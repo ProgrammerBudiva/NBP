@@ -203,28 +203,28 @@
                     <h4 class="box-header margin-top-40">ЛАМИНИРОВАННАЯ</h4>
                     <ul class="services-list clearfix page-margin-top">
                         <li class="page-margin-right">
-                            <a href="service_interior_renovation.html" title="Interior Renovation">
+                            <a href="{{URL('/collection/manoir')}}" title="MANOIR">
                                 <img src="images/samples/gallery/manoir-autumn-brown-su0222.png" alt="">
                             </a>
-                            <h4 class="box-header"><a href="service_interior_renovation.html"
-                                                      title="Interior Renovation">MANOIR</a></h4>
+                            <h4 class="box-header"><a href="{{URL('/collection/manoir')}}"
+                                                      title="MANOIR">MANOIR</a></h4>
                             <p>Ламинированная черепица с пожизненной гарантией. Уникальная структура гонта с эффектом
                                 тени. 7 цветов</p>
                         </li>
                         <li class="page-margin-right">
-                            <a href="service_design_build.html" title="Design and Build">
+                            <a href="{{URL('/collection/everest')}}" title="EVEREST">
                                 <img src="images/samples/gallery/everest-blue_09_e.jpg" alt="">
                             </a>
-                            <h4 class="box-header"><a href="service_design_build.html" title="Design and Build">EVEREST
+                            <h4 class="box-header"><a href="{{URL('/collection/everest')}}" title="EVEREST">EVEREST
                                     42</a></h4>
                             <p>Классическая ламинированная битумная черепица с пожизненной гарантией в форме трехмерных
                                 квадратов. 12 цветов</p>
                         </li>
                         <li>
-                            <a href="service_tiling_painting.html" title="Tiling and Painting">
+                            <a href="{{URL('/collection/mystique')}}" title="MYSTIQUE">
                                 <img src="images/samples/gallery/mystique_forest-green_11_E.jpg" alt="">
                             </a>
-                            <h4 class="box-header"><a href="service_tiling_painting.html" title="Tiling and Painting">MYSTIQUE
+                            <h4 class="box-header"><a href="{{URL('/collection/mystique')}}" title="MYSTIQUE">MYSTIQUE
                                     42</a></h4>
                             <p>Черепица с пожизненной гарантией в виде чередования квадратов и прямоугольников с
                                 увеличенными гонтами. 12 цветов</p>
@@ -234,20 +234,20 @@
 
                     <ul class="services-list clearfix page-margin-top">
                         <li class="page-margin-right">
-                            <a href="service_interior_renovation.html" title="Interior Renovation">
+                            <a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">
                                 <img src="images/samples/gallery/yukon-sb_weathered-rock_ew.jpg" alt="">
                             </a>
-                            <h4 class="box-header"><a href="service_interior_renovation.html"
-                                                      title="Interior Renovation">YUKON SB</a></h4>
+                            <h4 class="box-header"><a href="{{URL('/collection/yukon-sb')}}"
+                                                      title="YUKON SB">YUKON SB</a></h4>
                             <p>Серия однослойной черепицы с гарантией 30 лет. Гонты в форме прямоугольников. 12
                                 цветов</p>
                         </li>
                         <li>
-                            <a href="service_design_build.html" title="Design and Build">
+                            <a href="{{URL('/collection/dakota')}}" title="DAKOTA">
                                 <img src="images/samples/gallery/dakota-redwood-su0261.png" alt="">
                             </a>
-                            <h4 class="box-header"><a href="service_design_build.html"
-                                                      title="Design and Build">DAKOTA</a></h4>
+                            <h4 class="box-header"><a href="{{URL('/collection/dakota')}}"
+                                                      title="DAKOTA">DAKOTA</a></h4>
                             <p>Однослойная черепица выполнена в форме прямоугольников. Гарантия 25 лет. 15 цветов</p>
                         </li>
                     </ul>
@@ -347,7 +347,7 @@
                             </li>
                         </ul>
                         <div class="page-margin-top">
-                            <a class="more" href="services.html" title="OUR SERVICES">ПОДРОБНЕЕ О СОТРУДНИЧЕСТВЕ</a>
+                            <a class="more" href="{{URL('/partnership')}}" title="СОТРУДНИЧЕСТВО">ПОДРОБНЕЕ О СОТРУДНИЧЕСТВЕ</a>
                         </div>
                     </div>
                 </div>
@@ -375,7 +375,7 @@
                                 Прошло столько времени, но мое мнение не изменилось – она лучшая украинском рынке, а то
                                 гляди и на мировом!"</p>
                             <div class="author">Сидорчук Антон</div>
-                            {{--<div class="author-details">CEO OF NEW PORT COMPANY</div>--}}
+                            <div class="author-details">Срок эксплуатации 15 лет</div>
                         </li>
                         <li class="sl-small-conversation">
                             <div class="ornament"></div>
@@ -383,7 +383,7 @@
                                 – она лучший вариант для кровли! Красивая, надежная, практичная, и спустя десяток лет
                                 выглядит как новая. Думаю, она простоит дольше, чем в целом дом :)"</p>
                             <div class="author">Антоненко Марина</div>
-                            {{--<div class="author-details">CEO OF NEW PORT COMPANY</div>--}}
+                            <div class="author-details">Срок эксплуатации 11 лет</div>
                         </li>
                     </ul>
                     <a href="#" class="slider-control right template-arrow-left-1"></a>
