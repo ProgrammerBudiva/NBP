@@ -195,10 +195,11 @@
                     <p class="description ">Ассортимент мягкой черепицы BP настолько богат, что поможет
                         удовлетворить требования любого заказчика: практичного, изысканного и экономичного.</p>
                     <p class="description align-justify"> Ламинированная кровля превосходит по прочности обычную
-                        битумную
-                        черепицу, поскольку имеет в своей основе не один, а два несвязанных друг с другом слоя
+                        битумную черепицу, поскольку имеет в своей основе не один, а два несвязанных друг с другом слоя
                         армированного стекловолокна. Черепица этих коллекций производят эффект объема и пространственной
                         завершенности. </p>
+                    <p class="description align-justify"> Классическая однослойная битумная черепица серии DAKOTA и
+                        YUKON SB придаст красоту вашей кровле и подойдет под любой фасад. </p>
                     <h4 class="box-header margin-top-40">ЛАМИНИРОВАННАЯ</h4>
                     <ul class="services-list clearfix page-margin-top">
                         <li class="page-margin-right">
@@ -255,40 +256,66 @@
 
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header">ГАЛЕРЕЯ ОБЪЕКТОВ</h2>
+                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ BP</h2>
                 </div>
                 <div class="wpb_wrapper margin-top-67">
                     <ul class=" test-slider">
                         <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                               href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                               href="images/samples/slider/image-110.jpg">
                                 <img class="test_gallery"
-                                     src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                                     title="cfbcfbfcb">
-                            </a></li>
+                                     src="images/samples/slider/image-110.jpg"
+                                     title="Коллекция Mystique - цвет Slate Grey">
+                            </a>
+                        </li>
                         <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                               href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg">
+                               href="images/samples/slider/image-111.jpg">
                                 <img class="test_gallery"
-                                     src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg"
-                                     title="cfbcfbfcb">
-                            </a></li>
+                                     src="images/samples/slider/image-111.jpg"
+                                     title="Коллекция Mystique - цвет Antique Slate">
+                            </a>
+                        </li>
                         <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"
-                               href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                               href="images/samples/slider/image-112.jpg">
                                 <img class="test_gallery"
-                                     src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg"
-                                     title="fbfcbcbcb">
-                            </a></li>
+                                     src="images/samples/slider/image-112.jpg"
+                                     title="Коллекция Everest - цвет Drift Wood">
+                            </a>
+                        </li>
                         <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                               href="images/samples/slider/image-113.jpg">
                                 <img class="test_gallery" data-lightbox="roadtrip"
-                                     src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg"
-                                     title="cghbcfgc">
-                            </a></li>
+                                     src="images/samples/slider/image-113.jpg"
+                                     title="Коллекция Mystique - цвет Slate Grey">
+                            </a>
+                        </li>
                         <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                               href="images/samples/slider/image-114.jpg">
                                 <img class="test_gallery"
-                                     src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                                     title="cfbcfbfcb">
-                            </a></li>
+                                     src="images/samples/slider/image-114.jpg"
+                                     title="Коллекция Everest - цвет Weathered Rock">
+                            </a>
+                        </li>
+                        <li><a rel="gallery" data-lightbox="roadtrip"
+                               href="images/samples/slider/image-115.jpg">
+                                <img class="test_gallery"
+                                     src="images/samples/slider/image-115.jpg"
+                                     title="Коллекция Everest - цвет Twilight Grey">
+                            </a>
+                        </li>
+                        <li><a rel="gallery" data-lightbox="roadtrip"
+                               href="images/samples/slider/image-116.jpg">
+                                <img class="test_gallery"
+                                     src="images/samples/slider/image-116.jpg"
+                                     title="Коллекция Everest - цвет Autumn Brown">
+                            </a>
+                        </li>
+                        <li><a rel="gallery" data-lightbox="roadtrip"
+                               href="images/samples/slider/image-117.jpg">
+                                <img class="test_gallery"
+                                     src="images/samples/slider/image-117.jpg"
+                                     title="Коллекция Dakota - цвет Tone Brown">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -299,7 +326,7 @@
                         <img src="images/samples/home/image-107.jpg" alt="" class="radius">
                     </div>
                     <div class="column column-1-2">
-                        <h2 class="box-header align-left">СОТРУДНИЧАТЬ С НАМИ ВАМ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
+                        <h2 class="box-header align-left">СОТРУДНИЧАТЬ С НАМИ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
                         <ul class="list margin-top-20">
                             <li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>
                                 <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
@@ -341,21 +368,22 @@
                         </li>
                         <li class="sl-small-conversation">
                             <div class="ornament"></div>
-                            <p>"We would like to thank Renovate Company for an outstanding effort on this
-                                recently completed project located in the Moscow. The project involved a very
-                                aggressive schedule and it was completed on time. We would certainly like to
-                                use their professional services again."</p>
-                            <div class="author">MITCHEL SMITH</div>
-                            <div class="author-details">CEO OF NEW PORT COMPANY</div>
+                            <p>"Давно не видел на рынке Украины эту черепицу и очень рад, что наконец-то возобновились
+                                её поставки. Ведь на загородный дом я хочу такую же, как мне служит верой и правдой уже
+                                15 лет. В то время, когда я перекрывал коттедж, на украинском рынке не так много было
+                                производителей битумной черепицы, и выбрал на тот момент лучший вариант среди имеющихся.
+                                Прошло столько времени, но мое мнение не изменилось – она лучшая украинском рынке, а то
+                                гляди и на мировом!"</p>
+                            <div class="author">Сидорчук Антон</div>
+                            {{--<div class="author-details">CEO OF NEW PORT COMPANY</div>--}}
                         </li>
                         <li class="sl-small-conversation">
                             <div class="ornament"></div>
-                            <p>"We would like to thank Renovate Company for an outstanding effort on this
-                                recently completed project located in the Moscow. The project involved a very
-                                aggressive schedule and it was completed on time. We would certainly like to
-                                use their professional services again."</p>
-                            <div class="author">MITCHEL SMITH</div>
-                            <div class="author-details">CEO OF NEW PORT COMPANY</div>
+                            <p>"Любите ли вы свой дом, как люблю я свой? Если да, то стоит выбрать битумную черепицу BP
+                                – она лучший вариант для кровли! Красивая, надежная, практичная, и спустя десяток лет
+                                выглядит как новая. Думаю, она простоит дольше, чем в целом дом :)"</p>
+                            <div class="author">Антоненко Марина</div>
+                            {{--<div class="author-details">CEO OF NEW PORT COMPANY</div>--}}
                         </li>
                     </ul>
                     <a href="#" class="slider-control right template-arrow-left-1"></a>

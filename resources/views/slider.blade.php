@@ -50,8 +50,8 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box">
-                        <h2>КАЧЕСТВО, ЗА КОТОРОЕ МОЖНО ПОРУЧИТЬСЯ</h2>
-                        <p>Международная гарантия от 25 лет до пожизненной.</p>
+                        <h2>КАЧЕСТВО, ЗА КОТОРОЕ РУЧАЕМСЯ</h2>
+                        <p>Международная гарантия производителя от 25 лет до пожизненной.</p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
                 </div>
@@ -78,7 +78,7 @@
 
                     <div class="slider-content-box">
                         <h2>ТЕХНОЛОГИЯ WEATHER-TITE ЗАЛОГ ЗАЩИТЫ</h2>
-                        <p>Запатентованная защита от протечек и ураганного ветра до 220 км/ч.</p>
+                        <p>Запатентованная защита от выгорания, протечек и ураганного ветра до 220 км/ч.</p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
                 </div>

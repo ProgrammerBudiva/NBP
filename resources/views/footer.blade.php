@@ -11,8 +11,8 @@
         <div class="column column-1-3">
             <ul class="contact-details-list">
                 <li class="sl-small-location">
-                    <p>272 Linden Avenue<br>
-                        Winter Park, FL 32789</p>
+                    <p>г. Киев <br>
+                        ул. Стройиндустрии, 7</p>
                 </li>
             </ul>
         </div>
