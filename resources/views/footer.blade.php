@@ -60,11 +60,11 @@
         <div class="column column-1-2">
             <h6 class="box-header">КОЛЛЕКЦИИ</h6>
             <ul class="taxonomies margin-top-30">
-                <li><a href="category.html" title="BUILD">BUILD</a></li>
-                <li><a href="category.html" title="DESIGN">DESIGN</a></li>
-                <li><a href="category.html" title="FLOORING">FLOORING</a></li>
-                <li><a href="category.html" title="PAINTING">PAINTING</a></li>
-                <li><a href="category.html" title="PAVERS">PAVERS</a></li>
+                <li><a href="{{URL('/collection/manoir')}}" title="MANOIR">MANOIR</a></li>
+                <li><a href="{{URL('/collection/everest')}}" title="EVEREST 42"> EVEREST 42</a></li>
+                <li><a href="{{URL('/collection/mystique')}}" title="MYSTIQUE 42">MYSTIQUE 42</a></li>
+                <li><a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">YUKON SB</a></li>
+                <li><a href="{{URL('/collection/dakota')}}" title="DAKOTA">DAKOTA</a></li>
             </ul>
         </div>
         {{--<div class="column column-1-4">--}}

@@ -9,7 +9,7 @@
                 <img src="https://bpcan.com/wp-content/uploads/2017/03/5-yukonsbautumnbrown13ew-v2.png" alt="slidebg1" data-bgfit="cover">
                 <!-- LAYERS -->
                 <!-- LAYER 01 -->
-                <div class="tp-caption customin customout"
+                <div class="tp-caption customin customout slider-custom-caption"
                      data-x="0"
                      data-y="140"
 
@@ -22,11 +22,10 @@
                      data-endspeed="500"
                      data-endeasing="easeInOutExpo">
 
-                    {{--<div class="slider-content-box">--}}
-                    {{--<h2><a href="service_interior_renovation.html" title="INTERIOR RENOVATION">HOME IMPROVEMENTS AND REMODELING</a></h2>--}}
-                    {{--<p>With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation, remodeling or driveway sett.</p>--}}
-                    {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
-                    {{--</div>--}}
+                    <div class="slider-content-box no-padding">
+                    <h2>СОВЕРШЕННОЕ КАЧЕСТВО</h2>
+
+                   </div>
                 </div>
             </li>
 
@@ -36,7 +35,7 @@
                 <img src="{{ asset('images/slider/BP-slide-02.jpg')}}" alt="slidebg2" data-bgfit="cover">
                 <!-- LAYERS -->
                 <!-- LAYER 01 -->
-                <div class="tp-caption customin customout"
+                <div class="tp-caption customin customout slider-custom-caption"
                      data-x="0"
                      data-y="140"
 
@@ -49,11 +48,9 @@
                      data-endspeed="500"
                      data-endeasing="easeInOutExpo">
 
-                    {{--<div class="slider-content-box">--}}
-                    {{--<h2><a href="service_tiling_painting.html" title="TILING AND PAINTING">PROFESSIONAL TILING AND PAINTING SERVICES</a></h2>--}}
-                    {{--<p>We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</p>--}}
-                    {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
-                    {{--</div>--}}
+                    <div class="slider-content-box no-padding">
+                    <h2>ПРЕВОСХОДСТВО И ГЛУБИНА ЦВЕТА</h2>
+                    </div>
                 </div>
             </li>
 
@@ -63,7 +60,7 @@
                 <img src="{{ asset('images/slider/BP-slide-03.jpg')}}" alt="slidebg3" data-bgfit="cover">
                 <!-- LAYERS -->
                 <!-- LAYER 01 -->
-                <div class="tp-caption customin customout"
+                <div class="tp-caption customin customout slider-custom-caption"
                      data-x="0"
                      data-y="140"
 
@@ -76,11 +73,9 @@
                      data-endspeed="500"
                      data-endeasing="easeInOutExpo">
 
-                    {{--<div class="slider-content-box">--}}
-                    {{--<h2><a href="service_household_repairs.html" title="HOUSEHOLD REPAIRS">YOUR MOST AFFORDABLE CONTRACTORS</a></h2>--}}
-                    {{--<p>We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</p>--}}
-                    {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
-                    {{--</div>--}}
+                    <div class="slider-content-box no-padding">
+                    <h2>УНИКАЛЬНОСТЬ И ИЗЫСКАННОСТЬ ФОРМ</h2>
+                   </div>
                 </div>
             </li>
         </ul>

@@ -27,7 +27,7 @@
                 <span class="line"></span>
                 <span class="line"></span>
             </a>
-            <div class="menu-container clearfix vertical-align-cell">
+            <div class="menu-container clearfix vertical-align-cell" style="    width: 70%;">
                 <nav>
                     <ul class="sf-menu">
                         <li class="logo_mob"><a href="/" title="">
@@ -49,27 +49,27 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="MYSTIQUE 42">
+                            <a href="{{URL('/collection/mystique')}}" title="MYSTIQUE 42">
                                 MYSTIQUE 42
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="YUKON SB">
+                            <a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">
                                 YUKON SB
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="DAKOTA">
+                            <a href="{{URL('/collection/dakota')}}" title="DAKOTA">
                                 DAKOTA
                             </a>
                         </li>
                         <li class="left-flyout">
-                            <a href="#" title="ГАЛЕРЕЯ">
-                                ГАЛЕРЕЯ
+                            <a href="#" title="Сотрудничество">
+                                СОТРУДНИЧЕСТВО
                             </a>
                         </li>
                         <li class="left-flyout">
-                            <a href="#" title="КОНТАКТЫ">
+                            <a href="{{URL('/contacts')}}" title="КОНТАКТЫ">
                                 КОНТАКТЫ
                             </a>
                         </li>
@@ -79,160 +79,45 @@
                     <div class="mobile-menu-divider"></div>
                     <nav>
                         <ul class="mobile-menu">
-                            <li class="selected">
-                                <a href="index.html" title="Home">
-                                    HOME
+                            <li>
+                                <a href="/" title="ГЛАВНАЯ">
+                                    ГЛАВНАЯ
                                 </a>
                             </li>
                             <li>
-                                <a href="services.html" title="Services">
-                                    SERVICES
+                                <a href="{{URL('/collection/manoir')}}" title="MANOIR">
+                                    MANOIR
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="service_interior_renovation.html" title="Interior Renovation">
-                                            Interior Renovation
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_design_build.html" title="Design and Build">
-                                            Design and Build
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_tiling_painting.html" title="Design and Build">
-                                            Tiling and Painting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_paver_walkways.html" title="Paver Walkways">
-                                            Paver Walkways
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_household_repairs.html" title="Household Repairs">
-                                            Household Repairs
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_solar_systems.html" title="Solar Systems">
-                                            Solar Systems
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
-                                <a href="projects.html" title="Projects">
-                                    PROJECTS
+                                <a href="{{URL('/collection/everest')}}" title="EVEREST 42">
+                                    EVEREST 42
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="project_interior_renovation.html" title="Interior Renovation">
-                                            Interior Renovation
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project_garden_renovation.html" title="Garden Renovation">
-                                            Garden Renovation
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project_painting.html" title="Painting">
-                                            Painting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project_design_build.html" title="Design and Build">
-                                            Design and Build
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project_solar_systems.html" title="Solar Systems">
-                                            Solar Systems
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
-                                <a href="about.html" title="Pages">
-                                    PAGES
+                                <a href="{{URL('/collection/mystique')}}" title="MYSTIQUE 42">
+                                    MYSTIQUE 42
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="about.html" title="About">
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="404.html" title="404 Not Found">
-                                            404 Not Found
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service_interior_renovation.html" title="Single Service">
-                                            Single Service
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project_interior_renovation.html" title="Single Project">
-                                            Single Project
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
-                                <a href="blog.html" title="Blog">
-                                    BLOG
+                                <a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">
+                                    YUKON SB
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="blog.html" title="Blog">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog_left_sidebar.html" title="Blog">
-                                            Blog Left Sidebar
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog_2_columns.html" title="Blog 2 Columns">
-                                            Blog 2 Columns
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="post.html" title="Single Post">
-                                            Single Post
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="search.html?s=ipsum" title="Search Template">
-                                            Search Template
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
-                                <a href="cost_calculator.html" title="Authors">
-                                    COST CALCULATOR
+                                <a href="{{URL('/collection/dakota')}}" title="DAKOTA">
+                                    DAKOTA
                                 </a>
                             </li>
                             <li class="left-flyout">
-                                <a href="contact.html" title="Contact">
-                                    CONTACT
+                                <a href="#" title="Сотрудничество">
+                                    СОТРУДНИЧЕСТВО
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="contact.html" title="Contact Style 1">
-                                            Contact Style 1
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact_2.html" title="Contact Style 2">
-                                            Contact Style 2
-                                        </a>
-                                    </li>
-                                </ul>
+                            </li>
+                            <li class="left-flyout">
+                                <a href="{{URL('/contacts')}}" title="КОНТАКТЫ">
+                                    КОНТАКТЫ
+                                </a>
                             </li>
                         </ul>
                     </nav>

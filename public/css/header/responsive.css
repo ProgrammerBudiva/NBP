@@ -145,6 +145,9 @@
 	{
 		margin-left: 25px;
 	}
+	.no-padding {
+		padding: 10px 27px 10px;
+	}
 	/* --- page layout --- */
 	.column-1-2
 	{
