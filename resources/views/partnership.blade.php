@@ -1,7 +1,39 @@
 @extends('layouts.index')
 
 @section('content')
+    <!-- Slider Revolution -->
+    <div class="revolution-slider-container">
+        <div class="revolution-slider-collection">
+            <ul style="display: none;">
+                <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-masterspeed="500" data-slotamount="1" data-delay="6000">
+                        <!-- MAIN IMAGE -->
+                        <img src="/images/slider/everest1.jpg" alt="" data-bgfit="cover">
+                        <!-- LAYERS -->
+                        <!-- LAYER 01 -->
+                        <div class="tp-caption customin customout slider-custom-caption"
+                             data-x="0"
+                             data-y="140"
 
+                             data-customin="x:40;y:0;"
+                             data-start="500"
+                             data-speed="1200"
+                             data-easing="easeInOutExpo"
+
+                             data-customout="x:0;y:0;"
+                             data-endspeed="500"
+                             data-endeasing="easeInOutExpo">
+
+                            <div class="slider-content-box no-padding">
+                                <h2 class="no-border">БУДЬТЕ ЭКСКЛЮЗИВНЫ И ЗАРАБАТЫВАЙТЕ НА ЭТОМ</h2>
+
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <!--/-->
     <div class="theme-page">
         <div class="clearfix">
             <div class="row page-margin-top-section padding-bottom-66">

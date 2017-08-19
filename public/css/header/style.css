@@ -3140,4 +3140,5 @@ body.lock-position
 
 .no-padding {
 	padding-bottom: 0!important;
+	background: none;
 }
