@@ -20,3 +20,4 @@ Route::get('/', function () {
 //})->name('manoir');
 
 Route::get('/collection/{keyword}', 'CollectionController@index');
+Route::get('/contacts', 'ContactsController@index');
