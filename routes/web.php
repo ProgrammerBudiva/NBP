@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 Route::get('/collection/{keyword}', 'CollectionController@index');
 Route::get('/contacts', 'ContactsController@index');
+Route::get('/partnership', 'PartnershipController@index');

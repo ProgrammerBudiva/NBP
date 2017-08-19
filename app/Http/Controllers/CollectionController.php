@@ -11,18 +11,24 @@ use App\Services\SeoUrlService;
 use App\Models\CollectionAdvantages;
 use App\Services\CollectionAdvantagesService;
 
+use App\Models\CollectionImages;
+use App\Services\CollectionImagesService;
+
 class CollectionController extends Controller
 {
     public $collectionService;
     public $seoUrlService;
     public $collectionAdvantagesService;
+    public $collectionImagesService;
 
     public function __construct(CollectionService $collectionService, SeoUrlService $seoUrlService,
-                                CollectionAdvantagesService $collectionAdvantagesService)
+                                CollectionAdvantagesService $collectionAdvantagesService,
+                                CollectionImagesService $collectionImagesService)
     {
         $this->collectionService = $collectionService;
         $this->seoUrlService = $seoUrlService;
         $this->collectionAdvantagesService = $collectionAdvantagesService;
+        $this->collectionImagesService = $collectionImagesService;
     }
 
     public function index($keyword){
@@ -30,7 +36,8 @@ class CollectionController extends Controller
 
         $advantages = $this->collectionAdvantagesService->getCollectionAdvantages($id);
         $arr = $this->collectionService->getCollection($id);
-//        dd($arr);/
-        return view('collections.collection', ['charcs' => $arr, 'advantages' => $advantages]);
+        $images = $this->collectionImagesService->getCollectionImages($id);
+
+        return view('collections.collection', ['charcs' => $arr, 'advantages' => $advantages, 'images' => $images]);
     }
 }

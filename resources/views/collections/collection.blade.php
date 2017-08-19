@@ -5,7 +5,7 @@
 @section('content')
     <div class="row full-width page-margin-top-section">
         <div class="row">
-            <h2 class="box-header"><?=$charcs->description_title ?></h2>
+            <h2 class="box-header"><?=$charcs->name ?></h2>
             <div class="margin-top-43">
                 <?=$charcs->description ?>
             </div>
@@ -46,7 +46,11 @@
                             </tr>
                             <tr>
                                 <td>Устойчивость к ветру</td>
-                                <td><?=$charcs->wind_min?></td>
+                                <td>до <?=$charcs->wind_max?></td>
+                            </tr>
+                            <tr>
+                                <td>Допустимый угол наклона кровли</td>
+                                <td>до <?=$charcs->angle?></td>
                             </tr>
                             </tbody>
                         </table>
@@ -63,52 +67,22 @@
     </div>
     <div class="wpb_wrapper margin-top-67">
         <ul class=" test-slider">
+            @foreach($images as $image)
             <li>
                 <a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
+                   href="{{$image->image_url}}">
                     <img class="test_gallery"
-                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                         title="cfbcfbfcb">
+                         src="{{$image->image_url}}"
+                         title="{{$image->image_alt}}">
                 </a>
             </li>
-            <li>
-                <a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg">
-                    <img class="test_gallery"
-                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_04-480x320.jpg"
-                         title="cfbcfbfcb">
-                </a>
-            </li>
-            <li>
-                <a class="gallery" rel="gallery" data-lightbox="roadtrip"
-                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
-                    <img class="test_gallery"
-                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_05-480x320.jpg"
-                         title="fbfcbcbcb">
-                </a>
-            </li>
-            <li>
-                <a rel="gallery" data-lightbox="roadtrip"
-                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
-                    <img class="test_gallery" data-lightbox="roadtrip"
-                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_06-480x320.jpg"
-                         title="cghbcfgc">
-                </a>
-            </li>
-            <li>
-                <a rel="gallery" data-lightbox="roadtrip"
-                   href="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg">
-                    <img class="test_gallery"
-                         src="http://quanticalabs.com/wp_themes/renovate/files/2015/05/image_07-480x320.jpg"
-                         title="cfbcfbfcb">
-                </a>
-            </li>
+            @endforeach
         </ul>
     </div>
 
     <div class="row page-margin-top-section full-width padding-bottom-66">
         <div class="row">
-            <h2 class="box-header padding-top-bottom-30">ДОСТОИНСТВА КОЛЛЕКЦИИ MANOIR</h2>
+            <h2 class="box-header padding-top-bottom-30">ДОСТОИНСТВА КОЛЛЕКЦИИ {{$charcs->name}}</h2>
             @foreach($advantages as $advantage)
 
                 <div class="timeline-item vertical-align-table">

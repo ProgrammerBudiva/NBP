@@ -2953,6 +2953,10 @@ body.lock-position
 	margin-top: 43px;
 }
 
-/*.width-3-4{*/
-	/*width: 870px;*/
-/*}*/
+.no-border {
+	border-bottom: none!important;
+}
+
+.no-padding {
+	padding-bottom: 0!important;
+}

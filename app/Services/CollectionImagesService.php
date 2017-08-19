@@ -9,6 +9,6 @@ class CollectionImagesService
     public $collectionService;
 
     public function getCollectionImages($id){
-        return CollectionImages::find($id);
+        return CollectionImages::where('collection_id', $id)->get();
     }
 }

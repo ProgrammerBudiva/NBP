@@ -23,7 +23,7 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box no-padding">
-                    <h2>СОВЕРШЕННОЕ КАЧЕСТВО</h2>
+                    <h2 class="no-border">СОВЕРШЕННОЕ КАЧЕСТВО</h2>
 
                    </div>
                 </div>
@@ -49,7 +49,7 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box no-padding">
-                    <h2>ПРЕВОСХОДСТВО И ГЛУБИНА ЦВЕТА</h2>
+                    <h2 class="no-border">ПРЕВОСХОДСТВО И ГЛУБИНА ЦВЕТА</h2>
                     </div>
                 </div>
             </li>
@@ -74,7 +74,7 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box no-padding">
-                    <h2>УНИКАЛЬНОСТЬ И ИЗЫСКАННОСТЬ ФОРМ</h2>
+                    <h2 class="no-border">УНИКАЛЬНОСТЬ И ИЗЫСКАННОСТЬ ФОРМ</h2>
                    </div>
                 </div>
             </li>
