@@ -107,31 +107,32 @@
         </div>
     </div>
 
-    <div class="theme-page padding-bottom-66">
-        <div class="row page-margin-top">
-            <h2 class="box-header padding-bottom-61">ЗАКАЗАТЬ НА МОЙ ОБЪЕКТ</h2>
+    <div class="row full-width page-margin-top-section padding-bottom-66">
+        <div class="row">
+            <h2 class="box-header padding-bottom-61">У МЕНЯ ОСТАЛИСЬ ВОПРОСЫ</h2>
             <form class="contact-form" id="contact-form" method="post"
                   action="contact_form/contact_form.php">
                 <div class="row">
                     <fieldset class="column column-1-2">
-                        <input class="text-input" name="name" type="text" value="Имя *" placeholder="Имя *">
-                        <input class="text-input" name="phone" type="text" value="Номер телефона *"
-                               placeholder="Номер телефона *">
+                        <input class="text-input" name="name" type="text"  placeholder="Имя ">
+                        <input class="text-input" name="phone" type="text"
+                               placeholder="Номер телефона ">
                         <input class="text-input" name="email" type="text" value="Email *"
                                placeholder="Email *">
                     </fieldset>
                     <fieldset class="column column-1-2">
                         <textarea name="message"
-                                  placeholder="Комментарии к моему заказу">Комментарии к моему заказу</textarea>
+                                  placeholder="Напишите ваш вопрос"></textarea>
                     </fieldset>
                 </div>
                 <div class="row margin-top-30">
-                    <div class="column column-1-2">
-                        <p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни (пн.-пт с 9-18).</p>
-                    </div>
+                    {{--<div class="column column-1-2">--}}
+                    {{--<p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни--}}
+                    {{--(пн.-пт с 9-18).</p>--}}
+                    {{--</div>--}}
                     <div class="column column-1-2 align-left">
                         <input type="hidden" name="action" value="contact_form"/>
-                        <input type="submit" name="submit" value="ПОДТВЕРЖДАЮ МОЙ ЗАКАЗ" class="more active">
+                        <input type="submit" name="submit" value="ЗАДАТЬ ВОПРОС" class="more active">
                     </div>
                 </div>
             </form>

@@ -23,8 +23,8 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box">
-                        <h2>БИТУМНАЯ ЧЕРЕПИЦА<br> ПРЕМИУМ-КЛАССА BP ИЗ КАНАДЫ</h2>
-                        <p>Разумный выбор по соотношению «цена-качество» и окупаемости вложенных средств!</p>
+                        <h2>БИТУМНАЯ ЧЕРЕПИЦА<br> ПРЕМИУМ-КЛАССА NBP ИЗ КАНАДЫ</h2>
+                        <p>Высокое качество, надежность и оригинальный дизайн </p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
                 </div>
@@ -51,7 +51,7 @@
 
                     <div class="slider-content-box">
                         <h2>КАЧЕСТВО, ЗА КОТОРОЕ РУЧАЕМСЯ</h2>
-                        <p>Международная гарантия производителя от 25 лет до пожизненной.</p>
+                        <p>Ограниченная пожизненная гарантия от производителя</p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
                 </div>
@@ -77,8 +77,8 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box">
-                        <h2>ТЕХНОЛОГИЯ WEATHER-TITE ЗАЛОГ ЗАЩИТЫ</h2>
-                        <p>Запатентованная защита от выгорания, протечек и ураганного ветра до 220 км/ч.</p>
+                        <h2>ЗАПАТЕНТОВАННАЯ ТЕХНОЛОГИЯ WEATHER-TITE</h2>
+                        <p>Защита от выгорания, протечек и ураганного ветра до 220 км/ч.</p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
                 </div>

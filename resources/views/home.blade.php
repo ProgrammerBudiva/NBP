@@ -8,18 +8,18 @@
         <div class="clearfix">
             <div class="row full-width page-margin-top-section">
                 <div class="row">
-                    <h2 class="box-header">ЧЕРЕПИЦА BP - КОМФОРТ И НАДЕЖНОСТЬ ВАШЕГО ДОМА</h2>
-                    <p class="description align-justify">На мировом рынке битумная черепица ВР на сегодняшний день –
-                        один из лучших материалов для кровли. Канадская мягкая кровля BP отлично выполняет свои функции
-                        в любом климате, на каждом доме независимо от типа крыши. Битумная канадская черепица ВР – это
+                    <h2 class="box-header">ЧЕРЕПИЦА NBP - КОМФОРТ И НАДЕЖНОСТЬ ВАШЕГО ДОМА</h2>
+                    <p class="description align-justify">На мировом рынке битумная черепица NВР на сегодняшний день –
+                        один из лучших материалов для кровли. Канадская мягкая кровля NBP отлично выполняет свои функции
+                        в любом климате, на каждом доме независимо от типа крыши. Битумная канадская черепица NВР – это
                         высокое качество, оригинальный дизайн, широкая цветовая гамма и надежность. Для архитекторов и
                         дизайнеров это находка, а для конечного потребителя –защита на многие десятилетия, солидность и
                         красота!</p>
-                    <p class="description align-justify">Гибкая черепица BP имеет длинную историю и отличается
+                    <p class="description align-justify">Гибкая черепица NBP имеет длинную историю и отличается
                         стабильным качеством.
                         Компания-производитель Building Products of Canada Corporation одна из первых в мире начала
                         производство гибкой черепицы в 1905 году и на данный момент занимает лидирующее положение по
-                        качеству выпускаемой продукции. Каждый год продукцию компании BP выбирают сотни тысяч
+                        качеству выпускаемой продукции. Каждый год продукцию компании NBP выбирают сотни тысяч
                         человек!</p>
                     <img src="images/samples/home/image-101.jpg" class="float">
                     <p class="description align-justify">Все компоненты для изготовления кровли производятся в Канаде.
@@ -27,9 +27,9 @@
                         специалистами и соответствует местным жестким стандартам качества, что обеспечивает высокое
                         качество конечного продукта.<br></p>
 
-                    <h4 class="margin-top-20">Состав битумной черепицы BP:</h4>
+                    <h4 class="margin-top-20">Состав битумной черепицы NBP:</h4>
                     <p class="description align-justify">
-                        • Основой для мягкой кровли BP служит органическая целлюлоза (войлок) или стеклохолст
+                        • Основой для мягкой кровли NBP служит органическая целлюлоза (войлок) или стеклохолст
                         (производство Johns Manville).<br>
                         • Основа армирует слои окисленного битума, содержащего полимерные добавки для улучшения
                         свойств и обеспечения прочности, пластичности и стойкости к деформациям.<br>
@@ -43,7 +43,7 @@
 
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ BP</h2>
+                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ NBP</h2>
                     <div class="timeline-item vertical-align-table ">
                         <div class="timeline-left vertical-align-cell">
                             <div class="label-container">
@@ -192,7 +192,7 @@
             <div class="row full-width page-padding-top-section">
                 <div class="row">
                     <h2 class="box-header">КОЛЛЕКЦИИ</h2>
-                    <p class="description ">Ассортимент мягкой черепицы BP настолько богат, что поможет
+                    <p class="description ">Ассортимент мягкой черепицы NBP настолько богат, что поможет
                         удовлетворить требования любого заказчика: практичного, изысканного и экономичного.</p>
                     <p class="description align-justify"> Ламинированная кровля превосходит по прочности обычную
                         битумную черепицу, поскольку имеет в своей основе не один, а два несвязанных друг с другом слоя
@@ -256,7 +256,7 @@
 
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ BP</h2>
+                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ NBP</h2>
                 </div>
                 <div class="wpb_wrapper margin-top-67">
                     <ul class=" test-slider">
@@ -320,38 +320,38 @@
                 </div>
             </div>
 
-            <div class="row page-margin-top-section padding-bottom-66">
-                <div class="row page-margin-top">
-                    <div class="column column-1-2 align-center re-preload">
-                        <img src="images/samples/home/image-107.jpg" alt="" class="radius">
-                    </div>
-                    <div class="column column-1-2">
-                        <h2 class="box-header align-left">СОТРУДНИЧАТЬ С НАМИ БУДЕТ УДОБНО И ВЫГОДНО:</h2>
-                        <ul class="list margin-top-20">
-                            <li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>
-                                <p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш
-                                    вопрос не останется без ответа!</p>
-                            </li>
-                            <li class="template-bullet"><b>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</b>
-                                <p>Сотрудничаем со всеми формами собственности.</p>
-                            </li>
-                            <li class="template-bullet"><b>УДОБНАЯ ОПЛАТА</b>
-                                <p>Банковской картой или безнальным платежом.</p>
-                            </li>
-                            <li class="template-bullet"><b>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</b>
-                                <p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>
-                            </li>
-                            <li class="template-bullet"><b>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</b>
-                                <p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене -
-                                    получайте удовольствие от такого сервиса.</p>
-                            </li>
-                        </ul>
-                        <div class="page-margin-top">
-                            <a class="more" href="{{URL('/partnership')}}" title="СОТРУДНИЧЕСТВО">ПОДРОБНЕЕ О СОТРУДНИЧЕСТВЕ</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{--<div class="row page-margin-top-section padding-bottom-66">--}}
+                {{--<div class="row page-margin-top">--}}
+                    {{--<div class="column column-1-2 align-center re-preload">--}}
+                        {{--<img src="images/samples/home/image-107.jpg" alt="" class="radius">--}}
+                    {{--</div>--}}
+                    {{--<div class="column column-1-2">--}}
+                        {{--<h2 class="box-header align-left">СОТРУДНИЧАТЬ С НАМИ БУДЕТ УДОБНО И ВЫГОДНО:</h2>--}}
+                        {{--<ul class="list margin-top-20">--}}
+                            {{--<li class="template-bullet"><b>КВАЛИФИЦИРОВАННАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И СЕРВИС</b>--}}
+                                {{--<p>Грамотная консультация по подбору, монтажу и эксплуатации материалов. Ни один Ваш--}}
+                                    {{--вопрос не останется без ответа!</p>--}}
+                            {{--</li>--}}
+                            {{--<li class="template-bullet"><b>ЮРИДИЧЕСКИЕ И ФИЗИЧЕСКИЕ ЛИЦА</b>--}}
+                                {{--<p>Сотрудничаем со всеми формами собственности.</p>--}}
+                            {{--</li>--}}
+                            {{--<li class="template-bullet"><b>УДОБНАЯ ОПЛАТА</b>--}}
+                                {{--<p>Банковской картой или безнальным платежом.</p>--}}
+                            {{--</li>--}}
+                            {{--<li class="template-bullet"><b>ВСЕГДА ПОД РУКОЙ НЕОБХОДИМАЯ ДОКУМЕНТАЦИЯ И СЕРТИФИКАТЫ</b>--}}
+                                {{--<p>Отлаженный документооборот и учет - Ваша отчетность в порядке.</p>--}}
+                            {{--</li>--}}
+                            {{--<li class="template-bullet"><b>СВОЕВРЕМЕННАЯ ДОСТАВКА НУЖНОГО КОЛИЧЕСТВА</b>--}}
+                                {{--<p>Быстрая доставка материалов, в срок, без происшествий и по минимальной цене ---}}
+                                    {{--получайте удовольствие от такого сервиса.</p>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
+                        {{--<div class="page-margin-top">--}}
+                            {{--<a class="more" href="{{URL('/partnership')}}" title="СОТРУДНИЧЕСТВО">ПОДРОБНЕЕ О СОТРУДНИЧЕСТВЕ</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
             <div class="row full-width padding-top-70 padding-bottom-66 parallax parallax-1">
                 <div class="row testimonials-container">
@@ -379,7 +379,7 @@
                         </li>
                         <li class="sl-small-conversation">
                             <div class="ornament"></div>
-                            <p>"Любите ли вы свой дом, как люблю я свой? Если да, то стоит выбрать битумную черепицу BP
+                            <p>"Любите ли вы свой дом, как люблю я свой? Если да, то стоит выбрать битумную черепицу NBP
                                 – она лучший вариант для кровли! Красивая, надежная, практичная, и спустя десяток лет
                                 выглядит как новая. Думаю, она простоит дольше, чем в целом дом :)"</p>
                             <div class="author">Антоненко Марина</div>
