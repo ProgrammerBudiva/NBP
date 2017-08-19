@@ -823,6 +823,18 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 {
 	width: 870px;
 }
+
+.column-140 p
+{
+	width: 90px;
+	color: white;
+}
+.column-60 p
+{
+	width: 60px;
+	color: white;
+}
+
 .column-3-4 .column-1-2
 {
 	width: 420px;
@@ -867,6 +879,176 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .services-list a>.re-preloader
 {
 	height: 260px;
+}
+
+
+/* --- services --- */
+.services-list li,
+.team-box
+{
+	position: relative;
+	float: left;
+	width: 390px;
+	background: #FFF;
+	padding-bottom: 26px;
+	overflow: hidden;
+}
+div.team-box
+{
+	width: 100%;
+}
+.team-box
+{
+	padding-bottom: 0;
+	background: transparent;
+}
+.services-list.services-icons li
+{
+	width: 570px;
+	padding: 40px 40px 36px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.services-list.services-items-border.services-icons li
+{
+	border: 1px solid #E2E6E7;
+}
+.services-list.services-icons li:nth-child(even)
+{
+	margin-left: 30px;
+}
+.services-list li .service-icon::before
+{
+	float: left;
+	font-size: 48px;
+	color: #009ee3;
+	border: 1px solid #009ee3;
+	padding: 19px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.services-list.services-icons li .service-content
+{
+	margin-left: 128px;
+}
+.services-list li h4
+{
+	margin-top: 22px;
+	text-align: center;
+}
+.team-box h4
+{
+	text-align: center;
+}
+.services-list li h4.box-header::after,
+.team-box h4.box-header::after
+{
+	margin-top: 23px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.team-box h4 span
+{
+	display: block;
+	font-weight: 500;
+	font-size: 11px;
+	color: #999;
+	line-height: 21px;
+	letter-spacing: 1px;
+	padding-top: 7px;
+}
+.services-list li p,
+.team-box p
+{
+	text-align: center;
+	font-family: 'Raleway';
+	font-size: 14px;
+	line-height: 24px;
+	padding: 24px 25px 0;
+	margin: 0;
+}
+.services-list.services-icons li h4
+{
+	margin-top: -8px;
+}
+.services-list.services-icons li h4,
+.services-list.services-icons li p
+{
+	text-align: left;
+}
+.services-list.services-icons li p
+{
+	padding: 24px 0 0;
+}
+.services-list.services-icons li h4.box-header::after
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.services-list a>.re-preloader,
+.team-box a>.re-preloader
+{
+	height: 260px;
+}
+.services-list img,
+.team-box img
+{
+	max-width: 100%;
+	height: auto;
+}
+.team-box ul.social-icons
+{
+	display: none;
+	position: absolute;
+	background: transparent;
+}
+.team-box ul.social-icons.social-static
+{
+	position: static;
+	display: block;
+	background: #FFF;
+}
+.team-box:hover ul.social-icons
+{
+	display: block;
+}
+.team-box .team-content
+{
+	padding-top: 23px;
+	padding-bottom: 26px;
+	background: #FFF;
+	position: relative;
+	z-index: 1;
+}
+.single.team-box .team-content
+{
+	background: #F5F5F5;
+}
+.team-box ul.social-icons li
+{
+	border: none;
+	margin-left: 1px;
+	background: #FFF;
+}
+.team-box ul.social-icons li a
+{
+	padding: 17px 18px;
+	width: 14px;
+	height: 16px;
+}
+.team-box ul.social-icons li:first-child
+{
+	margin-left: 0;
+}
+.team-box ul.social-icons li:hover
+{
+	background: #F4BC16;
+}
+.team-box ul.social-icons li:hover a
+{
+	color: #FFF;
 }
 /* --- projects --- */
 .projects-list
