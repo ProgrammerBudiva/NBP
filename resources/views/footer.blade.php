@@ -130,6 +130,8 @@
 <script type="text/javascript" src="{{ asset('js/slider/odometer.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('plugins/lightbox/js/lightbox.js')}}"></script>
 <script src="{{asset('/plugins/jquery.bxslider/jquery.bxslider.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function(){
