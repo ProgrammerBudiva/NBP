@@ -48,4 +48,8 @@ class CollectionController extends Controller
         return view('collections.collection', ['charcs' => $arr, 'advantages' => $advantages,
             'images' => $images, 'slides' => $slides]);
     }
+
+    public function all(){
+        return view('collections.all-collection');
+    }
 }

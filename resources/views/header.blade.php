@@ -38,8 +38,13 @@
                                 ГЛАВНАЯ
                             </a>
                         </li>
+                        <li>
+                            <a href="{{URL('/about')}}" title="О КОМПАНИИ">
+                                О КОМПАНИИ
+                            </a>
+                        </li>
                         <li >
-                            <a href="{{URL('/all-collection')}}" title="КОЛЛЕКЦИИ">
+                            <a href="{{URL('/collection')}}" title="КОЛЛЕКЦИИ">
                                 КОЛЛЕКЦИИ
                             </a>
                             <ul>
@@ -72,7 +77,7 @@
                         </li>
 
                         <li class="left-flyout">
-                            <a href="{{URL('/partnership')}}" title="Сотрудничество">
+                            <a href="{{URL('/partnership')}}" title="СОТРУДНИЧЕСТВО">
                                 СОТРУДНИЧЕСТВО
                             </a>
                         </li>
