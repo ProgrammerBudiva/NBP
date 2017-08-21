@@ -39,32 +39,45 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{URL('/collection/manoir')}}" title="MANOIR">
-                                MANOIR
+                            <a href="{{URL('/about')}}" title="О КОМПАНИИ">
+                                О КОМПАНИИ
                             </a>
                         </li>
-                        <li>
-                            <a href="{{URL('/collection/everest')}}" title="EVEREST 42">
-                                EVEREST 42
+                        <li >
+                            <a href="{{URL('/collection')}}" title="КОЛЛЕКЦИИ">
+                                КОЛЛЕКЦИИ
                             </a>
+                            <ul>
+                                <li>
+                                    <a href="{{URL('/collection/manoir')}}" title="MANOIR">
+                                        MANOIR
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{URL('/collection/everest')}}" title="EVEREST 42">
+                                        EVEREST 42
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{URL('/collection/mystique')}}" title="MYSTIQUE 42">
+                                        MYSTIQUE 42
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">
+                                        YUKON SB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{URL('/collection/dakota')}}" title="DAKOTA">
+                                        DAKOTA
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="{{URL('/collection/mystique')}}" title="MYSTIQUE 42">
-                                MYSTIQUE 42
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{URL('/collection/yukon-sb')}}" title="YUKON SB">
-                                YUKON SB
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{URL('/collection/dakota')}}" title="DAKOTA">
-                                DAKOTA
-                            </a>
-                        </li>
+
                         <li class="left-flyout">
-                            <a href="{{URL('/partnership')}}" title="Сотрудничество">
+                            <a href="{{URL('/partnership')}}" title="СОТРУДНИЧЕСТВО">
                                 СОТРУДНИЧЕСТВО
                             </a>
                         </li>
