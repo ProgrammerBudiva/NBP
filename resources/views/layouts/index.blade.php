@@ -30,6 +30,8 @@
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/template/styles.css">
         <link rel="stylesheet" type="text/css" href="/css/header/fonts/social/styles.css">
         <link rel="stylesheet" type="text/css" href="/plugins/lightbox/css/lightbox.css">
+        <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
+
         <link rel="shortcut icon" href="/icons/favicon.png">
 
         <link href="{{asset('/plugins/jquery.bxslider/jquery.bxslider.css')}}" rel="stylesheet" />
@@ -44,8 +46,9 @@
         @yield('content')
     </div>
 
-
+        <script>    var BASE_URL = "{{ url('/') }}" </script>
         @include('footer')
     </div>
     </body>
+
 </html>

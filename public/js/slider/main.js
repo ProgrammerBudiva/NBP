@@ -783,121 +783,121 @@ jQuery(document).ready(function($){
 			$(this)[0].reset();
 		});
 	}
-	$(".contact-form").submit(function(event){
-		event.preventDefault();
-		var data = $(this).serializeArray();
-		var self = $(this);
-		//if($(this).find(".total-cost").length)
-		//	data.push({name: 'total-cost', value: $(this).find(".total-cost").val()});
-		self.find(".block").block({
-			message: false,
-			overlayCSS: {
-				opacity:'0.3',
-				"backgroundColor": "#FFF"
-			}
-		});
-		
-		$.ajax({
-			url: self.attr("action"),
-			data: data,
-			type: "post",
-			dataType: "json",
-			success: function(json){
-				self.find("[name='submit'], [name='name'], [name='email'], [name='message']").qtip('destroy');
-				if(typeof(json.isOk)!="undefined" && json.isOk)
-				{
-					if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
-					{
-						self.find("[name='submit']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-success'
-							},
-							content: { 
-								text: json.submit_message 
-							},
-							position: { 
-								my: "right center",
-								at: "left center" 
-							}
-						}).qtip('show');
-						self[0].reset();
-						self.find(".cost-slider-input").trigger("change");
-						self.find(".cost-dropdown").selectmenu("refresh");
-						self.find("input[type='text'], textarea").trigger("focus").trigger("blur");
-					}
-				}
-				else
-				{
-					if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
-					{
-						self.find("[name='submit']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.submit_message 
-							},
-							position: { 
-								my: "right center",
-								at: "left center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_name)!="undefined" && json.error_name!="")
-					{
-						self.find("[name='name']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_name 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_email)!="undefined" && json.error_email!="")
-					{
-						self.find("[name='email']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_email 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_message)!="undefined" && json.error_message!="")
-					{
-						self.find("[name='message']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_message 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-				}
-				self.find(".block").unblock();
-			}
-		});
-	});
+	// $(".contact-form").submit(function(event){
+	// 	event.preventDefault();
+	// 	var data = $(this).serializeArray();
+	// 	var self = $(this);
+	// 	//if($(this).find(".total-cost").length)
+	// 	//	data.push({name: 'total-cost', value: $(this).find(".total-cost").val()});
+	// 	self.find(".block").block({
+	// 		message: false,
+	// 		overlayCSS: {
+	// 			opacity:'0.3',
+	// 			"backgroundColor": "#FFF"
+	// 		}
+	// 	});
+	//
+	// 	$.ajax({
+	// 		url: self.attr("action"),
+	// 		data: data,
+	// 		type: "post",
+	// 		dataType: "json",
+	// 		success: function(json){
+	// 			self.find("[name='submit'], [name='name'], [name='email'], [name='message']").qtip('destroy');
+	// 			if(typeof(json.isOk)!="undefined" && json.isOk)
+	// 			{
+	// 				if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
+	// 				{
+	// 					self.find("[name='submit']").qtip(
+	// 					{
+	// 						style: {
+	// 							classes: 'ui-tooltip-success'
+	// 						},
+	// 						content: {
+	// 							text: json.submit_message
+	// 						},
+	// 						position: {
+	// 							my: "right center",
+	// 							at: "left center"
+	// 						}
+	// 					}).qtip('show');
+	// 					self[0].reset();
+	// 					self.find(".cost-slider-input").trigger("change");
+	// 					self.find(".cost-dropdown").selectmenu("refresh");
+	// 					self.find("input[type='text'], textarea").trigger("focus").trigger("blur");
+	// 				}
+	// 			}
+	// 			else
+	// 			{
+	// 				if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
+	// 				{
+	// 					self.find("[name='submit']").qtip(
+	// 					{
+	// 						style: {
+	// 							classes: 'ui-tooltip-error'
+	// 						},
+	// 						content: {
+	// 							text: json.submit_message
+	// 						},
+	// 						position: {
+	// 							my: "right center",
+	// 							at: "left center"
+	// 						}
+	// 					}).qtip('show');
+	// 				}
+	// 				if(typeof(json.error_name)!="undefined" && json.error_name!="")
+	// 				{
+	// 					self.find("[name='name']").qtip(
+	// 					{
+	// 						style: {
+	// 							classes: 'ui-tooltip-error'
+	// 						},
+	// 						content: {
+	// 							text: json.error_name
+	// 						},
+	// 						position: {
+	// 							my: "bottom center",
+	// 							at: "top center"
+	// 						}
+	// 					}).qtip('show');
+	// 				}
+	// 				if(typeof(json.error_email)!="undefined" && json.error_email!="")
+	// 				{
+	// 					self.find("[name='email']").qtip(
+	// 					{
+	// 						style: {
+	// 							classes: 'ui-tooltip-error'
+	// 						},
+	// 						content: {
+	// 							text: json.error_email
+	// 						},
+	// 						position: {
+	// 							my: "bottom center",
+	// 							at: "top center"
+	// 						}
+	// 					}).qtip('show');
+	// 				}
+	// 				if(typeof(json.error_message)!="undefined" && json.error_message!="")
+	// 				{
+	// 					self.find("[name='message']").qtip(
+	// 					{
+	// 						style: {
+	// 							classes: 'ui-tooltip-error'
+	// 						},
+	// 						content: {
+	// 							text: json.error_message
+	// 						},
+	// 						position: {
+	// 							my: "bottom center",
+	// 							at: "top center"
+	// 						}
+	// 					}).qtip('show');
+	// 				}
+	// 			}
+	// 			self.find(".block").unblock();
+	// 		}
+	// 	});
+	// });
 
 	if($(".header-container").hasClass("sticky"))
 		menu_position = $(".header-container").offset().top;
@@ -998,4 +998,42 @@ jQuery(document).ready(function($){
 	}
 	setTimeout(animateElements, 1);
 	$(window).scroll(animateElements);
+
+
+    $('#question').click(function(){
+
+    	var email = $('input[name=email]').val();
+		var message = $('textarea[name=message]').val();
+
+        if (email.length == 0){
+            return false;
+        }
+
+        if (message.length == 0){
+            return false;
+        }
+
+    	var data = $('#question-form').serialize();
+        $.blockUI({ message: '<img src="/icons/giphy.gif" />' ,
+            css: { width: '4%', border:'0px solid #FFFFFF',cursor:'wait',backgroundColor:'#FFFFFF', textAlign: 'center'},
+            overlayCSS:  { backgroundColor: '#FFFFFF',opacity:0.0,cursor:'wait'}
+        });
+        $.ajax({
+            method: 'post',
+            url: BASE_URL + '/contacts',
+            data: data,
+            dataType: 'json',
+            success: function (data) {
+            	console.log(data);
+				$.colorbox({html: data.html, fixed: true})
+				$(document).click(function(){
+					$(location).attr("href", BASE_URL);
+				});
+            },
+            error: function () {
+                console.log(data,'error');
+            }
+        });
+        $.unblockUI();
+    });
 });
