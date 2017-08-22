@@ -1038,4 +1038,5 @@ jQuery(document).ready(function($){
         });
         $.unblockUI();
     });
+    $('input[name=phone]').mask("(999) 999-99-99");
 });

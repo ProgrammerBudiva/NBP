@@ -48,7 +48,7 @@
                         <p></p>
                     </div>
                     <div class="column column-1-2">
-                        <h2 class="box-header align-left">СОТРУДНИЧЕСТВО</h2>
+                        <h2 class="box-header align-left">СТАНЬТЕ ДИЛЕРОМ ЧЕРЕПИЦЫ BP</h2>
                         <p class="description t1">Мы уже подготовили для Вас выгодные условия сотрудничества и готовы
                             делиться всем опытом наших продаж.
                         </p>
@@ -69,10 +69,10 @@
         </div>
 
         <div class="clearfix">
-            <div class="row page-margin-top padding-bottom-70">
+            <div class="row page-margin-top ">
 
                 <h4 class="box-header">ВАМ БУДЕТ ВЫГОДНО И УДОБНО</h4>
-                <ul class="accordion margin-top-40 clearfix">
+                <ul class="accordion margin-top-40 clearfix" style="padding-bottom: 30px;">
                     <li>
                         <div id="accordion-renovation-cost">
                             <h5>Уверенность в качестве и оригинальности продукции</h5>
@@ -116,7 +116,35 @@
                 </ul>
             </div>
         </div>
-
+        <div class="row full-width page-margin-top-section padding-bottom-66">
+            <div class="row">
+                <h2 class="box-header padding-bottom-61">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЕРСКИХ УСЛОВИЙ</h2>
+                <form class="contact-form" id="question-form">
+                    <div class="row">
+                        <fieldset class="column column-1-2">
+                            <input class="text-input" name="name" type="text"  placeholder="Имя ">
+                            <input class="text-input" name="phone" type="text"
+                                   placeholder="Номер телефона ">
+                            <input class="text-input" name="email" type="text" placeholder="Email*">
+                        </fieldset>
+                        <fieldset class="column column-1-2">
+                            <textarea name="message" placeholder="Напишите немного о вашей компании"></textarea>
+                        </fieldset>
+                    </div>
+                    <div class="row margin-top-30">
+                        {{--<div class="column column-1-2">--}}
+                        {{--<p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни--}}
+                        {{--(пн.-пт с 9-18).</p>--}}
+                        {{--</div>--}}
+                        <div class="column column-1-2 align-left">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <input type="hidden" name="diller" value="1">
+                            <input type="button" id="question" name="submit_question" value="ЖДУ ПРЕДЛОЖЕНИЯ" class="more active">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
 @endsection
