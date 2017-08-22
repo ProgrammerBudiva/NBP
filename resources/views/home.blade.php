@@ -2,7 +2,7 @@
 @section('slider')
     @include('slider')
 @endsection
-
+<title>NBP - канадская битумная черепица  в Украине</title>
 @section('content')
     <div class="theme-page">
         <div class="clearfix">

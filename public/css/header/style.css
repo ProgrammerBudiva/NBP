@@ -29,7 +29,7 @@ a:hover
 a img
 {
 	display: block;
-	transition: opacity 0.3s ease 0s;
+	/*transition: opacity 0.3s ease 0s;*/
 	opacity: 1;
 	max-width: 100%;
 	height: auto;

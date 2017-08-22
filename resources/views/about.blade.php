@@ -3,7 +3,7 @@
 @section('slider')
     @include('slider')
 @endsection
-
+<title>О компании NВР </title>
 @section('content')
     <div class="theme-page">
         <div class="clearfix">

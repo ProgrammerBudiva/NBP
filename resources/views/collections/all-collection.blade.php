@@ -4,7 +4,7 @@
     @include('slider')
 @endsection
 
-
+<title>Коллекция гибкой черепицы NВР</title>
 @section('content')
 
     <div class="row full-width page-padding-top-section padding-bottom-66">

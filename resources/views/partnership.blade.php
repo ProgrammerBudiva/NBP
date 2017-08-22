@@ -1,5 +1,5 @@
 @extends('layouts.index')
-
+<title>Стать дилером NBP в Украине</title>
 @section('content')
     <!-- Slider Revolution -->
     <div class="revolution-slider-container">
