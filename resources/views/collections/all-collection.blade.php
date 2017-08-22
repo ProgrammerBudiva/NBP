@@ -71,4 +71,103 @@
             </ul>
         </div>
     </div>
+
+    <div class="row page-margin-top-section full-width padding-bottom-66">
+        <div class="row">
+
+            <div class="">
+                {{--<div class="wpb_wrapper">--}}
+                {{--<h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>--}}
+                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                    <div class="wpb_wrapper collection">
+                        <table class="margin-top-40">
+                            <tbody>
+                            <tr>
+                                <td>Название колекции</td>
+                                <td>MANOIR</td>
+                                <td>EVEREST 42</td>
+                                <td>MYSTIQUE 42</td>
+                                <td>YUKON SB</td>
+                                <td>DAKOTA</td>
+                                <td>Стартовый профиль Starter Strip </td>
+                            </tr>
+                            <tr>
+                                <td>Артикул</td>
+                                <td>RL200</td>
+                                <td>RL442</td>
+                                <td>RL621</td>
+                                <td>RT606</td>
+                                <td>RT664</td>
+                                <td>RH100</td>
+                            </tr>
+                            <tr>
+                                <td>Гарантия</td>
+                                <td colspan="3">Ограниченная пожизненная</td>
+                                <td>30 лет</td>
+                                <td>25 лет</td>
+                                <td>как в коллекции</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 @endsection

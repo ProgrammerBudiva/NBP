@@ -154,6 +154,13 @@ table td:first-child, table th:first-child
 	border-left: none;
 	width: 50%;
 }
+
+.collection table td:first-child
+{
+	border-left: none;
+	width: 20%;
+}
+
 table tr:nth-child(odd)
 {
 	background: #F5F5F5;
