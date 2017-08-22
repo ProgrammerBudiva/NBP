@@ -1,5 +1,5 @@
 @extends('layouts.index')
-
+<title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
     <div class="theme-page">
         <div class="clearfix">
@@ -9,7 +9,7 @@
             </div>
             <div class="row full-width page-margin-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header padding-bottom-61">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЛЕРСКИХ УСЛОВИЙ</h2>
+                    <h2 class="box-header padding-bottom-61">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЕРСКИХ УСЛОВИЙ</h2>
                     <form class="contact-form" id="question-form">
                         <div class="row">
                             <fieldset class="column column-1-2">

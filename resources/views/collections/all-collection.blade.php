@@ -4,13 +4,13 @@
     @include('slider')
 @endsection
 
-
+<title>Коллекция гибкой черепицы NВР</title>
 @section('content')
 
     <div class="row full-width page-padding-top-section padding-bottom-66">
         <div class="row">
             <h2 class="box-header">КОЛЛЕКЦИИ</h2>
-            <p class="description ">Ассортимент мягкой черепицы NBP настолько богат, что поможет
+            <p class="description ">Ассортимент мягкой черепицы BP настолько богат, что поможет
                 удовлетворить требования любого заказчика: практичного, изысканного и экономичного.</p>
             <p class="description align-justify"> Ламинированная кровля превосходит по прочности обычную
                 битумную черепицу, поскольку имеет в своей основе не один, а два несвязанных друг с другом слоя

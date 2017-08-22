@@ -30,7 +30,7 @@
     <div class="row row-2-2">
         <div class="column column-1-2">
             <h6 class="box-header">О НАС</h6>
-            <p class="description t1">Мы – единственный официальный представитель канадского производителя элитной битумной черепицы NBP в Украине.</p>
+            <p class="description t1">Мы – единственный официальный представитель канадского производителя элитной битумной черепицы BP в Украине.</p>
             {{--<ul class="social-icons yellow margin-top-26">--}}
             {{--<li>--}}
             {{--<a target="_blank" href="http://facebook.com/QuanticaLabs" class="social-facebook" title="facebook"></a>--}}
@@ -128,7 +128,7 @@
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="{{ asset('js/slider/main.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/odometer.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('plugins/lightbox/js/lightbox.js')}}"></script>
+<script type="text/javascript" src="{{ asset('plugins/lightbox/js/lightbox.js', true)}}"></script>
 <script src="{{asset('/plugins/jquery.bxslider/jquery.bxslider.min.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
@@ -136,21 +136,49 @@
 
 $(document).ready(function(){
     var slider = $('.test-slider').bxSlider({
-        slideWidth: 1000,
-        minSlides: 4,
-        maxSlides: 4,
+        slideWidth: 600,
+        minSlides: 3,
+        maxSlides: 3,
         slideMargin: 10,
         captions: true,
         auto: true,
 //        moveSlides: 2
+        responsive: true,
+        adaptiveHeight: true,
         infiniteLoop: false
 
     });
 
+    if (matchMedia) {
+        const mq = window.matchMedia("(min-width: 1024px)");
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+    }
+
+// media query change
+    function WidthChange(mq) {
+        if (mq.matches) {
+            slider.reloadSlider({
+                slideWidth: 600,
+                minSlides: 3,
+                maxSlides: 3,
+                slideMargin: 10,
+                captions: true
+            });
+        } else {
+            slider.reloadSlider({
+                slideWidth: 0,
+                captions: true
+            });
+        }
+
+    }
+
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
-        'alwaysShowNavOnTouchDevices': true
+        'alwaysShowNavOnTouchDevices': true,
+        'albumLabel': 'Текстура %1 из %2'
     });
 
 //    $('a .gallery').lightBox();

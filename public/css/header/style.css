@@ -29,7 +29,7 @@ a:hover
 a img
 {
 	display: block;
-	transition: opacity 0.3s ease 0s;
+	/*transition: opacity 0.3s ease 0s;*/
 	opacity: 1;
 	max-width: 100%;
 	height: auto;
@@ -3141,4 +3141,18 @@ body.lock-position
 .no-padding {
 	padding-bottom: 0!important;
 	background: none;
+}
+
+.alert {
+	padding: 15px;
+	/*margin-bottom: 20px;*/
+	margin-top: 16px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
 }
