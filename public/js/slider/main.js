@@ -1002,17 +1002,6 @@ jQuery(document).ready(function($){
 
     $('#question').click(function(){
 
-    	var email = $('input[name=email]').val();
-		var message = $('textarea[name=message]').val();
-
-        if (email.length == 0){
-            return false;
-        }
-
-        if (message.length == 0){
-            return false;
-        }
-
     	var data = $('#question-form').serialize();
         $.blockUI({ message: '<img src="/icons/giphy.gif" />' ,
             css: { width: '4%', border:'0px solid #FFFFFF',cursor:'wait',backgroundColor:'#FFFFFF', textAlign: 'center'},
@@ -1024,14 +1013,27 @@ jQuery(document).ready(function($){
             data: data,
             dataType: 'json',
             success: function (data) {
+            	if(data.email !== 'undefined'){
+                    $('input[name=email]').attr("placeholder", data.email)
+				}
+
             	console.log(data);
-				$.colorbox({html: data.html, fixed: true})
-				$(document).click(function(){
-					$(location).attr("href", BASE_URL);
-				});
+				// $.colorbox({html: data.html, fixed: true})
+				// $(document).click(function(){
+				// 	$(location).attr("href", BASE_URL);
+				// });
             },
-            error: function () {
-                console.log(data,'error');
+            error: function (data) {
+                $('.alert').remove();
+
+                if(data.responseJSON.email){
+                    $('input[name=email]').focus();
+                    $('<div class="alert alert-danger">'+ data.responseJSON.email +'</div>').insertBefore($('input[name=email]'));
+				}
+                if(data.responseJSON.message){
+                    $('textarea[name=message]').focus();
+                    $('<div class="alert alert-danger" style="margin-bottom: 16px; margin-top: 0!important;">'+ data.responseJSON.message +'</div>').insertBefore($('textarea[name=message]'));
+                }
             }
         });
         $.unblockUI();

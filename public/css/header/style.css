@@ -3142,3 +3142,17 @@ body.lock-position
 	padding-bottom: 0!important;
 	background: none;
 }
+
+.alert {
+	padding: 15px;
+	/*margin-bottom: 20px;*/
+	margin-top: 16px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}

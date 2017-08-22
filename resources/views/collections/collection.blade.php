@@ -69,7 +69,7 @@
         <ul class=" test-slider">
             @foreach($images as $image)
             <li>
-                <a class="gallery" data-lightbox="roadtrip" rel="gallery"
+                <a class="gallery" data-lightbox="roadtrip" data-title="{{$image->image_alt}}" rel="gallery"
                    href="{{$image->image_url}}">
                     <img class="test_gallery"
                          src="{{$image->image_url}}"
@@ -116,7 +116,7 @@
                         <input class="text-input" name="name" type="text"  placeholder="Имя ">
                         <input class="text-input" name="phone" type="text"
                                placeholder="Номер телефона ">
-                        <input class="text-input" name="email" type="text" placeholder="Email *">
+                        <input class="text-input" name="email" type="text" placeholder="Email*">
                     </fieldset>
                     <fieldset class="column column-1-2">
                         <textarea name="message"

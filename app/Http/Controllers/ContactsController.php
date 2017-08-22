@@ -8,6 +8,7 @@ use Illuminate\View\View;
 
 use App\Models\Messages;
 use App\Services\MessagesService;
+use App\Http\Requests\MessageRequest;
 
 class ContactsController extends Controller
 {
@@ -24,7 +25,7 @@ class ContactsController extends Controller
         return view('contacts');
     }
 
-    public function message(Request $request)
+    public function message(MessageRequest $request)
     {
 
         $email = $request->input('email');
