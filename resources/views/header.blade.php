@@ -27,7 +27,7 @@
                 <span class="line"></span>
                 <span class="line"></span>
             </a>
-            <div class="menu-container clearfix vertical-align-cell" style="    width: 70%;">
+            <div class="menu-container clearfix vertical-align-cell">
                 <nav>
                     <ul class="sf-menu">
                         <li class="logo_mob"><a href="/" title="">

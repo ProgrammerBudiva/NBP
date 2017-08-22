@@ -71,4 +71,58 @@
             </ul>
         </div>
     </div>
+
+    <div class="row page-margin-top-section full-width padding-bottom-66">
+        <div class="row">
+
+            <div class="">
+                {{--<div class="wpb_wrapper">--}}
+                {{--<h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>--}}
+                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                    <div class="wpb_wrapper">
+                        <table class="margin-top-40">
+                            <tbody>
+                            <tr>
+                                <td>Гарантия</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Вес</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Размер листа</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Метров в упаковке</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Листов в пачке</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Упаковок на палете</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Видимая часть (выступ)</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Устойчивость к ветру</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Допустимый угол наклона кровли</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
