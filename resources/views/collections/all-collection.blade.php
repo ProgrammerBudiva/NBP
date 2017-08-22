@@ -80,7 +80,7 @@
                 {{--<h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>--}}
                 <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                     <div class="wpb_wrapper collection">
-                        <table class="margin-top-40">
+                        <table class="margin-top-40" id="charcs-table">
                             <tbody>
                             <tr>
                                 <td>Название колекции</td>
@@ -108,62 +108,96 @@
                                 <td>как в коллекции</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>Защита от ветра, км/ч (обычная/повышенная)</td>
+                                <td colspan="3">180/220</td>
+                                <td colspan="2">180/200</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>Размеры гонта, мм</td>
+                                <td>1029x343</td>
+                                <td colspan="2">1067x356</td>
+                                <td colspan="2">1000x336	</td>
+                                <td>1000x137</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>Видимая часть гонта, мм</td>
+                                <td>146</td>
+                                <td colspan="2">152</td>
+                                <td colspan="2">143</td>
+                                <td>21</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>В упаковке, м.кв.</td>
+                                <td>3</td>
+                                <td>3,06</td>
+                                <td>3,06</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>21</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>Гонтов в упаковке, шт</td>
+                                <td>20</td>
+                                <td>19</td>
+                                <td>19</td>
+                                <td>21</td>
+                                <td>21</td>
+                                <td>21</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>Упаковок на паллете, шт</td>
+                                <td>32</td>
+                                <td>36</td>
+                                <td>36</td>
+                                <td>40</td>
+                                <td>40</td>
+                                <td>70</td>
                             </tr>
+                            <tr>
+                                <td>Количество на паллете, м.кв.</td>
+                                <td>96</td>
+                                <td>110,16</td>
+                                <td>110,16</td>
+                                <td>120</td>
+                                <td>120</td>
+                                <td>1470 м.п.</td>
+                            </tr>
+
                             </tbody>
                         </table>
                     </div>
+                </div>
+            </div>
+
+            <div class="row full-width page-margin-top-section padding-bottom-66">
+                <div class="row">
+                    <h2 class="box-header padding-bottom-61">У МЕНЯ ОСТАЛИСЬ ВОПРОСЫ</h2>
+                    <form class="contact-form" id="question-form">
+                        <div class="row">
+                            <fieldset class="column column-1-2">
+                                <input class="text-input" name="name" type="text"  placeholder="Имя ">
+                                <input class="text-input" name="phone" type="text"
+                                       placeholder="Номер телефона ">
+                                <input class="text-input" name="email" type="text" placeholder="Email*">
+                            </fieldset>
+                            <fieldset class="column column-1-2">
+                        <textarea name="message"
+                                  placeholder="Напишите ваш вопрос"></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="row margin-top-30">
+                            {{--<div class="column column-1-2">--}}
+                            {{--<p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни--}}
+                            {{--(пн.-пт с 9-18).</p>--}}
+                            {{--</div>--}}
+                            <div class="column column-1-2 align-left">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="hidden" name="diller" value="0">
+                                <input type="button" id="question" name="submit_question" value="ЗАДАТЬ ВОПРОС" class="more active">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 

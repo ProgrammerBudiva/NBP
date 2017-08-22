@@ -3163,3 +3163,16 @@ body.lock-position
 	background-color: #f2dede;
 	border-color: #ebccd1;
 }
+
+#save-guide {
+	text-decoration: none;
+}
+
+#charcs-table td {
+	text-align: center;
+}
+
+#charcs-table tr td:first-child {
+	text-align: left;
+	line-height: 1.3;
+}

@@ -60,7 +60,11 @@
             </div>
         </div>
     </div>
-
+    <div style="padding-top: 4%;">
+        <a id="save-guide" href="https://drive.google.com/file/d/0B0F5kd7AaxnlU3FEWE1xZ05ST1U/view" target="_blank">
+        <div class="more active align-center" style=" width: 270px;margin: auto; text-transform: uppercase;">Скачать инструкцию по установке</div>
+        </a>
+    </div>
     <div class="row full-width page-padding-top-section">
         <div class="row">
             <h2 class="box-header">ЦВЕТОВЫЕ РЕШЕНИЯ</h2>

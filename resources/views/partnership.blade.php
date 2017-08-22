@@ -25,7 +25,7 @@
                              data-endeasing="easeInOutExpo">
 
                             <div class="slider-content-box no-padding">
-                                <h2 class="no-border">ЭЛИТНАЯ ЧЕРЕПИЦА НА КАЖДЫЙ ДОМ</h2>
+                                <h2 class="no-border">ЭЛИТНАЯ ЧЕРЕПИЦА, КОТОРАЯ ПОВЫШАЕТ ЦЕННОСТЬ ДОМА</h2>
 
                             </div>
                         </div>
