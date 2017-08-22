@@ -80,15 +80,16 @@
                 {{--<h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>--}}
                 <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                     <div class="wpb_wrapper collection">
-                        <table class="margin-top-40" id="charcs-table">
+                        <h2 class="box-header padding-bottom-61">СРАВНЕНИЕ ХАРАКТЕРИСТИК КОЛЛЕКЦИЙ</h2>
+                        <table class="" id="charcs-table">
                             <tbody>
                             <tr>
                                 <td>Название колекции</td>
-                                <td>MANOIR</td>
-                                <td>EVEREST 42</td>
-                                <td>MYSTIQUE 42</td>
-                                <td>YUKON SB</td>
-                                <td>DAKOTA</td>
+                                <td><a href="{{url('/collection/manoir')}}" style="color: #009ee3;"> MANOIR</a></td>
+                                <td><a href="{{url('/collection/everest')}}" style="color: #009ee3;"> EVEREST 42</a></td>
+                                <td><a href="{{url('/collection/mystique')}}" style="color: #009ee3;"> MYSTIQUE 42</a></td>
+                                <td><a href="{{url('/collection/yukon-sb')}}" style="color: #009ee3;"> YUKON SB</a></td>
+                                <td><a href="{{url('/collection/dakota')}}" style="color: #009ee3;"> DAKOTA</a></td>
                                 <td>Стартовый профиль Starter Strip </td>
                             </tr>
                             <tr>
