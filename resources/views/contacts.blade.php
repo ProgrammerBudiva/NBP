@@ -1,5 +1,5 @@
 @extends('layouts.index')
-<title>Контакты представителей мягкой черепицы NBP в Украине</title>
+<title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
     <div class="theme-page">
         <div class="clearfix">

@@ -20,7 +20,7 @@ $(function() {
         if (url == (this.href)) {
             $(this).closest("li").addClass("selected");
             //for making parent of submenu active
-            // $(this).closest("li").parent().parent().addClass("active");
+            $(this).closest("li").parent().parent().addClass("selected");
         }
     });
 });

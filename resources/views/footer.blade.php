@@ -30,7 +30,7 @@
     <div class="row row-2-2">
         <div class="column column-1-2">
             <h6 class="box-header">О НАС</h6>
-            <p class="description t1">Мы – единственный официальный представитель канадского производителя элитной битумной черепицы NBP в Украине.</p>
+            <p class="description t1">Мы – единственный официальный представитель канадского производителя элитной битумной черепицы BP в Украине.</p>
             {{--<ul class="social-icons yellow margin-top-26">--}}
             {{--<li>--}}
             {{--<a target="_blank" href="http://facebook.com/QuanticaLabs" class="social-facebook" title="facebook"></a>--}}

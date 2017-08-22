@@ -2,7 +2,7 @@
 @section('slider')
     @include('slider-collection')
 @endsection
-<title>Коллекция {{$charcs->name}} канадской битумной черепицы NBP</title>
+<title>Коллекция {{$charcs->name}} канадской битумной черепицы BP</title>
 @section('content')
     <div class="row full-width page-margin-top-section">
         <div class="row">
