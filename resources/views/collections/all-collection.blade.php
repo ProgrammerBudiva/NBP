@@ -79,43 +79,86 @@
                 {{--<div class="wpb_wrapper">--}}
                 {{--<h3 class="box-header page-margin-top">ХАРАКТЕРИСТИКИ</h3>--}}
                 <div class="wpb_raw_code wpb_content_element wpb_raw_html">
-                    <div class="wpb_wrapper">
+                    <div class="wpb_wrapper collection">
                         <table class="margin-top-40">
                             <tbody>
                             <tr>
+                                <td>Название колекции</td>
+                                <td>MANOIR</td>
+                                <td>EVEREST 42</td>
+                                <td>MYSTIQUE 42</td>
+                                <td>YUKON SB</td>
+                                <td>DAKOTA</td>
+                                <td>Стартовый профиль Starter Strip </td>
+                            </tr>
+                            <tr>
+                                <td>Артикул</td>
+                                <td>RL200</td>
+                                <td>RL442</td>
+                                <td>RL621</td>
+                                <td>RT606</td>
+                                <td>RT664</td>
+                                <td>RH100</td>
+                            </tr>
+                            <tr>
                                 <td>Гарантия</td>
+                                <td colspan="3">Ограниченная пожизненная</td>
+                                <td>30 лет</td>
+                                <td>25 лет</td>
+                                <td>как в коллекции</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Вес</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Размер листа</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Метров в упаковке</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Листов в пачке</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Упаковок на палете</td>
                                 <td></td>
-                            </tr>
-                            <tr>
-                                <td>Видимая часть (выступ)</td>
                                 <td></td>
-                            </tr>
-                            <tr>
-                                <td>Устойчивость к ветру</td>
                                 <td></td>
-                            </tr>
-                            <tr>
-                                <td>Допустимый угол наклона кровли</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             </tbody>
@@ -123,6 +166,8 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 @endsection
