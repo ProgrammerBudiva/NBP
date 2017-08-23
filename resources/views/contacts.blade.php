@@ -4,7 +4,34 @@
 @endsection
 <title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
-
+    <div class="row yellow full-width padding-top-bottom-30">
+        <div class="row">
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-phone">
+                        <p>Телефон:<br>
+                            044 247 72 77 </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-location">
+                        <p>г. Киев <br>
+                            ул. Стройиндустрии, 7</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-mail">
+                        <p>E-mail:<br>
+                            <a href="mailto:info@nbp.net.ua">info@nbp.net.ua</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     @include('map')
 
     <div  class="map-mobile clearfix">

@@ -1,4 +1,4 @@
-<div class="row yellow full-width padding-top-bottom-30">
+<div id="no-contacts" class="row yellow full-width padding-top-bottom-30">
     <div class="row">
         <div class="column column-1-3">
             <ul class="contact-details-list">
@@ -136,19 +136,16 @@
 
 $(document).ready(function(){
 
-//    if($(location).attr("href") === '//homestead.app/partnership' ){
+
+    if($(location).attr("href") == 'https://bpn.net.ua/contacts' ) {
+        $('#no-contacts').hide();
+    }
 
     if (window.matchMedia("(max-width: 1024px)").matches) {
         $('#max-width').removeClass(" column-1-2 ");
     } else {
         $('#max-width').addClass(" column-1-2 ");
     }
-
-
-//    }
-
-
-
 
     if (matchMedia) {
         const mq = window.matchMedia("(max-width: 1024px)");
