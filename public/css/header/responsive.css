@@ -1105,6 +1105,9 @@
 	.page-margin-right{
 		margin-right: 0;
 	}
+    #max-width {
+        margin-top: 0 !important;
+    }
 }
 @media screen and (max-device-width: 1024px) {
 	.no-mobile {

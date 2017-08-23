@@ -36,7 +36,7 @@
     <!--/-->
     <div class="theme-page">
         <div class="clearfix">
-            <div class="row page-margin-top-section padding-bottom-66">
+            <div id="mobile-no-top-padding" class="row  padding-bottom-66">
                 <div class="row page-margin-top">
                     <div class="no-mobile">
                         <div class="column column-140 align-center re-preload">
@@ -73,7 +73,7 @@
         <div class="clearfix">
             <div class="row page-margin-top ">
 
-                <h4 class="box-header">ВАМ БУДЕТ ВЫГОДНО И УДОБНО</h4>
+                <h2 class="box-header">ВАМ БУДЕТ ВЫГОДНО И УДОБНО</h2>
                 <ul class="accordion margin-top-40 clearfix" style="padding-bottom: 30px;">
                     <li>
                         <div id="accordion-renovation-cost">
