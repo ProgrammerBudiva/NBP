@@ -4,7 +4,9 @@
 @endsection
 <title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
+
     @include('map')
+
 
     <div class="theme-page">
         <div class="clearfix">
