@@ -38,16 +38,18 @@
         <div class="clearfix">
             <div class="row page-margin-top-section padding-bottom-66">
                 <div class="row page-margin-top">
-                    <div class="column column-140 align-center re-preload">
-                        <p></p>
+                    <div class="no-mobile">
+                        <div class="column column-140 align-center re-preload">
+                            <p></p>
+                        </div>
+                        <div class="column column-1-3 align-center re-preload">
+                            <img src="images/samples/home/image-107.jpg" alt="" class="radius margin-top-40">
+                        </div>
+                        <div class="column column-60 align-center re-preload">
+                            <p></p>
+                        </div>
                     </div>
-                    <div class="column column-1-3 align-center re-preload">
-                        <img src="images/samples/home/image-107.jpg" alt="" class="radius margin-top-40">
-                    </div>
-                    <div class="column column-60 align-center re-preload">
-                        <p></p>
-                    </div>
-                    <div class="column column-1-2">
+                    <div id="max-width" class="column column-1-2">
                         <h2 class="box-header align-left">СТАНЬТЕ ДИЛЕРОМ ЧЕРЕПИЦЫ BP</h2>
                         <p class="description t1">Мы уже подготовили для Вас выгодные условия сотрудничества и готовы
                             делиться всем опытом наших продаж.

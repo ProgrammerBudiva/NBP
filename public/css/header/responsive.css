@@ -1106,3 +1106,8 @@
 		margin-right: 0;
 	}
 }
+@media screen and (max-device-width: 1024px) {
+	.no-mobile {
+		display: none;
+	}
+}

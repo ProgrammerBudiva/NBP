@@ -123,7 +123,7 @@
                                 </a>
                             </li>
                             <li class="left-flyout">
-                                <a href="#" title="Сотрудничество">
+                                <a href="{{URL('/partnership')}}" title="Сотрудничество">
                                     СОТРУДНИЧЕСТВО
                                 </a>
                             </li>

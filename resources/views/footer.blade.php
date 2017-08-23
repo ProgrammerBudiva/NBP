@@ -135,6 +135,19 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
+
+//    if($(location).attr("href") === '//homestead.app/partnership' ){
+
+    if (window.matchMedia("(max-width: 1024px)").matches) {
+        $('#max-width').removeClass(" column-1-2 ");
+    } else {
+        $('#max-width').addClass(" column-1-2 ");
+    }
+
+
+//    }
+
+
     var slider = $('.test-slider').bxSlider({
         slideWidth: 600,
         minSlides: 3,
