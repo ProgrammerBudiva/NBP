@@ -137,7 +137,7 @@
 $(document).ready(function(){
 
 
-    if($(location).attr("href") == 'https://bpn.net.ua/contacts' ) {
+    if($(location).attr("href") == 'https://nbp.net.ua/contacts' ) {
         $('#no-contacts').hide();
     }
 
