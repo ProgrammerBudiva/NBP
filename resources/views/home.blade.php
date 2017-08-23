@@ -8,7 +8,7 @@
         <div class="clearfix">
             <div class="row full-width page-margin-top-section">
                 <div class="row">
-                    <h2 class="box-header">ЧЕРЕПИЦА BUILDING PRODUCTS - КОМФОРТ И НАДЕЖНОСТЬ ВАШЕГО ДОМА</h2>
+                    <h2 class="box-header">ЧЕРЕПИЦА <span style="color: #009ee3">BUILDING PRODUCTS</span> - КОМФОРТ И НАДЕЖНОСТЬ ВАШЕГО ДОМА</h2>
                     <p class="description align-justify">На мировом рынке битумная черепица BP на сегодняшний день –
                         один из лучших материалов для кровли. Канадская мягкая кровля BP отлично выполняет свои функции
                         в любом климате, на каждом доме независимо от типа крыши. Битумная канадская черепица ВР – это
@@ -27,7 +27,7 @@
                         специалистами и соответствует местным жестким стандартам качества, что обеспечивает высокое
                         качество конечного продукта.<br></p>
 
-                    <h4 class="margin-top-20">Состав битумной черепицы Building Products:</h4>
+                    <h4 class="margin-top-20">Состав битумной черепицы <span style="color: #009ee3">Building Products:</span></h4>
                     <p class="description align-justify">
                         • Основой для мягкой кровли BP служит органическая целлюлоза (войлок) или стеклохолст
                         (производство Johns Manville).<br>
@@ -44,7 +44,7 @@
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
                     <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ <span style="color: #009ee3">BUILDING PRODUCTS</span></h2>
-                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ <span style="color: #009ee3">Building Products</span></h2>
+                    {{--<h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ <span style="color: #009ee3">Building Products</span></h2>--}}
                     <div class="timeline-item vertical-align-table ">
                         <div class="timeline-left vertical-align-cell">
                             <div class="label-container">
@@ -258,7 +258,7 @@
 
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ BUILDING PRODUCTS</h2>
+                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ <span style="color: #009ee3">BUILDING PRODUCTS</span></h2>
                 </div>
                 <div class="wpb_wrapper margin-top-67">
                     <ul class=" test-slider">
