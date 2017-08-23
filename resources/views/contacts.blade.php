@@ -7,6 +7,24 @@
 
     @include('map')
 
+    <div  class="map-mobile clearfix">
+        <div class="row page-margin-top ">
+            <h4 class="box-header">КОНТАКТЫ</h4>
+            <p class="description t1" style="color: #009ee3; line-height: 15px;">Отображены те города, в которых есть преставительства либо дилеры.</p>
+            <ul class="accordion margin-top-40 clearfix" style="padding-bottom: 30px;">
+                <li>
+                    <div id="accordion-renovation-cost">
+                        <h5>Киев</h5>
+                    </div>
+                    <p class="description t1"><b>Главное представительство</b></p>
+                    <p class="description t1"><b>Адрес:</b> ул. Стройиндустрии, 7</p>
+                    <p class="description t1"><b>Телефон: </b>044 247 72 77</p>
+                    <p class="description t1"><b>E-mail: </b><a href="mailto:info@nbp.net.ua">info@nbp.net.ua</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 
     <div class="theme-page">
         <div class="clearfix">

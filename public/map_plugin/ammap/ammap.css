@@ -32,7 +32,7 @@
 
 .ammapDescriptionWindow table
 {
-    width: 650px !important;
+    width: 650px;
     border: 1px solid #ecebed;
     padding: 1px !important;
 }
@@ -154,4 +154,11 @@ table td:first-child{
 
 p{
     line-height: 1px;
+}
+
+
+@media screen and (max-width:650px) {
+    #mapdiv {
+        display: none;
+    }
 }

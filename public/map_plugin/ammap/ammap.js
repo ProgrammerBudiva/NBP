@@ -1893,7 +1893,7 @@
                     k += this.sdy;
                     // C.left = m + "px";
                     // C.top = k + "px";
-                    C.left = "1px";
+                    C.left = "50px";
                     C.top = "630px";
                     g.translate(x - f, A, 1, !0);
                     p = p.getBBox();
@@ -3445,7 +3445,7 @@
                 isNaN(h) || (f -= b.div.offsetWidth);
                 // a.left = f + "px";
                 // a.top = g + "px"
-                a.left = "1px";
+                a.left = "50px";
                 a.top = "630px"
             }
         }, parseXMLObject: function (a) {
