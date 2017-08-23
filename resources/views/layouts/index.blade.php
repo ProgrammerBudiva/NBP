@@ -35,6 +35,7 @@
         <link rel="shortcut icon" href="/icons/favicon.png">
 
         <link href="{{asset('/plugins/jquery.bxslider/jquery.bxslider.css')}}" rel="stylesheet" />
+        <script type="text/javascript" src="{{ asset('js/slider/jquery-1.11.3.min.js')}}"></script>
     </head>
     <body>
     <div class="site-container">

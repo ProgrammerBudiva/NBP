@@ -26,3 +26,6 @@ Route::get('/about', 'AboutController@index');
 Route::get('/collection', 'CollectionController@all');
 
 Route::post('/contacts', 'ContactsController@message');
+Route::get('/map', function (){
+   return view('map');
+});

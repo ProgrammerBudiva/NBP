@@ -106,7 +106,6 @@
 <a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
 
 <!--js-->
-<script type="text/javascript" src="{{ asset('js/slider/jquery-1.11.3.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/slider/jquery-migrate-1.2.1.min.js')}}"></script>
 <!--slider revolution-->
 <script type="text/javascript" src="{{ asset('/plugins/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>

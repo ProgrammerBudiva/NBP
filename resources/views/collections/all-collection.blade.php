@@ -22,13 +22,16 @@
             <h4 class="box-header margin-top-40">ЛАМИНИРОВАННАЯ</h4>
             <ul class="services-list clearfix page-margin-top">
                 <li class="page-margin-right">
+                    <div>
                     <a href="{{URL('/collection/manoir')}}" title="MANOIR">
                         <img src="images/samples/gallery/manoir-autumn-brown-su0222.png" alt="">
                     </a>
+                    </div>
+                    <div>
                     <h4 class="box-header"><a href="{{URL('/collection/manoir')}}"
                                               title="MANOIR">MANOIR</a></h4>
                     <p>Ламинированная черепица с пожизненной гарантией. Уникальная структура гонта с эффектом
-                        тени. 7 цветов</p>
+                        тени. 7 цветов</p></div>
                 </li>
                 <li class="page-margin-right">
                     <a href="{{URL('/collection/everest')}}" title="EVEREST">
@@ -170,105 +173,103 @@
                         </table>
                     </div>
                 </div>
-            </div></div>
-            <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
-                <div class="row">
-                    <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ BP</h2>
-                </div>
-                <div class="wpb_wrapper margin-top-67">
-                    <ul class=" test-slider">
-                        <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                               href="images/samples/slider/image-110.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-110.jpg"
-                                     title="Коллекция Mystique - цвет Slate Grey">
-                            </a>
-                        </li>
-                        <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
-                               href="images/samples/slider/image-111.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-111.jpg"
-                                     title="Коллекция Mystique - цвет Antique Slate">
-                            </a>
-                        </li>
-                        <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-112.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-112.jpg"
-                                     title="Коллекция Everest - цвет Drift Wood">
-                            </a>
-                        </li>
-                        <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-113.jpg">
-                                <img class="test_gallery" data-lightbox="roadtrip"
-                                     src="images/samples/slider/image-113.jpg"
-                                     title="Коллекция Mystique - цвет Slate Grey">
-                            </a>
-                        </li>
-                        <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-114.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-114.jpg"
-                                     title="Коллекция Everest - цвет Weathered Rock">
-                            </a>
-                        </li>
-                        <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-115.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-115.jpg"
-                                     title="Коллекция Everest - цвет Twilight Grey">
-                            </a>
-                        </li>
-                        <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-116.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-116.jpg"
-                                     title="Коллекция Everest - цвет Autumn Brown">
-                            </a>
-                        </li>
-                        <li><a rel="gallery" data-lightbox="roadtrip"
-                               href="images/samples/slider/image-117.jpg">
-                                <img class="test_gallery"
-                                     src="images/samples/slider/image-117.jpg"
-                                     title="Коллекция Dakota - цвет Tone Brown">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
-            <div class="row full-width page-margin-top-section padding-bottom-66">
-                <div class="row">
-                    <h2 class="box-header padding-bottom-61">У МЕНЯ ОСТАЛИСЬ ВОПРОСЫ</h2>
-                    <form class="contact-form" id="question-form">
-                        <div class="row">
-                            <fieldset class="column column-1-2">
-                                <input class="text-input" name="name" type="text"  placeholder="Имя ">
-                                <input class="text-input" name="phone" type="text"
-                                       placeholder="Номер телефона ">
-                                <input class="text-input" name="email" type="text" placeholder="Email*">
-                            </fieldset>
-                            <fieldset class="column column-1-2">
-                        <textarea name="message"
-                                  placeholder="Напишите ваш вопрос"></textarea>
-                            </fieldset>
-                        </div>
-                        <div class="row margin-top-30">
-                            {{--<div class="column column-1-2">--}}
-                            {{--<p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни--}}
-                            {{--(пн.-пт с 9-18).</p>--}}
-                            {{--</div>--}}
-                            <div class="column column-1-2 align-left">
-                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <input type="hidden" name="diller" value="0">
-                                <input type="button" id="question" name="submit_question" value="ЗАДАТЬ ВОПРОС" class="more active">
-                            </div>
-                        </div>
-                    </form>
-                </div>
+        </div>
+        <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
+            <div class="row">
+                <h2 class="box-header">ВАШ ДОМ ЖДЕТ ЧЕРЕПИЦУ BP</h2>
             </div>
-
-
-
+            <div class="wpb_wrapper margin-top-67">
+                <ul class=" test-slider">
+                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
+                           href="images/samples/slider/image-110.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-110.jpg"
+                                 title="Коллекция Mystique - цвет Slate Grey">
+                        </a>
+                    </li>
+                    <li><a class="gallery" data-lightbox="roadtrip" rel="gallery"
+                           href="images/samples/slider/image-111.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-111.jpg"
+                                 title="Коллекция Mystique - цвет Antique Slate">
+                        </a>
+                    </li>
+                    <li><a class="gallery" rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-112.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-112.jpg"
+                                 title="Коллекция Everest - цвет Drift Wood">
+                        </a>
+                    </li>
+                    <li><a rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-113.jpg">
+                            <img class="test_gallery" data-lightbox="roadtrip"
+                                 src="images/samples/slider/image-113.jpg"
+                                 title="Коллекция Mystique - цвет Slate Grey">
+                        </a>
+                    </li>
+                    <li><a rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-114.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-114.jpg"
+                                 title="Коллекция Everest - цвет Weathered Rock">
+                        </a>
+                    </li>
+                    <li><a rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-115.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-115.jpg"
+                                 title="Коллекция Everest - цвет Twilight Grey">
+                        </a>
+                    </li>
+                    <li><a rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-116.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-116.jpg"
+                                 title="Коллекция Everest - цвет Autumn Brown">
+                        </a>
+                    </li>
+                    <li><a rel="gallery" data-lightbox="roadtrip"
+                           href="images/samples/slider/image-117.jpg">
+                            <img class="test_gallery"
+                                 src="images/samples/slider/image-117.jpg"
+                                 title="Коллекция Dakota - цвет Tone Brown">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row full-width page-margin-top-section padding-bottom-66">
+            <div class="row">
+                <h2 class="box-header padding-bottom-61">У МЕНЯ ОСТАЛИСЬ ВОПРОСЫ</h2>
+                <form class="contact-form" id="question-form">
+                    <div class="row">
+                        <fieldset class="column column-1-2">
+                            <input class="text-input" name="name" type="text"  placeholder="Имя ">
+                            <input class="text-input" name="phone" type="text"
+                                   placeholder="Номер телефона ">
+                            <input class="text-input" name="email" type="text" placeholder="Email*">
+                        </fieldset>
+                        <fieldset class="column column-1-2">
+                    <textarea name="message"
+                              placeholder="Напишите ваш вопрос"></textarea>
+                        </fieldset>
+                    </div>
+                    <div class="row margin-top-30">
+                        {{--<div class="column column-1-2">--}}
+                        {{--<p class="description t1">Менеджер свяжется с Вами в течении 15 минут в рабочиие дни--}}
+                        {{--(пн.-пт с 9-18).</p>--}}
+                        {{--</div>--}}
+                        <div class="column column-1-2 align-left">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <input type="hidden" name="diller" value="0">
+                            <input type="button" id="question" name="submit_question" value="ЗАДАТЬ ВОПРОС" class="more active">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
     </div>
 @endsection

@@ -1,0 +1,134 @@
+.ammapAlert
+{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size:12px;
+    color:#009ee3;
+}
+
+.ammapDescriptionWindow
+{
+   font-size:11px;
+   font-family:verdana,helvetica,arial,sans-serif;
+   background-color: #ffffff;
+   border-style:solid;
+   border-color:#DADADA;
+   border-width:1px;
+   color:#000000;
+   padding:8px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.ammapDescriptionTitle
+{
+   font-size:11px;
+   font-family:verdana,helvetica,arial,sans-serif;
+   padding-bottom:5px;
+}
+
+.ammapDescriptionWindow table
+{
+    width: 650px;
+    border: 1px solid #ecebed;
+}
+
+.ammapDescriptionWindow table td
+{
+    border: 1px solid #ecebed;
+
+}
+
+.ammapDescriptionWindow table tr:first-child
+{
+    font-weight: bold;
+}
+
+.ammapDescriptionWindowCloseButton
+{
+
+}
+
+.ammapObjectList ul
+{
+    padding-left:20px;
+    list-style:square outside;
+    color:#999999;
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size: 12px;
+}
+
+.ammapObjectList ul ul
+{
+    padding-left:14px;
+}
+
+.ammapObjectList a
+{
+    color:#000000;
+}
+
+.ammapObjectList a
+{
+    color:#000000;
+    text-decoration:none;
+    display:block;
+    padding:2px;
+}
+
+.ammapObjectList a:hover
+{
+    color:#CC0000;
+    text-decoration:none;
+    background:#FFFFFF;
+    cursor:pointer;
+    display:block;
+}
+
+.ammapDescriptionText
+{
+	overflow: auto;
+}
+
+
+.amChartsPlotArea
+{
+
+}
+
+.amcharts-balloon-div{
+    width: 682px;
+    height: 130px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #DADADA;
+    /*margin-left: 10px;*/
+    top: 500px;
+    z-index: 2;
+}
+
+.amcharts-balloon-div p{
+    text-align: left;
+    width: 650px;
+}
+
+.amcharts-balloon-div table
+{
+    width: 650px;
+    border: 1px solid #ecebed;
+}
+
+.amcharts-balloon-div table td
+{
+    border: 1px solid #ecebed;
+    text-align: left;
+}
+
+.amcharts-balloon-div table tr:first-child
+{
+    font-weight: bold;
+}
+
