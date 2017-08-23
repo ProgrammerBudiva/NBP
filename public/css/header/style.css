@@ -3177,3 +3177,6 @@ body.lock-position
 	line-height: 1.3;
 }
 
+.map-mobile{
+	display: none;
+}

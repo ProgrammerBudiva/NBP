@@ -138,7 +138,7 @@
 
 <body>
 <div class="margin-top-40" style="background-color: #eeeeee; width: 100%; text-align: center;">
-    <div id="mapdiv" style="width: 900px; background-color:#EEEEEE; height: 770px; padding-bottom: 56px; margin-right: auto; margin-left: auto;"></div>
+    <div id="mapdiv" style=" background-color:#EEEEEE; height: 780px; padding-top: 10px; padding-bottom: 70px; margin-right: auto; margin-left: auto;"></div>
 </div>
 
 </body>
