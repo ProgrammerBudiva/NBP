@@ -4,7 +4,7 @@
 @endsection
 <title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
-    <div class="row yellow full-width padding-top-bottom-30">
+    <div class="row yellow full-width margin-top-30 padding-top-bottom-30">
         <div class="row">
             <div class="column column-1-3">
                 <ul class="contact-details-list">
