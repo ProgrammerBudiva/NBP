@@ -135,22 +135,23 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
-    var slider = $('.test-slider').bxSlider({
-        slideWidth: 600,
-        minSlides: 3,
-        maxSlides: 3,
-        slideMargin: 10,
-        captions: true,
-        auto: true,
-//        moveSlides: 2
-        responsive: true,
-        adaptiveHeight: true,
-        infiniteLoop: false
 
-    });
+//    if($(location).attr("href") === '//homestead.app/partnership' ){
+
+    if (window.matchMedia("(max-width: 1024px)").matches) {
+        $('#max-width').removeClass(" column-1-2 ");
+    } else {
+        $('#max-width').addClass(" column-1-2 ");
+    }
+
+
+//    }
+
+
+
 
     if (matchMedia) {
-        const mq = window.matchMedia("(min-width: 1024px)");
+        const mq = window.matchMedia("(max-width: 1024px)");
         mq.addListener(WidthChange);
         WidthChange(mq);
     }
@@ -158,17 +159,36 @@ $(document).ready(function(){
 // media query change
     function WidthChange(mq) {
         if (mq.matches) {
-            slider.reloadSlider({
+//            slider.reloadSlider({
+//                slideWidth: 0,
+//                captions: true
+//            });
+            var slider = $('.test-slider').bxSlider({
+//                slideWidth: 600,
+                minSlides: 1,
+                maxSlides: 1,
+                slideMargin: 10,
+                captions: true,
+                auto: true,
+//        moveSlides: 2
+                responsive: true,
+                adaptiveHeight: true,
+                infiniteLoop: false
+
+            });
+        } else {
+            var slider = $('.test-slider').bxSlider({
                 slideWidth: 600,
                 minSlides: 3,
                 maxSlides: 3,
                 slideMargin: 10,
-                captions: true
-            });
-        } else {
-            slider.reloadSlider({
-                slideWidth: 0,
-                captions: true
+                captions: true,
+                auto: true,
+//        moveSlides: 2
+                responsive: true,
+                adaptiveHeight: true,
+                infiniteLoop: false
+
             });
         }
 

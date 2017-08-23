@@ -2589,7 +2589,7 @@
             this.svgNotSupported = "This browser doesn't support SVG. Use Chrome, Firefox, Internet Explorer 9 or later.";
             this.createEvents("rollOverMapObject", "rollOutMapObject", "clickMapObject", "mouseDownMapObject", "selectedObjectChanged", "homeButtonClicked", "zoomCompleted", "dragCompleted", "positionChanged", "writeDevInfo", "click", "descriptionClosed");
             this.zoomDuration = .6;
-            this.zoomControl = new d.ZoomControl(a);
+            // this.zoomControl = new d.ZoomControl(a);
             this.fitMapToContainer = !0;
             this.mouseWheelZoomEnabled = this.backgroundZoomsToTop = !1;
             this.allowClickOnSelectedObject = this.useHandCursorOnClickableOjects = this.showBalloonOnSelectedObject = !0;
@@ -3843,7 +3843,7 @@
             this.maxZoomLevel = 64;
             this.minZoomLevel = 1;
             this.panControlEnabled = !1;
-            this.zoomControlEnabled = !0;
+            this.zoomControlEnabled = false;
             this.buttonRollOverColor = "#DADADA";
             this.buttonFillColor = "#FFFFFF";
             this.buttonFillAlpha = 1;
@@ -4025,7 +4025,7 @@
             this.borderThickness = 3;
             this.borderAlpha = 1;
             this.size = .2;
-            this.enabled = !0;
+            this.enabled = false;
             d.applyTheme(this, a, this.cname)
         }, init: function (a, b) {
             var c = this;
