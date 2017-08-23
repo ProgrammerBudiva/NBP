@@ -32,8 +32,9 @@
 
 .ammapDescriptionWindow table
 {
-    width: 650px;
+    width: 650px !important;
     border: 1px solid #ecebed;
+    padding: 1px !important;
 }
 
 .ammapDescriptionWindow table td
@@ -101,7 +102,7 @@
 
 .amcharts-balloon-div{
     width: 682px;
-    height: 130px;
+    height: 145px;
     padding: 8px;
     background-color: white;
     border: 1px solid #DADADA;
@@ -124,6 +125,7 @@
 .amcharts-balloon-div table td
 {
     border: 1px solid #ecebed;
+    height: 10px;
     text-align: left;
 }
 
@@ -132,3 +134,24 @@
     font-weight: bold;
 }
 
+
+table td, table th
+{
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+table td:first-child{
+    width: auto;
+}
+
+.map-popup{
+    color: #009ee3;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1px;
+}
