@@ -1126,3 +1126,11 @@
 		display: block;
 	}
 }
+
+@media screen and (min-width: 1440px) {
+	.bx-wrapper{
+		/*max-width:100% !important;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

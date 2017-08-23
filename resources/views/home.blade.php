@@ -43,7 +43,8 @@
 
             <div class="row gray page-margin-top-section full-width page-padding-top-section padding-bottom-66">
                 <div class="row">
-                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ BUILDING PRODUCTS</h2>
+                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ <span style="color: #009ee3">BUILDING PRODUCTS</span></h2>
+                    <h2 class="box-header padding-bottom-17">ДОСТОИНСТВА ЧЕРЕПИЦЫ <span style="color: #009ee3">Building Products</span></h2>
                     <div class="timeline-item vertical-align-table ">
                         <div class="timeline-left vertical-align-cell">
                             <div class="label-container">
