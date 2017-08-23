@@ -163,7 +163,7 @@ $(document).ready(function(){
     });
 
     if (matchMedia) {
-        const mq = window.matchMedia("(min-width: 1024px)");
+        const mq = window.matchMedia("(max-width: 1024px)");
         mq.addListener(WidthChange);
         WidthChange(mq);
     }
@@ -172,15 +172,16 @@ $(document).ready(function(){
     function WidthChange(mq) {
         if (mq.matches) {
             slider.reloadSlider({
+                slideWidth: 0,
+                captions: true
+            });
+
+        } else {
+            slider.reloadSlider({
                 slideWidth: 600,
                 minSlides: 3,
                 maxSlides: 3,
                 slideMargin: 10,
-                captions: true
-            });
-        } else {
-            slider.reloadSlider({
-                slideWidth: 0,
                 captions: true
             });
         }
