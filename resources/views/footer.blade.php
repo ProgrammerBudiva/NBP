@@ -148,19 +148,7 @@ $(document).ready(function(){
 //    }
 
 
-    var slider = $('.test-slider').bxSlider({
-        slideWidth: 600,
-        minSlides: 3,
-        maxSlides: 3,
-        slideMargin: 10,
-        captions: true,
-        auto: true,
-//        moveSlides: 2
-        responsive: true,
-        adaptiveHeight: true,
-        infiniteLoop: false
 
-    });
 
     if (matchMedia) {
         const mq = window.matchMedia("(max-width: 1024px)");
@@ -171,18 +159,36 @@ $(document).ready(function(){
 // media query change
     function WidthChange(mq) {
         if (mq.matches) {
-            slider.reloadSlider({
-                slideWidth: 0,
-                captions: true
-            });
+//            slider.reloadSlider({
+//                slideWidth: 0,
+//                captions: true
+//            });
+            var slider = $('.test-slider').bxSlider({
+//                slideWidth: 600,
+                minSlides: 1,
+                maxSlides: 1,
+                slideMargin: 10,
+                captions: true,
+                auto: true,
+//        moveSlides: 2
+                responsive: true,
+                adaptiveHeight: true,
+                infiniteLoop: false
 
+            });
         } else {
-            slider.reloadSlider({
+            var slider = $('.test-slider').bxSlider({
                 slideWidth: 600,
                 minSlides: 3,
                 maxSlides: 3,
                 slideMargin: 10,
-                captions: true
+                captions: true,
+                auto: true,
+//        moveSlides: 2
+                responsive: true,
+                adaptiveHeight: true,
+                infiniteLoop: false
+
             });
         }
 
