@@ -38,8 +38,8 @@ class ContactsController extends Controller
 
 
         Mail::send('mails.new_question', ['phone' => $phone, 'diller' => $diller, 'name' => $name, 'email' => $email, 'text' => $message], function ($message) {
-            $message->from('info@nbp.net.ua', 'BP');
-            $message->to('19ofis96@mail.ru');
+            $message->from('info@bpcan.in.ua', 'BP');
+            $message->to('info@bpcan.in.ua');
         });
 
         $returnHTML = view('layouts.popup')->render();
