@@ -20,7 +20,7 @@
             <ul class="contact-details-list">
                 <li class="sl-small-mail">
                     <p>E-mail:<br>
-                        <a href="mailto:info@nbp.net.ua">info@nbp.net.ua</a></p>
+                        <a href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
                 </li>
             </ul>
         </div>

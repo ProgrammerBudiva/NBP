@@ -26,7 +26,7 @@
                 <ul class="contact-details-list">
                     <li class="sl-small-mail">
                         <p>E-mail:<br>
-                            <a href="mailto:info@nbp.net.ua">info@nbp.net.ua</a></p>
+                            <a href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
                     </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
                     <p class="description t1"><b>Главное представительство</b></p>
                     <p class="description t1"><b>Адрес:</b> ул. Стройиндустрии, 7</p>
                     <p class="description t1"><b>Телефон: </b>044 247 72 77</p>
-                    <p class="description t1"><b>E-mail: </b><a href="mailto:info@nbp.net.ua">info@nbp.net.ua</a></p>
+                    <p class="description t1"><b>E-mail: </b><a href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
                 </li>
             </ul>
         </div>
