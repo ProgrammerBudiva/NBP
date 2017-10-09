@@ -10,6 +10,7 @@
         <meta name="keywords" content="Construction, Renovation" />
         <meta name="description" content="Responsive Construction Renovation Template" />
         <meta name="google-site-verification" content="BDvAFkneNm1dUXcYSzWa0ZapyA5akgjG1ehN0iQj-C4" />
+        <meta name="yandex-verification" content="7fa049443af33445" />
             <!--slider revolution-->
         <link rel="stylesheet" type="text/css" href="{{ asset('plugins/rs-plugin/css/settings.css')}}" media="screen" />
         <!--style-->
