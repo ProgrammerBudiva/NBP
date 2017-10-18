@@ -2,9 +2,6 @@
 <html>
     <head>
 
-        <script>    var BASE_URL = "{{ url('/') }}" </script>
-        @include('footer')
-
         <!— Global Site Tag (gtag.js) - Google Analytics —>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107765565-1"></script>
         <script>
@@ -94,7 +91,8 @@
         @yield('content')
     </div>
 
-
+        <script>    var BASE_URL = "{{ url('/') }}" </script>
+        @include('footer')
     </div>
     </body>
 
