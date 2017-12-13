@@ -21,7 +21,7 @@
                         <p class="no-padding-gray"><a href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
                     </div>
                     <div class="row full-width padding-top-bottom-30">
-                    <iframe src="https://www.google.com/maps/embed/v1/place?q=%D0%BA%D0%B8%D0%B5%D0%B2%20%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%2016&key=AIzaSyA7qZAt5Zw-qbUOrimiGj7HCRAMUPtNvY0"
+                    <iframe src="https://www.google.com/maps/embed/v1/place?q=%D0%BA%D0%B8%D0%B5%D0%B2%20%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%2016&key=AIzaSyBH3MvhZwBBPjxyT33SBBTb3fPG8SG7L0Q"
                     width="550" height="397" frameborder="0" style="border:0;border: 1px solid #E2E6E7;" allowfullscreen></iframe>
                     </div>
                 </div>
