@@ -3180,3 +3180,8 @@ body.lock-position
 .map-mobile{
 	display: none;
 }
+
+.no-padding-gray {
+	padding: 0!important;
+	color: #999;
+}

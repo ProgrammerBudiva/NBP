@@ -12,7 +12,7 @@
             <ul class="contact-details-list">
                 <li class="sl-small-location">
                     <p>г. Киев <br>
-                        ул. Стройиндустрии, 7</p>
+                        ул. Островная, 16</p>
                 </li>
             </ul>
         </div>
@@ -30,7 +30,8 @@
     <div class="row row-2-2">
         <div class="column column-1-2">
             <h6 class="box-header">О НАС</h6>
-            <p class="description t1">Мы – единственный официальный представитель канадского производителя элитной битумной черепицы Building Products в Украине.</p>
+            <p class="description t1">Компания <a title="Лучшая битумная черепица из Канады" href="/contacts">«ПЛАНЕТА К»</a> - официальный, эксклюзивный представитель битумной черепицы
+                Building Products в Украине.</p>
             {{--<ul class="social-icons yellow margin-top-26">--}}
             {{--<li>--}}
             {{--<a target="_blank" href="http://facebook.com/QuanticaLabs" class="social-facebook" title="facebook"></a>--}}
@@ -137,9 +138,9 @@
 $(document).ready(function(){
 
 
-    if($(location).attr("href") == 'https://bpcan.in.ua/contacts' ) {
-        $('#no-contacts').hide();
-    }
+//    if($(location).attr("href") == 'https://bpcan.in.ua/contacts' ) {
+//        $('#no-contacts').hide();
+//    }
 
     if (window.matchMedia("(max-width: 1024px)").matches) {
         $('#max-width').removeClass(" column-1-2 ");
