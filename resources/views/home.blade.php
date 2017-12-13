@@ -366,7 +366,7 @@
                                 подходит для перекрытия домов со сложной архитектурой и геометрией. Кровля с черепицей BP
                                 смотрится просто восхитительно - все заказчики остались довольны конечным результатом!" </p>
                             <div class="author">Богомолов Вячеслав</div>
-                            <div class="author-details">Срок эксплуатации 10 лет</div>
+                            <div class="author-details"></div>
                         </li>
                         <li class="sl-small-conversation">
                             <div class="ornament"></div>
