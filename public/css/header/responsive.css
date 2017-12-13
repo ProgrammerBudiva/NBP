@@ -373,6 +373,27 @@
 	.page-margin-right{
 		margin-right: 0;
 	}
+	/*Contacts responsive*/
+	#flex-tab {
+		display: flex;
+		flex-direction: column;
+	}
+	#flex-tab .column {
+		width:100%;
+		margin-left: 0;
+	}
+	#flex-tab #question {
+		padding: 16px 17px 15px;
+	}
+	#flex-tab .row-contacts:first-child {
+		margin-left: 30px;
+		width:100%;
+	}
+	#flex-tab iframe {
+		width:100%;
+	}
+
+	/*END Contacts responsive*/
 }
 @media screen and (max-width:767px)
 {
@@ -1133,4 +1154,16 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+@media screen and (min-width: 1190px) and (max-width: 1200px) {
+
+	.row-contacts {
+		width:100%;
+	}
+
+	.row-contacts .column:first-child {
+		margin-left: 10px;
+	}
+
 }

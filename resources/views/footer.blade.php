@@ -1,5 +1,5 @@
 <div id="no-contacts" class="row yellow full-width padding-top-bottom-30">
-    <div class="row">
+    <div class="row row-contacts">
         <div class="column column-1-3">
             <ul class="contact-details-list">
                 <li class="sl-small-phone">
@@ -27,7 +27,7 @@
     </div>
 </div>
 <div class="row gray full-width page-padding-top padding-bottom-50">
-    <div class="row row-2-2">
+    <div class="row row-contacts row-2-2">
         <div class="column column-1-2">
             <h6 class="box-header">О НАС</h6>
             <p class="description t1">Компания <a title="Лучшая битумная черепица из Канады" href="/contacts">«ПЛАНЕТА К»</a> - официальный, эксклюзивный представитель битумной черепицы
