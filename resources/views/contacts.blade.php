@@ -1,7 +1,7 @@
 @extends('layouts.index')
 @section('head')
 @endsection
-
+<title>Контакты представителей мягкой черепицы BP в Украине</title>
 @section('content')
 <div class="theme-page">
     <div class="clearfix">
