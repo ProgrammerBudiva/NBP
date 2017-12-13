@@ -1,5 +1,5 @@
 @extends('layouts.index')
-
+<title>О компании</title>
 @section('content')
     <!-- Slider Revolution -->
     <div class="revolution-slider-container">
