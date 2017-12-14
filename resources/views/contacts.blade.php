@@ -13,14 +13,14 @@
             <div class="column column-1-2">
                 <div class="row full-width page-margin-top-section padding-bottom-66">
                     <div class="row">
-                        <h4 style="color: #009ee3;">«ПЛАНЕТА К» - головное представительство BP в Украине</h4>
-                        <h5 class="margin-top-20">Контакты</h5>
+                        <div style="color: #009ee3;font-size: 19px;">«ПЛАНЕТА К» - головное представительство BP в Украине</div>
+                        {{--<h5 class="margin-top-20">Контакты</h5>--}}
 
-                        <p class="no-padding-gray">Киев, ул.Островная, 16</p>
+                        <p class="no-padding-gray margin-top-30">Киев, ул.Островная, 16</p>
                         <p class="no-padding-gray">+38 044 247 72 77</p>
-                        <p class="no-padding-gray"><a href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
+                        <p class="no-padding-gray"><a style="font-weight: 300;" href="mailto:info@bpcan.in.ua">info@bpcan.in.ua</a></p>
                     </div>
-                    <div class="row full-width padding-top-bottom-30">
+                    <div class="row full-width padding-top-bottom-37">
                     <iframe align="center" src="https://www.google.com/maps/embed/v1/place?q=%D0%BA%D0%B8%D0%B5%D0%B2%20%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%2016&key=AIzaSyBH3MvhZwBBPjxyT33SBBTb3fPG8SG7L0Q"
                     width="550" height="397" frameborder="0" style="border:0;border: 1px solid #E2E6E7;" allowfullscreen></iframe>
                     </div>
@@ -29,8 +29,8 @@
             <div class="column column-1-2">
                 <div class="row full-width page-margin-top-section padding-bottom-66">
                     <div class="row">
-                        <h2 class="box-header padding-bottom-61">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЕРСКИХ УСЛОВИЙ</h2>
-                        <form class="contact-form" id="question-form">
+                        <h2 class="box-header padding-bottom-61" style="margin-top: -8px;">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЕРСКИХ УСЛОВИЙ</h2>
+                        <form class="contact-form" id="question-form" style="margin-top: -7px;">
                             <div class="row">
                                 <fieldset class="column">
                                     <input class="text-input" name="name" type="text"  placeholder="Имя ">
