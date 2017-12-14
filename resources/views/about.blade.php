@@ -42,11 +42,12 @@
                 <div class="row">
                     <h2 class="box-header"><span style="color: #009ee3">BUILDING PRODUCTS</span> - THE BEST SHINGLES OF CANADA!</h2>
                     <img src="images/samples/home/1.jpg" style="float: right; margin: 30px 0 0 20px;">
+                    <p class="description align-justify" style="    color: #009ee3;"><b>BUILDING PRODUCTS - на шаг впереди погоды уже почти 100 лет!</b></p>
                     <p class="description align-justify">Среди производителей кровельных материалов в Северной Америке,
                         одним из лидеров является концерн  Building Products of Canada Corporation (BP).</p>
                     <p class="description align-justify"><b>BP - это компания более чем с вековой историей. Каждый год
-                            продукцию компании BP выбирают сотни тысяч человек!</b></p>
-                    <p class="description align-justify">Компания основана в 1925 году. За почти вековую историю
+                            продукцию компании BP выбирают сотни тысяч человек!</b>
+                        Компания основана в 1925 году. За почти вековую историю
                         она завоевала авторитет производителя, выпускающего только высококачественные кровельные
                         изделия. Постоянное расширение ассортимента, применение инновационных технологий и следование
                         новейшим тенденциям в архитектуре и дизайне - все это составляющие успеха компании BP.</p>
