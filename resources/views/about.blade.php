@@ -40,7 +40,7 @@
 
             <div class="row full-width page-margin-top-section">
                 <div class="row">
-                    <h2 class="box-header">О КОМПАНИИ <span style="color: #009ee3">BUILDING PRODUCTS</span></h2>
+                    <h2 class="box-header"><span style="color: #009ee3">BUILDING PRODUCTS</span> - THE BEST SHINGLES OF CANADA!</h2>
                     <img src="images/samples/home/1.jpg" style="float: right; margin: 30px 0 0 20px;">
                     <p class="description align-justify">Среди производителей кровельных материалов в Северной Америке,
                         одним из лидеров является концерн  Building Products of Canada Corporation (BP).</p>
