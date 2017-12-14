@@ -34,6 +34,11 @@
         </div>
     </div>
     <!--/-->
+    <style>
+        h2.box-header.align-left:after{
+            margin-left: auto!important;
+        }
+    </style>
     <div class="theme-page">
         <div class="clearfix">
             <div id="mobile-no-top-padding" class="row  padding-bottom-66">
@@ -50,7 +55,7 @@
                         </div>
                     </div>
                     <div id="max-width" class="column column-1-2">
-                        <h2 class="box-header align-left">СТАНЬТЕ ДИЛЕРОМ ЧЕРЕПИЦЫ BP</h2>
+                        <h2 class="box-header ">Станьте дилером или представителем Building Products в своем регионе</h2>
                         <p class="description t1">Мы уже подготовили для Вас выгодные условия сотрудничества и готовы
                             делиться всем опытом наших продаж.
                         </p>
@@ -58,7 +63,7 @@
                             магазина – Вы останетесь довольны качественной продукции и условиями работы.
                         </p>
                         <p class="description t1">Зарабатывайте, продавая битумную черепицу с пожизненной гарантией
-                            международной бренда BP!
+                            международного бренда BP!
                         </p>
                         <p class="description t1">Интересно? Звоните по номеру 044 247 72 77 – перед нашим предложением
                             вы не сможете устоять ;)
@@ -120,7 +125,7 @@
         </div>
         <div class="row full-width page-margin-top-section padding-bottom-66">
             <div class="row">
-                <h2 class="box-header padding-bottom-61">ОТПРАВИТЬ ЗАПРОС НА ПОЛУЧЕНИЕ ДИЛЕРСКИХ УСЛОВИЙ</h2>
+                <h2 class="box-header padding-bottom-61">ЗАЯВКА НА СОТРУДНИЧЕСТВО</h2>
                 <form class="contact-form" id="question-form">
                     <div class="row">
                         <fieldset class="column column-1-2">

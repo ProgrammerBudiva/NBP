@@ -79,7 +79,7 @@
                             <h4 class="clearfix">
                                 <span class="timeline-title">WEATHER-TITE - ЗАПАТЕНТОВАННАЯ ДОПОЛНИТЕЛЬНАЯ ЗАЩИТА ОТ УРАГАННОГО ВЕТРА И ПРОТЕЧЕК</span>
                             </h4>
-                            <p class="description t1 margin-top-10">Новая технология Weather-Tite предусматривает 2
+                            <p class="description t1 margin-top-10">Новая технология <span style="font-weight: bolder; color: #009ee3;">Weather-Tite</span> предусматривает 2
                                 полосы клеевого
                                 слоя – сплошной и прерывистый. Она обеспечивает повышенную защиту от ураганного ветра
                                 (до 220 км/ч), протекания и деформации поверхности, продлевая срок службы мягкой

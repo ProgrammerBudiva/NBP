@@ -23,7 +23,7 @@
                      data-endeasing="easeInOutExpo">
 
                     <div class="slider-content-box">
-                        <h2>БИТУМНАЯ ЧЕРЕПИЦА<br> ПРЕМИУМ-КЛАССА <span style="color: #009ee3">BUILDING PRODUCTS</span> ИЗ КАНАДЫ</h2>
+                        <h2>ЛУЧШАЯ БИТУМНАЯ ЧЕРЕПИЦА <span style="color: #009ee3">BUILDING PRODUCTS</span> ИЗ КАНАДЫ</h2>
                         <p>Высокое качество, надежность и оригинальный дизайн </p>
                         {{--<a class="more simple" href="http://themeforest.net/item/renovate-construction-renovation-template/11313006?ref=QuanticaLabs" title="BUY THIS TEMPLATE">BUY THIS TEMPLATE</a>--}}
                     </div>
