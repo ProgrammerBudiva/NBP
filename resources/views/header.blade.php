@@ -98,6 +98,11 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="{{URL('/about')}}" title="О КОМПАНИИ">
+                                    О КОМПАНИИ
+                                </a>
+                            </li>
+                            <li>
                                 <a href="{{URL('/collection/manoir')}}" title="MANOIR">
                                     MANOIR
                                 </a>
